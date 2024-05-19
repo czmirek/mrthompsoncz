@@ -113,10 +113,14 @@ menu:
       name: Blog
       url: /
       weight: 10
+    - identifier: o-mne
+      name: O mně
+      url: /o-mne/
+      weight: 11
     - identifier: piano
       name: Piano
       url: /piano/
-      weight: 11
+      weight: 12
     - identifier: jak-se-stat-ajtakem
       name: Jak se stát ajťákem
       url: /jak-se-stat-ajtakem/
