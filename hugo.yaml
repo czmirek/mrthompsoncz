@@ -1,8 +1,7 @@
 baseURL: https://mrthompson.cz/
-languageCode: cs-cz
 title: Miroslav Thompson
 theme: ["PaperMod"]
-
+defaultContentLanguage: cs
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -17,6 +16,7 @@ params:
   description: "Osobní stránky"
   keywords: [Blog]
   author: Miroslav Thompson
+  languageAltTitle: Česky
   # author: ["Me", "You"] # multiple authors
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -70,7 +70,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Miroslav Thompson"
-    Content: Welcome to my blog
+    Content: Vítejte na mých stránkách
 
   socialIcons:
     - name: stackoverflow
@@ -109,8 +109,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: blog
-      name: Blog
+    - identifier: it-blog
+      name: IT blog
       url: /
       weight: 10
     - identifier: o-mne
@@ -128,6 +128,9 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true
@@ -135,3 +138,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+languages:
+  cs:
+    languageCode: cs-CZ
+    languageDirection: ltr
+    languageName: česky
+    weight: 1

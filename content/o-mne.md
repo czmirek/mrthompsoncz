@@ -1,6 +1,13 @@
-# O mně
+---
+draft: false
+title: O mně
+params:
+  hidemeta: true
+  showtoc: false
+  ShowBreadCrumbs: false
+---
 
-![Miroslav Thompson](ich.jpg)
+<img src="/ich.jpg" width="200" />
 
 Jmenuji se Miroslav Thompson, živí mě IT, ve volném čase se věnuji hudbě a seberozvoji a čemukoliv, z čeho voní touha po životě.
 
