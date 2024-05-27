@@ -1,3 +1,12 @@
+---
+draft: false
+params:
+  author: Miroslav Thompson
+  category: jssa
+title: Ajták a elektrotechnik
+weight: 90
+---
+
 V minulém díle jsem řekl, že nás ajťáky moc nezajímá svět elektrotechniky, nicméně neexistuje žádné oficiální rozlišení, co je ještě ajťačení a co je už elektrotechnika.
 
 Záleží na tom, o co vám vlastně jde. 

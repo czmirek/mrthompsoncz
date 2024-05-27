@@ -1,6 +1,7 @@
 ---
 draft: false
 title: Jak se stát ajťákem
+layout: jssaLayout
 params:
   hidemeta: true
   showtoc: false
