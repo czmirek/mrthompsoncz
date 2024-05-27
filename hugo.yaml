@@ -53,30 +53,27 @@ params:
   #  iconHeight: 35
 
   # profile-mode
-  #profileMode:
-  #  enabled: false # needs to be explicitly set
-  #  title: ExampleSite
-  #  subtitle: "This is subtitle"
-  #  imageUrl: "<img location>"
-  #  imageWidth: 120
-  #  imageHeight: 120
-  #  imageTitle: my image
-  #  buttons:
-  #    - name: Posts
-  #      url: posts
-  #    - name: Tags
-  #      url: tags
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Miroslav Thompson
+    subtitle: "Vítejte na mých osobních stránkách"
+    imageUrl: "ich.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Miroslav Thompson
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Miroslav Thompson"
-    Content: Vítejte na mých stránkách
-
-  socialIcons:
-    - name: stackoverflow
+  socialIcons: # optional
+    - name: "StackOverflow"
       url: "https://stackoverflow.com/users/823680/mirek"
-    - name: github
+    - name: "github"
       url: "https://github.com/czmirek"
+#  # home-info mode
+#  homeInfoParams:
+#    Title: "Miroslav Thompson"
+#    Content: Vítejte na mých stránkách
+#
+#  socialIcons:
+
 
   #analytics:
   #  google:
