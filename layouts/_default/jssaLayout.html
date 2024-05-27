@@ -50,16 +50,22 @@
   {{- end }}
   -->
 
-  <!-- list all pages -->
-  {{ $allPages := where .Site.RegularPages "Section" "eq" "jak-se-stat-ajtakem" }}
-  
-    {{ range where .Site.Pages "Kind" "section"}}
-      {{ .Title }}<br />
-    {{ end }}
-    <!--{{- range $allPages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{- end }}-->
-  
+  <!-- list titles of nested sections inside the section "jak-se-stat-ajtakem" -->
+  {{- $jakSeStatAjtakem := .Site.GetPage "section" "jak-se-stat-ajtakem" }}
+  {{- range $jakSeStatAjtakem.Sections }}
+  <h2>{{ .Params.chapter }}. {{ .Title }}</h2>
+
+  {{ $topChapter := .Params.chapter }}
+  <div style="margin-top:1em;margin-bottom:1em;">
+    {{- range .Pages }}
+    <span style="margin-left: 1em">
+      {{ $topChapter }}.{{ .Params.chapter }}. <a href="{{ .RelPermalink }}" style="text-decoration:underline;">{{ .Title }}</a> <br />
+    </span>
+    {{- end }}
+  </div>
+
+  {{- end }}
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">

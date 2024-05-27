@@ -1,8 +1,7 @@
 ---
 draft: false
 params:
-  author: Miroslav Thompson
-  category: jssa
+  chapter: 1
 title: Ajták a elektrotechnik
 weight: 90
 ---
