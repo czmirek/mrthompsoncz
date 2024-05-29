@@ -122,6 +122,11 @@ menu:
       name: Jak se stát ajťákem
       url: /jak-se-stat-ajtakem/
       weight: 20
+    - identifier: it-blog
+      name: IT blog
+      url: /it-blog/
+      weight: 30
+    -
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
