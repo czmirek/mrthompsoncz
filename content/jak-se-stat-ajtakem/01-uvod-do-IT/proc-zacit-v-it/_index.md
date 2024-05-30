@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Proč začít v IT
-weight: 1
+weight: 101
 layout: single2
 categories: 
 - jak-se-stat-ajtakem

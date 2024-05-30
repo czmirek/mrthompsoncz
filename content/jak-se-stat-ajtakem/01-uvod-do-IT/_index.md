@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Úvod do IT
-weight: 1
+weight: 100
 params:
     chapter: 1
 ---

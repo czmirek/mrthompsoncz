@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Proč nezačít v IT
-weight: 2
+weight: 102
 layout: single2
 categories: 
 - jak-se-stat-ajtakem

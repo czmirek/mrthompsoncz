@@ -1,10 +1,5 @@
-<!-- {{- $jakSeStatAjtakem := .Site.GetPage "section" "jak-se-stat-ajtakem" }} -->
-<!-- {{- $pages := site.RegularPages }} -->
-<!-- {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }} -->
-{{ $pages := .Site.RegularPages }}
-<pre>
-{{ debug.Dump $pages }}
-</pre>
+{{ $pages := .Site.AllPages }}
+
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="paginav">
   {{- with $pages.Next . }}

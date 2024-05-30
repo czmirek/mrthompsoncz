@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Specifika IT oboru
-weight: 3
+weight: 103
 layout: single2
 categories: 
 - jak-se-stat-ajtakem
