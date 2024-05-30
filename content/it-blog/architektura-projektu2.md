@@ -2,7 +2,6 @@
 title = 'Architektura (nejen) C# projektu 2'
 date = 2022-05-21T12:00:00+02:00
 draft = false
-category = ["it-blog"]
 +++
 ## Architektura souběžností
 Jak jsem psal v předchozím díle, programátor by neměl používat transakční mechanismus databáze (např. SQL transakce) a za souběžnosti a zamykání dat před validací a zápisem by měl vzít zodpovědnost ve svém kódu napřímo.

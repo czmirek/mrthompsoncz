@@ -2,7 +2,6 @@
 title = 'MongoDB stránkování pro C#'
 date = 2021-11-23T15:45:47+02:00
 draft = false
-category = ["it-blog"]
 +++
 
 Následující kód jsem [od někud](https://kevsoft.net/2020/01/27/paging-data-in-mongodb-with-csharp.html) ukradl a trochu modifikoval. Jedná se o extension metodu, kterou lze zavolat nad `IMongoCollection<TDocument>` a vrátí to výsledek typu `ListResult<TDocument>` (jeho definice je níže) který obsahuje:

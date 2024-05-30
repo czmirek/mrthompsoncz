@@ -2,7 +2,6 @@
 title = 'Architektura (nejen) C# projektu'
 date = 2022-01-28T12:00:00+02:00
 draft = false
-category = ["it-blog"]
 +++
 Řekněme, že stojíte u nového projektu, buď jako fullstack developer nebo jako backenďák programujete nějaké API. Máte naprosto čisté pole působnosti a můžete si to udělat jak chcete.
 
