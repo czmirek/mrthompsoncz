@@ -1,9 +1,7 @@
 ---
 draft: false
-params:
-  chapter: 1
 title: Ajták a elektrotechnik
-weight: 201
+weight: 202
 ---
 
 V minulém díle jsem řekl, že nás ajťáky moc nezajímá svět elektrotechniky, nicméně neexistuje žádné oficiální rozlišení, co je ještě ajťačení a co je už elektrotechnika.

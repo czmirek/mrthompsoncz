@@ -10,4 +10,4 @@ params:
 
 Vítej v mém návodu **Jak se stát ajťákem!**
 
-Tento návod má za cíl být zdrojem informací a průvodcem pro úplné začátečníky v IT a programování, pokud možno co nejméně formálním a přátelským, zároveň ale i co nejsrozumitelnějším a nejobsažnějším způsobem.
+Tento návod má za cíl být zdrojem informací a průvodcem pro úplné začátečníky v IT a programování psaný neformálním a přátelským, zároveň ale i co nejsrozumitelnějším a nejobsažnějším způsobem.
