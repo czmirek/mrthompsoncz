@@ -17,11 +17,9 @@ params:
   keywords: [Blog]
   author: Miroslav Thompson
   languageAltTitle: Česky
-  # author: ["Me", "You"] # multiple authors
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -106,10 +104,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: it-blog
-      name: IT blog
-      url: /
-      weight: 10
     - identifier: o-mne
       name: O mně
       url: /o-mne/
@@ -126,7 +120,10 @@ menu:
       name: IT blog
       url: /it-blog/
       weight: 30
-    -
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 31
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -147,3 +144,7 @@ languages:
     languageDirection: ltr
     languageName: česky
     weight: 1
+
+taxonomies:
+  category: categories
+  tag: tags

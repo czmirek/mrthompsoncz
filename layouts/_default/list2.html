@@ -52,14 +52,16 @@
 
   <!-- list titles of nested sections inside the section "jak-se-stat-ajtakem" -->
   {{- $jakSeStatAjtakem := .Site.GetPage "section" "jak-se-stat-ajtakem" }}
-  {{- range $jakSeStatAjtakem.Sections }}
-  <h2>{{ .Params.chapter }}. {{ .Title }}</h2>
+  {{- range $index, $element := $jakSeStatAjtakem.Sections }}
+  {{ $c := add $index 1 }}
+  <h2>{{ $c }} {{ .Title }}</h2>
 
   {{ $topChapter := .Params.chapter }}
   <div style="margin-top:1em;margin-bottom:1em;">
-    {{- range .Pages }}
+    {{- range $index2, $element := .Pages }}
+    {{ $k := add $index2 1 }}
     <span style="margin-left: 1em">
-      {{ $topChapter }}.{{ .Params.chapter }}. <a href="{{ .RelPermalink }}" style="text-decoration:underline;">{{ .Title }}</a> <br />
+      {{ $c }}.{{ $k }}. <a href="{{ .RelPermalink }}" style="text-decoration:underline;">{{ .Title }}</a> <br />
     </span>
     {{- end }}
   </div>
