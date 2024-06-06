@@ -12,7 +12,7 @@ Medicína studuje lidské tělo a jak člověka vyléčit. Znalosti medicíny lz
 
 Taková rychlost změn je realita v IT. Neplatí to 100% všude – některé věci se už nejspíš nezmění ale to pouze jen proto, že už je používají všichni na světě, žádný jiný důvod pro to neexistuje. Neexistuje žádná autorita, která by říkala, co je správné, co se používat má a co nemá, kterou by všichni poslouchali.
 
-<div style="background-image: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);padding:1em;">
+<div class="note1">
 
 U technologií jako je TCP/IPv4 nebo x86 je velmi nepravděpodobné, že budou něčím nahrazeny. Jsou tu s námi už desítky let. Na TCP/IPv4 stojí celý internet, na x86 téměř každý počítač a notebook (Telefony ale ne).
 
@@ -26,7 +26,7 @@ Mezinárodně uznávanou autoritou v medicíně je WHO – Světová zdravotnick
 
 IT je obor, kde žádná autorita nehraje moc velkou roli. Velké IT autority jsou mezinárodní korporáty i neziskové organizace, které vymýšlejí standardy a normy jak mají nějaké technologie fungovat, jako např. IEEE, ISO, Unicode, W3C a podobně. Reálně ale žádná organizace nemá v IT žádnou kontrolu nad nikým/nad ničím.
 
-<div style="background-image: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);padding:1em;">
+<div class="note1">
 
 Příkladem „IT autority“ je organizace W3C, která standardizuje technologie, na kterých funguje internet. Reálně jsou tyto technologie implementované prohlížečem (např. Firefox, Chrome, Edge, Safari, Opera…) kterých existuje celá řada.
 

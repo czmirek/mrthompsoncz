@@ -12,7 +12,7 @@ IT obor má jedno úžasné specifikum – můžeš se ho začít učit „odpro
 
 To ve většině jiných oborů není možné. Nemůžeš například čekat úspěšnou budoucnost, pokud se chceš stát chirurgem aniž bys prošel několika lety studia vysokoškolské medicíny a bůhví kolik let ještě při studia specializace na chirurga. Moc rád srovnávám medicínu s IT protože spousta konceptů funguje v obou oborech úplně opačně.
 
-<div style="background-image: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);padding:1em;">
+<div class="note1">
 
 **Kdyby studium medicíny bylo jako studium IT**:
 
@@ -46,7 +46,7 @@ Abys mohl začít něco tvořit, musíš si vybrat nějaký programovací jazyk,
 
 **V IT oboru si jednotlivé technologie/programovací jazyky navzájem konkurují.** Čím víc profesionálů používá jednu konkrétní technologii, tím větší šance je, že se někdo s touto technologií stane úspěšný a začne využívat sofistikovanější (a hlavně placené) služby autora této technologie (C# -> Microsoft, Android/Kotlin/Dart -> Google, atd…).
 
-<div style="background-image: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);padding:1em;">
+<div class="note1">
 
 **V IT je toto naprostý standard** – software který je určený pro vývoj dalšího softwaru je ten nejsložitější, nekomplexnější a nejdéle vyráběný software na světě, který je považován za vrchol toho, co IT obor vytváří. Přesto je tento software k dispozici komukoliv úplně zdarma! To je obrovský rozdíl proti jiným oborům, kde většinou „aktuálně to nejlepší“ znamená „to nejdražší/nejtěžší/prakticky nedosažitelné k použití„.
 

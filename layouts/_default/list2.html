@@ -54,7 +54,7 @@
   {{- $jakSeStatAjtakem := .Site.GetPage "section" "jak-se-stat-ajtakem" }}
   {{- range $index, $element := $jakSeStatAjtakem.Sections }}
   {{ $c := add $index 1 }}
-  <h2>{{ $c }} {{ .Title }}</h2>
+  <h2>{{ $c }}. {{ .Title }}</h2>
 
   {{ $topChapter := .Params.chapter }}
   <div style="margin-top:1em;margin-bottom:1em;">
@@ -63,6 +63,14 @@
     <span style="margin-left: 1em">
       {{ $c }}.{{ $k }}. <a href="{{ .RelPermalink }}" style="text-decoration:underline;">{{ .Title }}</a> <br />
     </span>
+
+    {{- range $index3, $element3 := .Pages }}
+    {{ $j := add $index3 1 }}
+      <span style="margin-left:2em">
+        {{ $c }}.{{ $k }}.{{ $j }}. <a href="{{ .RelPermalink }}" style="text-decoration:underline;">{{ .Title }}</a> <br />
+      </span>
+    {{- end}}
+
     {{- end }}
   </div>
 

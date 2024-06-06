@@ -20,7 +20,7 @@ Neexistuje žádná oficiální definice, kdo je „ajťák“ a kdo ne. Moje de
 
 V tomto návodu se věnuji základům hardwaru, které dle mého názoru musí každý „softwarový“ ajťák znát ale mimo to se více hardwarem do hloubky nezabývám ani ve své běžné praxi.
 
-<div style="background-image: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);padding:1em;">
+<div class="note1">
 
 **Zajímavost**: Přestože šikovný elektrotechnik dokáže opravit rychle řadu závad na nějakém fyzickém zařízení velmi rychle a spolehlivě, IT firmy elektrotechniky téměř nikdy nezaměstnávají. Pokud se něco rozbije, vymění se to za nové a s opravami hardwaru se nikdo moc neobtěžuje.
 

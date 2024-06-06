@@ -16,14 +16,12 @@ Jakmile si v IT oboru vyberete práci se softwarem na hotových zařízeních ja
 
 Celé si to můžete představit jako škálu, kde vlevo je orientace na hardware a vpravo je orientace na software.
 
-[Orientace na hardware vs orientace na software](/content/jak-se-stat-ajtakem/fyzicka-vrstva/ajtak-elektro.png)
+![Orientace na hardware vs orientace na software](/jak-se-stat-ajtakem/fyzicka-vrstva/ajtak-elektro.png)
 
 V tomto návodu se soustředím na to, jak se stát ajťákem, který píše software. Na tom obrázku by se tedy tento návod dal zařadit úplně vpravo.
 
-Shrnutí
+## Shrnutí
 
-Elektrotechnik je orientovaný na hardware a práci s pájkou
-
-Ajťák je orientovaný na software a práci na hotovém zařízení --- na to se zaměřuje tento návod
-
-Celý IT obor se pohybuje na škále mezi orientací na hardware a na software
+- Elektrotechnik je orientovaný na hardware a práci s pájkou
+- Ajťák je orientovaný na software a práci na hotovém zařízení --- na to se zaměřuje tento návod
+- Celý IT obor se pohybuje na škále mezi orientací na hardware a na software
