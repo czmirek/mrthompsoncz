@@ -16,7 +16,7 @@ Jakmile si v IT oboru vyberete práci se softwarem na hotových zařízeních ja
 
 Celé si to můžete představit jako škálu, kde vlevo je orientace na hardware a vpravo je orientace na software.
 
-![Orientace na hardware vs orientace na software](/jak-se-stat-ajtakem/fyzicka-vrstva/ajtak-elektro.png)
+{{< figure align=center width=500 src="/jak-se-stat-ajtakem/fyzicka-vrstva/ajtak-elektro.png" title="Orientace na HW vs SW" >}}
 
 V tomto návodu se soustředím na to, jak se stát ajťákem, který píše software. Na tom obrázku by se tedy tento návod dal zařadit úplně vpravo.
 
