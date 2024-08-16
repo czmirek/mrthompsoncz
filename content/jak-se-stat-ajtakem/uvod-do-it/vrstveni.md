@@ -4,7 +4,7 @@ title: Vrstvy IT
 weight: 130
 ---
 
-Počítače jsou **vrstvená** zařízení a dalším důležitým pohledem na počítače je pohled na jednotlivé jejich vrstvy.
+Moderní počítače jsou extrémně komplexní a komplikovaná zařízení. Z toho důvodu se nesnažíme pochopit počítač jako celek a místo toho zkoumáme jeho jednotlivé **vrstvy**.
 
 Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by těmto vrstvám měl dobře rozumět a proto jim bude věnována patřičná pozornost.
 
@@ -22,9 +22,8 @@ Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by t
 ## Software vrstva
 - **Bare-metal/embedded software** = software běžící přímo "na železe" bez operačního systému (nebo váš vlastní operační systém).
 - **Operační systém** = software sjednocující obrovskou složitost a rozdílnost hardwaru do jednoho uživatelského rozhraní
-- **Software** = software běžící v rámci nějakého operačního systému.
+- **Software** = software běžící v rámci nějakého operačního systému. Tento návod je zaměřený na "běžné" ajťáky kteří píší software na této vrstvě. Na této úrovni je (dle mého názoru) psáno 90% veškerého softwaru na světě.
 
 ## Ilustrace
-
 
 {{< figure align=center width=600 src="/jak-se-stat-ajtakem/uvod-do-it/vrstvy.png" title="Vrstvy IT" >}}

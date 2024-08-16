@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Abstrakce
 weight: 140
 ---
@@ -32,6 +32,3 @@ Když chci nakoupit ovoce tak:
 Svět se nezhroutí, pokud si místo jablek koupíte meloun, který se ale normálně klasifikuje jako zelenina. Proč by se hroutil?
 
 **V IT se vám ale reálně věci hroutí a nefungují** pokud nemáte **PŘESNĚ** podchycené abstraktní vztahy mezi různými koncepty.
-
-
-

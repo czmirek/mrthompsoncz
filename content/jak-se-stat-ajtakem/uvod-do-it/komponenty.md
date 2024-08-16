@@ -22,7 +22,7 @@ Veškerá ostatní zařízení lze oddělit na vstupy a výstupy.
 
 - **Vstupy** = zařízení, která posílají data do počítače
 - **Výstupy** = zařízení, která přijímají data od počítače
-- **Kombinovaná** = zařízení, která posílají data do počítače a zároveň přijímají data od počítače
+- **Kombinovaná** = zařízení, která posílají data do počítače a zároveň přijímají data od počítače.
 
 ## Von Neumannova architektura
 
