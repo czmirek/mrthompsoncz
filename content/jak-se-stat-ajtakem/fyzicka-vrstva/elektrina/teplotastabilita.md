@@ -4,20 +4,30 @@ title: Teplota a chlazení
 weight: 224
 ---
 
-Každý obvod, například i měděný kabel od zásuvky zasekaný do zdi, má nějaký přirozený elektrický odpor a jakmile skrz něj putuje elektřina tak díky tomuto odpor se generuje teplo. U klasického kabelu ve zdi je však toto vygenerované teplo tak nízké, že je sotva měřitelné.
+Každý obvod, například i měděný kabel od zásuvky zasekaný do zdi, má nějaký přirozený elektrický odpor a jakmile skrz něj putuje elektřina tak díky tomuto odporu se generuje teplo. Pokud byste měli ve zdi kabel který zvládne maximálně 10 ampérů připojený na 16 ampérový jistič, můžete regulérně vyhořet.
 
-Čipy v běžných počítačích (včetně procesoru nebo grafického čipu) jsou vyrobeny z miniaturních obvodů které se měří na nanometry. Jeden nanometr je 0.0000001 milimetru. Těchto obvodů je v čipech obrovské množství, naskládaných na sobě v mnoha vrstvách. 
+Čipy v běžných počítačích - včetně procesoru nebo grafického čipu - jsou vyrobeny z miniaturních obvodů které se měří na nanometry. Jeden nanometr je 0.0000001 milimetru. Těchto obvodů je v čipech obrovské množství naskládaných na sobě v mnoha vrstvách. 
 
-V takovém množství se začne sčítat teplo generované jednotlivými obvody. A to takovým způsobem, že to může být problém - citlivé, miniaturní obvody se mohou začít poškozovat.
+V takovém množství se začne sčítat teplo generované jednotlivými obvody. A to takovým způsobem, že to může být problém - citlivé, miniaturní obvody se mohou začít poškozovat a rozpadat **a to mnohem dřív, než se z procesoru viditelně začne kouřit**. 
 
-Některé čipy za běžného provozu produkují teplo ale jsou stavěné tak, že je to nemůže zníčit. Takové čipy nepotřebují žádné chlazení.
+Jediný zničený obvod z miliardy obvodů prakticky znamená celý zničený procesor; u čipů/procesorů neexistuje žádná možnost opravy. 
 
 ## Chlazení
 
-Výkonější čipy vyžadují aspoň **pasivní chlazení** což jsou takové žebrovité struktury přilepené přímo na čip. Tyto struktury jsou vyrobené z materiálu, který dobře odvádí teplo.
+Některé čipy za **běžného provozu** produkují teplo ale mohou fungovat i bez dalšího chlazení.
+
+Výkonější čipy vyžadují aspoň **pasivní chlazení** což jsou takové žebrovité struktury přilepené přímo na čip. Tyto struktury jsou vyrobené z materiálu, který velmi dobře odvádí teplo.
 
 Nejvýkonější čipy - zpravidla na procesorech a na lepších grafických kartách - vyžadují **aktivní chlazení** ve formě větráku nebo vodního chlazení.
 
 ## Chlazení procesorů v běžných PC
 
-Procesory v běžných, moderních počítačích většinou zvládnou fungovat i bez chlazení ale za cenu obrovského snížení výkonu (tudíž i tepla).
+Procesory v běžných moderních počítačích jsou vybavené teplotními čidly a pokud neděláte nějaké neobvyklé věci (jako např. overclocking, viz. níže) tak se vám nestane, že byste procesor omylem zníčili.
+
+Díky teplotním čídlům se procesor sám reguluje a zvládne fungovat i bez chlazení - avšak za cenu obrovského snížení výkonu (tudíž i vyprodukovaného tepla). Toto obrovské snížení výkonu je u moderních procesorů opravdu brutální, je to až okolo 90% a jakákoliv normální práce s počítačem je prakticky nemožná.
+
+## Overclocking
+
+Overclocking je praxe, kdy se z procesorů "vymačkává" ještě větší výkon. Do procesoru se jednoduše posílá vyšší napětí, procesor se však víc přehřívá a pak je kvalitní chlazení nutnost.
+
+Overclocking však **není** normální praxe pro běžné ajťáky ale spíš pro hráče her, proto se na něj víc soustředit nebudu.

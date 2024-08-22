@@ -21,8 +21,11 @@ Tyto komponenty se rozdělují do dvou skupin:
 Veškerá ostatní zařízení lze oddělit na vstupy a výstupy.
 
 - **Vstupy** = zařízení, která posílají data do počítače
+  - Příklad: klávesnice, myš
 - **Výstupy** = zařízení, která přijímají data od počítače
+  - Příklad: tiskárna
 - **Kombinovaná** = zařízení, která posílají data do počítače a zároveň přijímají data od počítače.
+  - Příklad: disky (čtení a zápis), síťová karta, multifunkční tiskárny/skenery, atd.
 
 ## Von Neumannova architektura
 
