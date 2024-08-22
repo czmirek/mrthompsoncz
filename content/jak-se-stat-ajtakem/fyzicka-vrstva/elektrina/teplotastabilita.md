@@ -22,12 +22,12 @@ Nejvýkonější čipy - zpravidla na procesorech a na lepších grafických kar
 
 ## Chlazení procesorů v běžných PC
 
-Procesory v běžných moderních počítačích jsou vybavené teplotními čidly a pokud neděláte nějaké neobvyklé věci (jako např. overclocking, viz. níže) tak se vám nestane, že byste procesor omylem zníčili.
+Procesory v běžných moderních počítačích jsou vybavené teplotními čidly a pokud neděláte nějaké neobvyklé věci (jako např. overclocking, viz. níže) tak se vám nestane, že byste procesor omylem zníčili. Díky teplotním čídlům si procesor aktivní chlazení reguluje sám. 
 
-Díky teplotním čídlům se procesor sám reguluje a zvládne fungovat i bez chlazení - avšak za cenu obrovského snížení výkonu (tudíž i vyprodukovaného tepla). Toto obrovské snížení výkonu je u moderních procesorů opravdu brutální, je to až okolo 90% a jakákoliv normální práce s počítačem je prakticky nemožná.
+Pokud větráček odstraníte, moderní procesor bude fungovat i bez chlazení avšak za cenu obrovského snížení výkonu (tudíž i vyprodukovaného tepla). Toto obrovské snížení výkonu je u moderních procesorů brutální, až nad 90% a jakákoliv normální práce s počítačem je prakticky nemožná.
 
 ## Overclocking
 
-Overclocking je praxe, kdy se z procesorů "vymačkává" ještě větší výkon. Do procesoru se jednoduše posílá vyšší napětí, procesor se však víc přehřívá a pak je kvalitní chlazení nutnost.
+Overclocking je praxe, kdy se z procesorů "vymačkává" další výkon. Do procesoru se jednoduše posílá vyšší napětí, procesor se pak víc přehřívá a kvalitní chlazení je nutnost.
 
 Overclocking však **není** normální praxe pro běžné ajťáky ale spíš pro hráče her, proto se na něj víc soustředit nebudu.
