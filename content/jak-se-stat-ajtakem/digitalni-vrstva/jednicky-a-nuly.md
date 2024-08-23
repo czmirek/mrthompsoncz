@@ -4,7 +4,6 @@ title: Jedničky a nuly
 weight: 510
 ---
 
-
 ## Dvojková soustava
 
 Další „vrstva“ nebo „pohled“ který teď přidám je binární aritmetika.
