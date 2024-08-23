@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Abstrakce
 weight: 240
 ---

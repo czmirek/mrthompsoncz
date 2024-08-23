@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Logické el. obvody
-weight: 227
+weight: 307
 ---
 
 Představte si jednoduchý obvod, ve kterém máte dva spínače za sebou.

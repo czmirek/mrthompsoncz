@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Střídavý/jednosměrný proud
-weight: 223
+weight: 303
 ---
 
 ## Střídavý proud
@@ -14,7 +14,7 @@ Běžné počítače však neběží na střídavém proudu ale na jednosměrné
 
 V uzavřeném obvodu jednosměrného proudu putuje elektřina vždy jen jedním směrem.
 
-## Převodník[^1]
+## Převodník[^p]
 
 Aby počítač bylo možné připojit do elektrické sítě, musí obsahovat převodník ze střídavého proudu do jednosměrného proudu.
 
@@ -25,4 +25,4 @@ Tento převodník je u běžných počítačů vždy nějakým způsobem zakompo
   - elektřina z baterie je již v jednosměrném proudu.
   - Při připojení zařízení k nabíječce ze zásuvky je převodník již v nabíječce
 
-[^1]: *V angličtině označováno jako AC/DC*
+[^p]: *V angličtině označováno jako AC/DC*

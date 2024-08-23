@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Teplota a chlazení
-weight: 224
+weight: 304
 ---
 
 Každý obvod, například i měděný kabel od zásuvky zasekaný do zdi, má nějaký přirozený elektrický odpor a jakmile skrz něj putuje elektřina tak díky tomuto odporu se generuje teplo. Pokud byste měli ve zdi kabel který zvládne maximálně 10 ampérů připojený na 16 ampérový jistič, můžete regulérně vyhořet.

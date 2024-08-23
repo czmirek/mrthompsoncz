@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Procesor
 weight: 250
 layout: single2

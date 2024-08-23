@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Diagnostika
-weight: 226
+weight: 306
 ---
 
 Čas od času může dojít k tomu, že některá komponenta v PC přestane fungovat nebo je vadná už z výroby.
