@@ -1,25 +1,9 @@
 ---
-draft: false
+draft: true
 title: Jedničky a nuly
-weight: 310
+weight: 510
 ---
 
-## Počítač počítá
-
-Historicky se první počítače používaly na počítání pro vědecké či vojenské účely.
-
-Procesory stále počítají a provádí obrovské množství matematických operací i při běžném používání, i když tyto operace nevidíš.
-
-Už jen to, že jste si načetli tuto stránku znamená, že váš procesor provedl nejspíš miliony matematických operací a vy nemusíte dělat vůbec nic.
-
-- Stránka se vám načetla přes zabezpečený kanál (HTTPS). Toto zabezpečení se provádí díky šifrování, které je z povahy matematické.
-- Tato stránka obsahuje hromadu grafických prvků. Každé písmeno, každý rám, odstavec, řádek, obrázek, projde přes váš procesor a vypočte se jeho pozice na vašem displeji tak, aby to bylo čitelné a viditelné. (V dnešní době většinu těchto operací procesor deleguje na grafický čip, který je buď na základní desce nebo na grafické kartě)
-
-Je to hromada práce – ve výsledku z toho je odhadem několik milionů instrukcí: jenže procesory fungují rychlostí 5 miliard instrukcí za vteřinu takže pár miliónů instrukcí je hotových ani ne za zlomek vteřiny. Proto se vám tato stránka načetla tak rychle.
-
-3D počítačové hry jsou matematicky definované: na obrazovku která je z fyzické podstaty dvourozměrná (má pouze výšku a délku) se ti přehrává trojrozměrný prostor (výška, délka, hloubka).
-
-Sledování videí zahrnuje spousta matematiky. Zkomprimovaná videa neobsahují úplný obraz v každém snímku (to by bylo nezkomprimované video) ale pouze nutné informace, ze kterých lze celý obraz rekonstruovat díky dopočítání rozdílu z předchozího obrazu.
 
 ## Dvojková soustava
 

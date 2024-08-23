@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Celá čísla
 weight: 410
 ---

@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Přetečení (overflow) a podtečení (underflow)
 weight: 440
 ---

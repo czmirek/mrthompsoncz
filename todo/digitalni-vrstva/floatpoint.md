@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Plovoucí desetinná čárka
 weight: 470
 ---

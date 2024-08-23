@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Celočíselné rozsahy
 weight: 430
 ---

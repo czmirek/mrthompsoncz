@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Instrukce procesoru
 weight: 251
 ---

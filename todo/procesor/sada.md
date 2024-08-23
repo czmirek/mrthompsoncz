@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Instrukční sada
 weight: 252
 ---
