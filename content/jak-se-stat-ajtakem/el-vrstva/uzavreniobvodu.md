@@ -21,4 +21,11 @@ Uprostřed počítače má však téměř každá komponenta **svůj vlastní ob
 
 {{< figure align=center width=500 src="../kombobvody.png" title="Kombinované obvody" >}}
 
+Také je klidně možné, že každá komponenta má více nezávislých obvodů.
+
+## Co z toho plyne pro běžného ajťáka?
+
+- Nemusíte se zabývat podrobnými schématy obvodů. To je věc pro elektrotechniky.
+- Pokud je jakákoliv komponenta viditelně fyzicky poškozena, mohlo dojít k přerušení obvodu. V takovém případě je pro vás jako pro běžného ajťáka daná komponenta definitivně kaput a můžete ji vyhodit.
+
 [^1]: *Putující elektřina v obvodu jsou ve skutečnosti dvě věci: elektrony (částice) putující skrz atomy vodiče a elektromagnetické pole které okolo vodiče vzniká. Zatímco elektrony putují skrz vodič relativně pomalu (1 milimetr za vteřinu) tak elektromagnetické pole vzniká v obvodu rychlostí světla.*

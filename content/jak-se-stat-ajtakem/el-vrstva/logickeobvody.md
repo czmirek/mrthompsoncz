@@ -35,22 +35,22 @@ V elektronické vrstvě nám stačí vědět, jak se jednotlivé obvody ovlivňu
 
 ### Relé
 
-Relé je jednoduše spínač, který je možno zapnout/vypnout z jiného obvodu.
+Relé je mechanický spínač, který je možno zapnout/vypnout z jiného obvodu.
 
-{{< figure align=center width=500 src="/jak-se-stat-ajtakem/fyzicka-vrstva/elektrina/rele.png" title="Relé" >}}
+{{< figure align=center width=500 src="../rele.png" title="Relé" >}}
 
 Díky tomuto *"ovlivňování obvodů z jiných obvodů"* můžete postavit opravdu komplikované systémy. Tak komplikované a komplexní, jakým je například procesor.
 
-V běžných počítačích a ani procesorech se žádná relé nenachází. Relé jsou však skvělá pro pochopení, jak se obvody v počítačích vzájemně ovlivňují. 
-
-V počítačích jsou místo relé **tranzistory**.
+**V běžných počítačích a ani procesorech se žádná relé nenachází.** Relé jsou však skvělá pro pochopení, jak se obvody v počítačích vzájemně ovlivňují. 
 
 ### Tranzistor
+
+V počítačích se nepoužívají relé ale **tranzistory**.
 
 Tranzistor je zařízení, které je oproti relé:
 
 - mnohonásobně levnější a jednodušší na výrobu
-- neobsahují žádné mechanické prvky které mají nevyhnutelně větší poruchovost
+- neobsahují žádné mechanické prvky které mají mnohonásobně větší poruchovost
 
 Tranzistor obsahuje kombinaci různých polovodivých materiálů v závislosti na proudu v jiném obvodu. Tranzistorů je víc druhů (podle způsobu jakým jsou polovodivé materiály za sebou naskládané) ale přesný princip fungování není pro běžného ajťáka podstatný.
 

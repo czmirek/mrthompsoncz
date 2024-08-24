@@ -10,7 +10,7 @@ Každý obvod, například i měděný kabel od zásuvky zasekaný do zdi, má n
 
 V takovém množství se začne sčítat teplo generované jednotlivými obvody. A to takovým způsobem, že to může být problém - citlivé, miniaturní obvody se mohou začít poškozovat a rozpadat **a to mnohem dřív, než se z procesoru viditelně začne kouřit**. 
 
-Jediný zničený obvod z miliardy obvodů prakticky znamená celý zničený procesor; u čipů/procesorů neexistuje žádná možnost opravy. 
+Jediný zničený obvod z miliardy obvodů prakticky znamená celý zničený procesor; u čipů/procesorů neexistuje žádná možnost opravy.
 
 ## Chlazení
 

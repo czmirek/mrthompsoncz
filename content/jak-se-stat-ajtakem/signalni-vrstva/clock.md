@@ -1,13 +1,12 @@
 ---
 draft: false
-title: Časování
+title: Frekvence a časování
 weight: 402
 ---
 
 Řekněme pro jednoduchost, že komponenty spolu komunikují morseovkou[^m]. Elektronická komponenta 1 (EL1) chce odeslat elektronické komponentě 2 (EL2) pozdrav "AHOJ" který je v morseovce `.- .... ---. ---`
 
 EL1 začne vysílat první písmeno "A" tedy `.-`
-
 
 {{< figure align=center width=500 src="../a.png" title="Co odešle EL1" >}}
 
@@ -17,18 +16,20 @@ Jenže EL2 nevidí písmeno "A" ale písmeno "E".
 
 Jak je to možné?
 
-## Vnitřní hodiny
+## Frekvence
 
-EL1 má totiž odlišné vnitřní hodiny od EL2. Pro EL1 je délku signálu 30 mikrosekund ale pro EL2 je délka signálu 50 mikrosekund.
+Různé počítačové komponenty pracují s informacemi různě rychle.
 
-Díky tomu EL2 přečte jenom jeden krátký signál --- což je písmeno "E".
+Komponenta EL1 dokáže odesílat a přijímat zprávy rychlostí 1 signál (krátký nebo dlouhý) za 20 milivteřin. To je jinými slovy frekvence *50 hertzů* (50 Hz) tedy 50 operací za vteřinu.
 
-Proč tomu tak je?
+Komponenta EL2 však signály odesílá a přijímá rychlostí 1 signál za 50 milivteřin tedy 20 Hz. 
 
-Reálně totiž nedává smysl, aby všechny komponenty všude na světě komunikovaly stejně rychle. Některé komponenty mají extrémně rychlé vnitřní hodiny (jako např. procesor), jiné mají pomalejší vnitřní hodiny a neexistuje žádný standard který by říkal, jak rychle má která komponenta fungovat.
+EL1 a EL2 se v tomto případě nemohou dorozumět.
 
 ## Společný časovač
 
-Řešením tohoto problému je společný časovač, který dvěma a více různým komponentám sděluje délku signálu, na které budou fungovat. 
+Řešením tohoto problému je společný časovač který dvěma a více různým komponentám sděluje délku signálu na které budou fungovat. Rychlejší komponenta se musí přizpůsobit pomalejší komponentě.
 
-[^m]: V počítačích se morseovka nepoužívá. Morseovku zde zmiňuji pro jednodušší vysvětlení konceptů v signální vrstvy.
+V moderních počítačích je situace složitější. Moderní počítače obsahují více než jeden časovač (tyto časovače mají zároveň vzájemný matematický vztah), to už je však dle mého názoru nad rámec toho, co potřebuje běžný ajťák o počítačích vědět.
+
+[^m]: V počítačích se morseovka nepoužívá. Morseovku zde zmiňuji pro jednodušší vysvětlení konceptů v signální vrstvy. 

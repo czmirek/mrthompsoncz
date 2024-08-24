@@ -10,7 +10,7 @@ Elektřina v zásuvce českých domácností funguje na střídavém proudu což
 
 ## Jednosměrný proud
 
-Běžné počítače však neběží na střídavém proudu ale na jednosměrném proudu, nikoliv proto že by to nešlo ale proto že stavba jakéhokoliv zařízení bežícím na střídavém proudu je podstatně složitější a nákladější.
+Běžné počítače však neběží na střídavém proudu ale na jednosměrném proudu. Nikoliv proto že by to nešlo ale proto že stavba jakéhokoliv zařízení bežícím na střídavém proudu je podstatně složitější a nákladější.
 
 V uzavřeném obvodu jednosměrného proudu putuje elektřina vždy jen jedním směrem.
 
