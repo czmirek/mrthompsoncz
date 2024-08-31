@@ -26,10 +26,18 @@ Komponenta EL2 však signály odesílá a přijímá rychlostí 1 signál za 50 
 
 EL1 a EL2 se v tomto případě nemohou dorozumět.
 
+{{< figure align=center width=500 src="../timing.png" title="Časování" >}}
+
 ## Společný časovač
 
 Řešením tohoto problému je společný časovač který dvěma a více různým komponentám sděluje délku signálu na které budou fungovat. Rychlejší komponenta se musí přizpůsobit pomalejší komponentě.
 
 V moderních počítačích je situace složitější. Moderní počítače obsahují více než jeden časovač (tyto časovače mají zároveň vzájemný matematický vztah), to už je však dle mého názoru nad rámec toho, co potřebuje běžný ajťák o počítačích vědět.
 
-[^m]: V počítačích se morseovka nepoužívá. Morseovku zde zmiňuji pro jednodušší vysvětlení konceptů v signální vrstvy. 
+## Vnitřní hodiny
+
+Jiným názvem pro toto *časování* v komponentách je pojem *vnitřní hodiny* nebo v angličtině *clock*[^o]. 
+
+[^m]: V počítačích se morseovka nepoužívá. Morseovku zde zmiňuji pro jednodušší vysvětlení konceptů v signální vrstvy.
+
+[^o]: *Overclocking* je pak manuální zvýšení těchto vnitřních hodin.

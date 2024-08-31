@@ -17,4 +17,4 @@ Digitální vrstva je jednoduše kódování, ve kterém říkáme, že:
 
 {{< figure align=center width=500 src="../binmsg.png" title="Příklad nějaké digitální zprávy" >}}
 
-[^dvastavy]: Je klidně možné postavit počítač, který bude umět pracovat s více, než dvěma stavy. Takový počítač však nebude levnější, pravděpodobně ani rychlejší.
+[^dvastavy]: Je klidně možné postavit počítač, který bude umět pracovat s více, než dvěma stavy. Takový počítač však nebude levnější (a pravděpodobně ani rychlejší).
