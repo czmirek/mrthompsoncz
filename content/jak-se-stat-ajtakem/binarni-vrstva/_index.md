@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Digitální vrstva
+title: Binární vrstva
 weight: 500
 ---
 

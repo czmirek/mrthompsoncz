@@ -23,17 +23,9 @@ Pro takový počítač musíme mít zdroj s výkonem minimálně 65 W.
 
 ## Základní deska
 
-Základní deska je integrovaný obvod do kterého jsou zasazené všechny komponenty. Základní deska je v nějaké podobě přítomná ve všech běžných zařízeních: v mobilních telefonech, tabletech, noteboocích, stolních počítačech i serverech.
+Základní deska je integrovaný obvod do kterého jsou zasazené všechny komponenty a je v nějaké podobě přítomná ve všech běžných zařízeních: v mobilních telefonech, tabletech, noteboocích, stolních počítačech i serverech.
 
 Základní deska všechny komponenty spojuje a není bez ní možné, aby běžný počítač fungoval. Pro běžného ajťáka to však není až zas tak zajímavá komponenta kterou je nutné do detailu studovat.
-
-### UEFI/BIOS
-
-Běžné základní desky mají v sobě zabudovaný čip s persistentní pamětí, jež obsahuje miniaturní operační systém pro konfiguraci nejenom základní desky ale i jednotlivých komponent.
-
-**UEFI** je novější standard který je dnes v každém moderním či novém počítači, přestože vzniknul už v roce 2002 tak se v počítačích začal objevovat až nějak okolo roku 2010.
-
-**BIOS** je starý standard který je v počítačích od 70 let 20. století a čas od času na něj ještě můžete narazit.
 
 ## Procesor
 

@@ -10,7 +10,7 @@ V počítačích informace putují pouze jedním způsobem:
 
 Konkrétní výše napětí ve voltech pro stav "*Je napětí*" není pro běžného ajťáka podstatná. Podstatné je to, že jsou možné **pouze dva stavy** a tímto způsobem se předávají v počítači informace.[^dvastavy]
 
-Digitální vrstva je jednoduše kódování, ve kterém říkáme, že:
+Binární (nebo také **digitální**) vrstva je jednoduše kódování, ve kterém říkáme, že:
 
 - Tam, kde je signál (napětí), tam je číslice 1
 - Tam, kde není signál (napětí), tam je číslice 0
