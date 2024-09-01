@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Jedničky a nuly
-weight: 501
+weight: 601
 ---
 
 V počítačích informace putují pouze jedním způsobem:

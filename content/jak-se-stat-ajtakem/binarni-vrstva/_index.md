@@ -1,6 +1,6 @@
 ---
 draft: false
 title: Binární vrstva
-weight: 500
+weight: 600
 ---
 
