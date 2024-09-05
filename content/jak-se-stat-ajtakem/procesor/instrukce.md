@@ -1,12 +1,14 @@
 ---
-draft: true
+draft: false
 title: Instrukce procesoru
-weight: 251
+weight: 701
 ---
 
-Procesor je hodně zjednodušeně elektronický čip, které umí přijmout nějakou kombinaci signálů na vstupu a na základě této kombinace vyprodukovat jinou kombinaci signálů na výstupu.
+Před pojmenováním dalších vrstev si nyní musíme udělat odbočku na tu nejdůležitější část počítače a tou je **procesor**.
 
-![Instrukce procesoru](/jak-se-stat-ajtakem/fyzicka-vrstva/procesor/instrukce.png)
+Procesor je hodně zjednodušeně elektronický čip, který umí přijmout nějakou kombinaci signálů na vstupu a na základě této kombinace vyprodukovat jinou kombinaci signálů na výstupu.
+
+{{< figure align=center width=500 src="../instrukce.png" title="Instrukce procesoru" >}}
 
 Moderní procesory jsou extrémně komplexní ale v základu je to pořád tento model. Procesor skrz vstupní signály získává instrukce na základě kterých sám něco provádí nebo skrz základní desku přikazuje něco zařízením okolo sebe.
 
@@ -20,26 +22,23 @@ Procesor si sám nic nevymýšlí a pouze se řídí instrukcemi. Když zapnete 
 
 Pokud žádné nenajde tak s počítačem prakticky nic neuděláte a zobrazí se vám nějaká hláška, která vypadá například takto.
 
-![Boot](/jak-se-stat-ajtakem/fyzicka-vrstva/procesor/boot.png)
+{{< figure align=center width=500 src="../boot.png" title="Boot" >}}
 
 S prvními historickými počítači se pracovalo tak, že někdo ručně tahal za páky nebo mačkal tlačítka, které udávaly kombinaci signálů, které znamenaly nějakou konkrétní instrukci. Později se tyto instrukce zadávaly skrz děrkované štítky. Tyto počítače byly schopné rozpoznat konkrétní instrukci podle předepsané struktury děr.
 
 
-![Děrkované štítky](/jak-se-stat-ajtakem/fyzicka-vrstva/procesor/derkovane.png)
+
+{{< figure align=center width=500 src="../derkovane.jpg" title="Děrkované štítky" >}}
 
 Tyto počítače se používaly prakticky jen pro vědecké/vojenské účely protože jediné co uměly bylo spočítat něco rychleji (například trajektorii rakety) než kdyby to počítal člověk.
 
 Počítače na děrkovací štítky uměly zpracovat 10 až 100 instrukcí za vteřinu. Moderní procesor je schopný zpracovat až 5 miliard (5000000000) instrukcí za vteřinu (toto je prakticky totéž jako údaj, který se udává v procesorech jako „GHz“ například „3,5 GHz“ = 3 a půl miliard instrukcí za vteřinu).
 
-Už nedává žádný smysl psát instrukce pro procesor napřímo. 5 miliard instrukcí za vteřinu je totiž fakt hrozně moc a tak nad instrukcemi pro procesor vzniklo spousta dalších vrstev, nové pohledy a vrstvy, které nám umožňují abstrahovat (viz. předchozí díl) obrovskou složitost a rychlost moderních procesorů. 
-
 ### Procesor nemůže nic nedělat
 
 Jsme v životě zvyklí na to, že máme nějaký nástroje na elektřinu, třeba vysavač. Ten zapojíme do elektřiny, pustíme a jak je v provozu tak jej nějak začneme používat.
 
-<iframe width="960" height="540" src="https://www.youtube.com/embed/lybw5fK8TOI" title="急に全てが嫌になったウーパールーパー3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Procesor je ale zařízení, které používáme už jen tím, že do něj pouštíme elektřinu. Jakmile je procesor „pod proudem“ tak to znamená, že přijímá instrukce. Protože ten proud, co do procesoru teče, to už jsou konkrétní instrukce!
+Procesor je ale zařízení, které používáme už jen tím, že do něj pouštíme elektřinu. Jakmile je procesor „pod proudem“ tak to znamená, že přijímá instrukce. Protože ten proud, co do procesoru teče, to už jsou konkrétní instrukce.
 
 Procesor nemá žádné „napájení“ protože elektřina, která vstupuje a vystupuje z procesoru už reprezentuje konkrétní instrukční signály.
 

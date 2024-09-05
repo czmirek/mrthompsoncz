@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Proces a vlákno
-weight: 560
+title: Virtuální paměť
+weight: 906
 ---
 
 Určitě jste sami několikrát zažili postup instalace nějaké aplikace/programu. Nejdřív stáhnete nějaký soubor, ten pak spustíte, něco se nainstaluje a vy pak ten program spustíte.

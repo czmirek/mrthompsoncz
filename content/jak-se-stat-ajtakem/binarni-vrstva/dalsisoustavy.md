@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Další číselné soustavy
-weight: 604
+weight: 803
 ---
 
 ## 16: šestnáctková (hexadecimální) číselná soustava

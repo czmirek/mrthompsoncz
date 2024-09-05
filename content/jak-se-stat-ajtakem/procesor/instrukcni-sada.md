@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 title: Instrukční sada
-weight: 252
+weight: 702
 ---
 
 ## Formát instrukce a instrukční sada   

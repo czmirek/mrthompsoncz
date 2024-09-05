@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Virtuální pamět
-weight: 530
+title: Virtuální paměť
+weight: 906
 ---
 
 V nějaké kapitole o procesorech jsem se zmiňoval, že moderní procesory jsou stavěné pro software. Většina procesorů počítá s tím, že na nich poběží operační systém.

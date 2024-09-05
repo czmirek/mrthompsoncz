@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Dvojková soustava
-weight: 603
+weight: 802
 ---
 
 Počítejte na prstech jako v první třídě: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Kolik obsahuje desítková soustava **cifer** tzn. znaků, které reprezentují číslici?

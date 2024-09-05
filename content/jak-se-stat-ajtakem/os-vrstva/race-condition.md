@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Race condition
-weight: 580
+weight: 908
 ---
 
 V minulém díle jsem mluvil o tom, že procesor pomocí context switchingu přepíná mezi jednotlivými běžícími vlákny.

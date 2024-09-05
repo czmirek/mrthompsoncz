@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Operační systém
-weight: 510
+weight: 901
 ---
 
 Teď už toho víte o počítačích docela dost. Jak počítače pracují s bity a bajty, jak pracují s čísly, zápornými i desetinnými a jak reprezentují znaky.

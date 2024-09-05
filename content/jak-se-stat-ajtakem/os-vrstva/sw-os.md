@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Software a OS
-weight: 550
+weight: 905
 ---
 
 Aby software běžící v OS mohl nějakým způsobem interagovat se zařízením – například interagovat s pamětí, s disky, reagovat na stisk klávesnice, musí využít funkce nebo události OS.

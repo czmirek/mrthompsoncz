@@ -1,3 +1,9 @@
+---
+draft: false
+title: OS cyklus
+weight: 906
+---
+
 Vzpomeňte si, jak funguje procesor. Toto zařízení neumí „nic nedělat“ a neustále přijímá příkazy.
 
 První operační systémy byly velmi jednoduché programy:

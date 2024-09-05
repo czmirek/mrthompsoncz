@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Virtuální pamět
-weight: 520
+weight: 902
 ---
 
 ## Kernel space a User space
