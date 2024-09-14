@@ -1,7 +1,7 @@
 ---
-draft: false
+draft: true
 title: Virtualizace
-weight: 703
+weight: 715
 ---
 
 Procesor může simulovat více procesorů (a komponent) najednou ale s každou přidanou simulací se sníží výkon všech ostatních „simulovaných“ procesorů. Tzn. pokud procesor simuluje 2 procesory tak každý z těchto „simulovaných“ procesorů, pokud bude zatížen na 100%, má ve výsledku maximálně 50% výkonu, než samotný procesor. Pokud simulujete 3 procesory tak každý má maximálně 33% výkonu atd. (pozn.: realita v moderních počítačích je složitější ale to není teď důležité).

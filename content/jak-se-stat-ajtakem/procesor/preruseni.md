@@ -1,7 +1,7 @@
 ---
-draft: false
+draft: true
 title: Přerušení
-weight: 704
+weight: 711
 ---
 
 Jakmile zapnete počítač, procesor společně se základní deskou hledá místo, odkud začít číst instrukce. Tyto první instrukce reprezentují většinou nějaký operační systém jako je například Windows nebo Linux.
