@@ -12,8 +12,7 @@ O to se v moderních počítačích stará základní deska. Jakmile základní 
 
 Jakmile však procesor dojde s instrukcemi až na konec tak se procesor zase vypne [^o]. Toto se však v moderních počítačích může projevit různě: celý počítač se může vypnout nebo restartovat.
 
-![alt text](image.png)
-
+{{< figure align=center width=600 src="../stav-procesoru.png" title="Stav procesoru" >}}
 
 U moderního počítače se totiž **neočekává, že procesor dojde až na konec instrukcí**.
 
