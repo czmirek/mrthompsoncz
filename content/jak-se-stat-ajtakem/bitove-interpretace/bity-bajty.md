@@ -1,10 +1,8 @@
 ---
 draft: false
 title: Bajty
-weight: 801
+weight: 802
 ---
-
-V této kapitole se dozvíte, že IT je velice lidský obor, protože jsou v něm historicky nelogická pravidla v důsledku toho, že různé IT firmy měly v minulosti odlišné nápady, jak by se některé věci měly dělat. Některé věci se nakonec časem sjednotily a některé bohužel ne.
 
 ## byte (čti: [bajt])
 
@@ -12,11 +10,11 @@ Byte = **8 bitů**. Proč 8?
 
 V minulosti existovaly i jiné alternativy, někde byl bajt 7, někde 6, někde 12, někde dokonce 48. Vycházelo to hlavně ze šířky instrukce, kterou podporovaly staré procesory a libovolně velké skupině bytů se říkalo „syllable“ (anglicky „slabika“) než se ustálil pojem „bajt“.
 
-Moderní počítače pracují se 64-bitovými instrukcemi ale „8 bitový bajt“ je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
+Moderní procesory pracují se 64-bitovými instrukcemi ale „8 bitový bajt“ je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
 
 ## kilobajt, megabajt, gigabajt…
 
-Kolik bajtů je v kolibajtu? A kolik bitů je v kolobitu? Protože historicky se neustálilo jen jedno pravidlo tak se bohužel dodnes existuje více definic. 
+⚠️ **Důležité k zapamatování**: Historicky se neustálilo jen jedno pravidlo tak se bohužel dodnes používá více způsobů. 
 
 ### kilobajt = 1024 bajtů
 
@@ -47,7 +45,7 @@ Do toho mezinárodní instituce (ISO) zakřičela, že správně je „kilobajt 
 - me**bi**bajt (MiB) = 1024 kibibajtů
 - gi**bi**bajt (GiB) = 1024 mebibajtů
 
-Jenže se to vůbec neujalo. Nikdo to nepoužívá a většinou ani nezná. Nikdy jsem nikoho neslyšel mluvit o „kibi“, „mebi“ nebo „gibi“bajtech a zaručuji vám, že pokud budete před profesionálem z IT říkat, že „jeden mebibajt má 1024 kibibajtů“ tak na vás bude koukat jak na idiota. Je dobré o tom vědět protože tu a tam narazíte na zkratku „kiB“ nebo „MiB“.
+Jenže se to vůbec neujalo. Nikdo to nepoužívá a většinou ani nezná. Nikdy jsem nikoho neslyšel mluvit o *kibi*, *mebi* nebo *gibi*bajtech a zaručuji vám, že pokud budete před profesionálem z IT říkat, že *jeden mebibajt má 1024 kibibajtů* tak na vás bude koukat jak na idiota. Je dobré o tom vědět protože tu a tam narazíte na zkratku *kiB* nebo *MiB*.
 
 ### kilobit = 1000 bitů
 

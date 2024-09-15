@@ -14,11 +14,14 @@ Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by t
 - **Elektronická vrstva** = elektřina putující v těchto fyzických zařízeních
 - **Signální vrstva** = signály, která jsou elektřinou reprezentovány
 - **Bitová vrstva** = kódování, které je reprezentované signály
-- **Binární vrstva** = kódování, které je reprezentované bity
-- **Binární aritmetika** = matematické operace, které lze provádět díky binární vrstvě
-  - *Celočíselná reprezentace* = jak jsou v binární vrstvě reprezentována celá čísla
-  - *Desetinná reprezentace* = jako jsou v binární vrstvě reprezentována desetinná čísla
-  - *Písmena / znaky* = jako jsou v binární vrstvě reprezentována písmena
+- **Bitové interpretace** = různá kódování, která jsou reprezentovaná bity 
+  - **Bajty** = kódování reprezentované bity
+  - **Čísla** = kódování reprezentující čísla
+    - *Celočíselná interpretace* = jak jsou v binární vrstvě reprezentována celá čísla
+    - *Desetinná interpretace* = jako jsou v binární vrstvě reprezentována desetinná čísla  
+  - **Binární aritmetika** = matematické operace (sčítání, odčítání, násobení, dělení, atd.), které lze provádět díky bitové vrstvě
+  - **Znakové sady** = jak jsou v bitové vrstvě reprezentována písmena 
+
 
 ## Software vrstva
 - **Bare-metal/embedded software** = software běžící přímo "na železe" bez operačního systému (nebo váš vlastní operační systém).
@@ -27,4 +30,4 @@ Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by t
 
 ## Ilustrace
 
-{{< figure align=center width=600 src="/jak-se-stat-ajtakem/uvod-do-it/vrstvy.png" title="Vrstvy IT" >}}
+{{< figure align=center width=600 src="/jak-se-stat-ajtakem/uvod-do-it/vrstvy2.png" title="Vrstvy IT" >}}

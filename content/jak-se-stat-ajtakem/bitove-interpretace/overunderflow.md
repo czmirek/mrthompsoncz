@@ -1,10 +1,8 @@
 ---
-draft: true
-title: Přetečení (overflow) a podtečení (underflow)
-weight: 440
+draft: false
+title: Přetečení a podtečení
+weight: 806
 ---
-
-Teď už víte, že procesor pracuje s čísly v nějakém rozsahu. Zároveň víte, jak procesory pracují s negativními čísly přes dvojkový doplněk.
 
 ## Co se stane, když výsledek matematické operace je větší, než rozsah výsledného čísla?
 
@@ -20,7 +18,7 @@ Přetečení je to, co se stane, když výsledek operace přesahuje rozsah, do k
 100 + 54 = 154 matematicky vypadá takto.
 
 - 100 = 11001000
-- 54 = 00110110
+- 54 = 110110
 - 154 = 10011010
 
 Jenže ve dvojkovém doplňku to vypadá jinak!
@@ -33,14 +31,9 @@ Jenže ve dvojkovém doplňku to vypadá jinak!
 
 To záleží.
 
-Jako ajťák musíte dobře znát nástroje, se kterými pracujete. Některé programovací jazyky považují přetečení/podtečení za chybu, kvůli které aplikace spadne a některé považují přetečení/podtečení za vlastnost výpočetní techniky, se kterou je nutné počítat.
+Jako ajťák musíte dobře znát nástroje, se kterými pracujete. 
+
+Některé programovací jazyky považují přetečení/podtečení za chybu, kvůli které aplikace spadne a některé považují přetečení/podtečení za vlastnost výpočetní techniky, se kterou je nutné počítat.
 
 ![Xkcd](https://imgs.xkcd.com/comics/cant_sleep.png)
-
-## Souhrn
-
-Souhrn
-
-- Přetečení je situace, kdy se do čísla vymezeného určitým rozsahem snažíte narvat hodnotu, která se tam nevejde.
-
 

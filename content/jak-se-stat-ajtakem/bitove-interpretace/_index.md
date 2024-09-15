@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Binární vrstva
+title: Bitové interpretace
 weight: 800
 ---
 
