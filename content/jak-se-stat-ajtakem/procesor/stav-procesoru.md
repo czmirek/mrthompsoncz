@@ -14,7 +14,7 @@ Jakmile však procesor dojde s instrukcemi až na konec tak se procesor zase vyp
 
 {{< figure align=center width=600 src="../stav-procesoru.png" title="Stav procesoru" >}}
 
-U moderního počítače se totiž **neočekává, že procesor dojde až na konec instrukcí**.
+⚠️ **Důležité k zapamatování**: U moderního počítače se **neočekává, že procesor dojde až na konec instrukcí**. Instrukce se totiž točí dokola v cyklu v rámci operačního systému. O tom si však povíme později.
 
 [^o]: "Vypne" zde může znamenat odpojení elektrického obvodu ale i přechod do nějakého speciálního stavu, který je s vypnutím identický.
 

@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Hardwarové složitosti které lze ignorovat
 weight: 310
 ---

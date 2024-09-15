@@ -8,6 +8,6 @@ Procesor je hodně zjednodušeně elektronický čip, který umí přijmout něj
 
 {{< figure align=center width=500 src="../instrukce.png" title="Instrukce procesoru" >}}
 
-Bity na vstupu jsou **instrukce pro procesor**. Na obrázku níže je příklad instrukce, jejíž podoba je *010011*. Toto není reálná instrukce, pouze příklad.
+Na obrázku níže je příklad instrukce, jejíž podoba je *010011*.  Toto není reálná instrukce, pouze příklad. Instrukcemi se budu podrobněji zabývat ještě jednou v pozdější kapitole.
 
 {{< figure align=center width=400 src="../instrukce-bity.png" title="Instrukce procesoru" >}}

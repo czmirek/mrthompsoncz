@@ -13,7 +13,8 @@ Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by t
 - **Fyzická vrstva** = reálná fyzická zařízení, kterých se můžete dotknout.
 - **Elektronická vrstva** = elektřina putující v těchto fyzických zařízeních
 - **Signální vrstva** = signály, která jsou elektřinou reprezentovány
-- **Binární vrstva** = kódování, které je reprezentované signály
+- **Bitová vrstva** = kódování, které je reprezentované signály
+- **Binární vrstva** = kódování, které je reprezentované bity
 - **Binární aritmetika** = matematické operace, které lze provádět díky binární vrstvě
   - *Celočíselná reprezentace* = jak jsou v binární vrstvě reprezentována celá čísla
   - *Desetinná reprezentace* = jako jsou v binární vrstvě reprezentována desetinná čísla

@@ -10,4 +10,4 @@ Výstupní bity procesoru ale nemají žádnou pevnou šířku, dokonce ani žá
 
 {{< figure align=center width=600 src="../vystup-komplex.png" title="Komplexita výstupních bitů" >}}
 
-Výstupní bity nás běžné ajťáky však nezajímají. Toto "zadrátování" se liší podle *patice* procesoru což je fyzická zásuvka, do které se na základní desce procesor umisťuje.
+⚠️ **Důležité k zapamatování**: Výstupní bity běžné ajťáky nezajímají. Toto "zadrátování" se liší podle *patice* procesoru což je fyzická zásuvka, do které se na základní desce procesor umisťuje.

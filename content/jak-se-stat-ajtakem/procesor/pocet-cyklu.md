@@ -16,4 +16,6 @@ U moderních procesorů za běžného provozu je prakticky nemožné odhadnout, 
 
 - Procesor může v nějakém kroku detekovat, že při příchodu nějaké speciální instrukce může rovnou všechny následující instrukce za ní (až do nějakého momentu) zahodit
 
-[^b]: Běžný uživatel si toho nevšimne. K selhání CPU predikcí dochází ve vašem běžném počítači každou chvíli. Poměr úspěšných predikcí je však v běžném provozu vysoký, proto se výrobcům CPU vyplatí takové prediktivní systémy do CPU zabudovávat.
+⚠️ **Důležité k zapamatování**: Běžný ajťák *většinou* nezná konkrétní instrukce natož aby věděl kolik cyklů která instrukce provede.
+
+[^b]: Běžný uživatel si toho nevšimne. K selhání CPU predikcí dochází ve vašem běžném počítači každou chvíli. Poměr úspěšných predikcí je však v běžném provozu vysoký a proto se výrobcům CPU vyplatí takové prediktivní systémy do CPU zabudovávat.

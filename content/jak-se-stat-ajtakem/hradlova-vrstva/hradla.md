@@ -4,11 +4,11 @@ title: Hradla
 weight: 404
 ---
 
-Hradlo je na elektronické úrovni jen nějaký obvod s tranzistory, který vytváří nějakou jednoduchou logickou funkci. 
+*Hradlová vrstva* je jen jiný pohled na elektronické obvody. V elektronických obvodech identifikujeme **hradla** což jsou jednoduché logické funkce.
 
-Každé hradlo, stejně jako obyčejná matematická funkce, má nějaké signály na vstupu a nějaké na výstupu. Hradla se zakreslují podle typu logické funkce, kterou představují.
+Každé hradlo má nějaké signály na vstupu a nějaké na výstupu. Hradla se zakreslují podle typu logické funkce, kterou představují.
 
-Čipy jako je procesor nebo grafický čip obsahují miliardy rozhodovacích hradel. Díky tomuto obrovskému množství hradel vznikají další vrstvy a systémy. 
+Čipy jako je procesor nebo grafický čip obsahují miliardy rozhodovacích hradel. Díky tomuto obrovskému množství hradel vznikají další vrstvy a komplikovanější systémy. 
 
 ## Základní hradla
 
