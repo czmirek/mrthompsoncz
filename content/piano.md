@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Piáno
+title: 🎹 Piáno
 params:
   hidemeta: true
   showtoc: false
