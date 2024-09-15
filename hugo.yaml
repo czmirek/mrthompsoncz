@@ -73,9 +73,9 @@ params:
 #  socialIcons:
 
 
-  #analytics:
-  #  google:
-  #    SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "G-0TBF0MMFPP"
   #  bing:
   #    SiteVerificationTag: "XYZabc"
   #  yandex:
