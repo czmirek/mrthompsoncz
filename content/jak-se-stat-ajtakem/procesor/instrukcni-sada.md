@@ -23,8 +23,8 @@ Moderní a běžné instrukčnísady jsou:
 
 ## Proč je tak málo instrukčních sad?
 
-- **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly. Instrukční sada `x86` vznikla v roce 1978.[^z]
+- **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly. Instrukční sada `x86` vznikla v roce 1978. [^z]
 
-- **Zpětná kompatibilita**: Instrukční sada `x86` je velmi kritizována za spoustu historických přešlapů se kterými už ale nelze nic dělat. Proč? Protože celý IT svět je víceméně na `x86` postavený.
+- **Zpětná kompatibilita**: Instrukční sada `x86` je kritizována za spoustu historických přešlapů se kterými už ale nelze nic dělat. Proč? Protože celý IT svět je víceméně na `x86` postavený.
 
-[^z] Oficiální dokumentace k x86-64 má [2198 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf) a k ARM64 má [8538 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf)
+[^z]: Oficiální dokumentace k x86-64 má [2198 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf) a k ARM64 má [8538 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf)
