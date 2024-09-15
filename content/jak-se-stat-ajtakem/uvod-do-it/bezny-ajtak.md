@@ -10,7 +10,7 @@ Tento návod je psaný pro každého kdo se chce stát **běžným ajťákem** t
 
 Drtivá většína software je psaná na úrovni operačního systému a pracovní trh poptává hlavně lidi, kteří dokáží takový software vytvořit.
 
-{{< figure align=center width=300 src="/jak-se-stat-ajtakem/uvod-do-it/vrstvy.png" title="Vrstvy IT" >}}
+{{< figure align=center width=300 src="../vrstvy2.png" title="Vrstvy IT" >}}
 
 ## Co tedy běžný ajťák musí umět?
 
