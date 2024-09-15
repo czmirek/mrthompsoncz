@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Desetinná čísla
-weight: 808
+weight: 1108
 ---
 
 Desetinná čísla znáte. Víte, že `5 / 2 = 2,5`

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Bajty
-weight: 802
+weight: 1102
 ---
 
 ## byte (čti: [bajt])

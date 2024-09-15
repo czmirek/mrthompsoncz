@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Číselná interpretace
-weight: 801
+weight: 1101
 ---
 
 ## Cifry desítkové soustavy

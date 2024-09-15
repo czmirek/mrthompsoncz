@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Multithreading
-weight: 907
+weight: 2070
 ---
 
 V minulém díle jsem pojmenoval pojmy jako proces, entry point, vlákno, hlavní vlákno a stavy vláken.

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Celá čísla
-weight: 804
+weight: 1104
 ---
 
 Celé číslo je z matematiky číslo, které může být buď:

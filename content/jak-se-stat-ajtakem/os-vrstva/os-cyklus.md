@@ -1,7 +1,7 @@
 ---
 draft: false
 title: OS cyklus
-weight: 906
+weight: 2060
 ---
 
 Vzpomeňte si, jak funguje procesor. Toto zařízení neumí „nic nedělat“ a neustále přijímá příkazy.

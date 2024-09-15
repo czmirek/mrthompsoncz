@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Fixní desetinná čárka
-weight: 809
+weight: 1109
 ---
 
 V minulém díle jsem mluvil o tom, jak počítače nedokážou reprezentovat většinu desetinných čísel přesně. Nemluvil jsem ale o tom, jak se s desetinnými čísly vlastně konkrétně v počítačích pracuje.

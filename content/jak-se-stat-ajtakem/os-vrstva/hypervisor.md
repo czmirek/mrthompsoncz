@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Hypervisor
-weight: 904
+weight: 2040
 ---
 
 Moderní procesory mají ještě virtualizační režim. Tento režim je nad privilegovaným režimem. To znamená, že operační systém nemá přístup k instrukcím ve virtualizačním režimu.

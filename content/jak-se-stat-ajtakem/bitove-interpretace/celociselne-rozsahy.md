@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Celočíselné rozsahy
-weight: 807
+weight: 1107
 ---
 
 V IT jsou zavedené rozsahy, se kterými se většinou pracuje při práci s celými čísly. V praxi už dnes není tolik důležité se zabývat tím, jaký rozsah vybrat.
