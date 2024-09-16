@@ -18,11 +18,11 @@ Jinak řečeno v běžném životě počítáme v **desítkové soustavě**.
 
 Z předchozích kapitol ale už víte, že počítače pracují s **bity** které obsahují jen 2 možné hodnoty: 1 a 0.
 
-Z těchto dvou hodnot už můžeme počítač ve **dvojkové soustavě**.
+Z těchto dvou hodnot už můžeme počítat ve **dvojkové soustavě**.
 
 Počítání funguje úplně stejně jako v desítkové soustavě až na to, že máme k dispozici jen 2 cifry: 1 a 0.
 
-Počítání od nuly vypadá následovně: 
+Počítání od nuly tak vypadá následovně: 
 - 0
 - 1
 - 10
