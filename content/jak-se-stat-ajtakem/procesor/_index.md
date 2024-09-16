@@ -1,5 +1,5 @@
 ---
 draft: false
-title: Bitová vrstva - procesor
+title: 'Bitová vrstva: procesor'
 weight: 700
 ---
