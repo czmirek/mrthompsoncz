@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Hradla
-weight: 404
+weight: 501
 ---
 
 *Hradlová vrstva* je jen jiný pohled na elektronické obvody. V elektronických obvodech identifikujeme **hradla** což jsou jednoduché logické funkce.
@@ -9,6 +9,17 @@ weight: 404
 Každé hradlo má nějaké signály na vstupu a nějaké na výstupu. Hradla se zakreslují podle typu logické funkce, kterou představují.
 
 Čipy jako je procesor nebo grafický čip obsahují miliardy rozhodovacích hradel. Díky tomuto obrovskému množství hradel vznikají další vrstvy a komplikovanější systémy. 
+
+## Odbočka k bitům
+
+O bitech mluvím velmi podrobně v kapitole o bitové vrstvě, která je v mém pojetí až nad hradlovou vrstvou. Správně bych měl v této kapitole ještě mluvit o signálech tj. *je signál* a *není signál*.
+ 
+V tuto chvíli si stačí zapamatovat: bit je interpretace signálu který je buď 1 nebo 0.
+
+Tzn.: 
+
+- *je signál* = 1
+- *není signál* = 0
 
 ## Základní hradla
 
