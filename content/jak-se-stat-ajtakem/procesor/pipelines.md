@@ -10,4 +10,4 @@ Těmto *postupům* se v angličtině se tomu říká **CPU pipeline**.
 
 {{< figure align=center width=300 src="../pipeline.png" title="Cyklus procesoru" >}}
 
-⚠️ **Důležité k zapamatování**: Mechanismus "CPU pipeline" je odlišný procesor od procesoru. Běžný ajťák nezná a nepotřebuje vědět, jak procesorová pipelina konkrétního procesoru funguje.  
+⚠️ **Důležité k zapamatování**: Mechanismus "CPU pipeline" je odlišný mezi různými modely procesorů. Běžný ajťák nezná a nepotřebuje vědět, jak procesorová pipelina konkrétního procesoru funguje.  
