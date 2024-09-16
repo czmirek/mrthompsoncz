@@ -12,7 +12,7 @@ Byte = **8 bitů**. Proč 8?
 
 V minulosti existovaly i jiné alternativy, někde byl bajt 7, někde 6, někde 12, někde dokonce 48. Vycházelo to hlavně ze šířky instrukce, kterou podporovaly staré procesory a libovolně velké skupině bytů se říkalo „syllable“ (anglicky „slabika“) než se ustálil pojem „bajt“.
 
-Moderní procesory pracují se 64-bitovými instrukcemi ale „8 bitový bajt“ je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
+Moderní procesory pracují se 64-bitovými (ale i většími) instrukcemi ale **8 bitový bajt** je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
 
 ## kilobajt, megabajt, gigabajt…
 
