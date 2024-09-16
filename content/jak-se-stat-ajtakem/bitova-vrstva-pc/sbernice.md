@@ -36,7 +36,6 @@ Funkcionalita sběrnic propojující jednotlivé komponenty připojené k zákla
 
 Chipset základní desky není žádná konkrétní komponenta ale souhrn různých, na sobě závislých i nezávislých čipů které na základní desce mají různé zodpovědnosti za zprostředkování komunikace mezi komponentami.
 
-
 ### Pro běžného ajťáka toto není podstatné
 
 Komunikace mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami napříč všemi možnými sběrnicemi je řízena obrovským množstvím různých specifických systémů které se skládají z dalších dílčích subsystémů a podobně.
