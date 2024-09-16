@@ -4,7 +4,16 @@ title: Role RAM paměti
 weight: 712
 ---
 
-Procesor spouští instrukce, čte a zapisuje data **pouze z/do RAM paměti**. Procesor nikdy nekomunikuje s žádnými ostatními komponentami napřímo a vždy pouze instruuje chipset základní desky, aby za něj do RAM paměti připravovala vše, o co si zrovna řekne.  
+
+<div class="note-blue">
+
+**⚠️ Důležité k zapamatování:** Procesor spouští instrukce, čte a zapisuje data **pouze z/do RAM paměti**.
+
+Procesor nikdy nekomunikuje s žádnými ostatními komponentami napřímo a vždy pouze instruuje chipset základní desky, aby za něj do RAM paměti připravovala vše, o co si zrovna řekne.  
+
+</div>
+
+<br />
 
 RAM paměť je extrémně rychlá [^a] [^b], dokáže fungovat na vysokých frekvencích avšak za cenu toho, že po odpojení z elektřiny - tedy po vypnutí počítače - jakékoliv informace z RAM paměti zmizí (viz. [Flip-flop]({{< relref "../hradlova-vrstva/flipflop" >}} "Flip-Flop")).
 

@@ -51,7 +51,11 @@ Podívejte se na následující číselnou řadu, jak číslo v desítkové sous
 - 4<sub>10</sub> = 100<sub>2</sub>
 - 5<sub>10</sub> = 101<sub>2</sub>
 
-Následující hodnoty z desítkové číselné soustavy (2, 4, 8, 16, 32, 64… ) zná většina běžných akťáků nazpaměť protože se tyto hodnoty v IT vyskytují úplně všude. Počítače jsou z povahy věci **dvojkové**.
+## Exponenciální řada 2<sup>x</sup>
+
+Většina běžných ajťáků si z hlavy pamatuje prvních cca 10 čísel z číselné řady 2<sup>x</sup> (2, 4, 8, 16, 32, 64…) protože se tyto hodnoty v IT vyskytují úplně všude. 
+
+Podívejte se na následující tabulku.
 
 <pre>
  Dvojková         Desítková  
