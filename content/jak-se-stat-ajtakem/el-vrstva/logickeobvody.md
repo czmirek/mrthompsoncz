@@ -6,8 +6,7 @@ weight: 307
 
 Představte si jednoduchý obvod, ve kterém máte dva spínače za sebou.
 
-
-{{< figure align=center width=300 src="/jak-se-stat-ajtakem/fyzicka-vrstva/elektrina/andobvod.png" title="AND obvod" >}}
+{{< figure align=center width=400 src="../andobvod.png" title="AND obvod" >}}
 
 Aby se žárovka rozvsítila, musí být sepnuté oba spínače. Jednoduché, že ano.
 
@@ -15,8 +14,7 @@ Aby se žárovka rozvsítila, musí být sepnuté oba spínače. Jednoduché, ž
 
 Nyní si představte jiný obvod, ve kterém máte dva spínače vedle sebe.
 
-
-{{< figure align=center width=300 src="/jak-se-stat-ajtakem/fyzicka-vrstva/elektrina/orobvod.png" title="OR obvod" >}}
+{{< figure align=center width=300 src="../orobvod.png" title="OR obvod" >}}
 
 Aby se žárovka rozsvítila v tomto obvodu tak stačí, aby byl sepnutý jen jeden spínač. Z pohledu elektřiny už tady existuje uzavřený obvod a žárovka se rozsvítí. Stejně tak se žárovka rozsvítí i když budou zapnuté oba spínače.
 

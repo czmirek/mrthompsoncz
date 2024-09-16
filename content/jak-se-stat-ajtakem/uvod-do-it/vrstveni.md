@@ -30,4 +30,4 @@ Podle těchto vrstev je víceméně psán i tento návod. Kvalitní ajťák by t
 
 ## Ilustrace
 
-{{< figure align=center width=600 src="/jak-se-stat-ajtakem/uvod-do-it/vrstvy2.png" title="Vrstvy IT" >}}
+{{< figure align=center width=600 src="../vrstvy2.png" title="Vrstvy IT" >}}

@@ -35,6 +35,6 @@ Komponenty moderních počítačů jsou dodnes stavěny podle Von Neumannovy arc
 - Do procesoru proudí data přes vstupní signály - od vstupních zařízení
 - A naopak: z procesoru proudí data přes výstupní signály - do výstupních zařízení
 
-{{< figure align=center width=400 src="/jak-se-stat-ajtakem/uvod-do-it/vonneumann.png" title="Von Neumannova architektura" >}}
+{{< figure align=center width=400 src="../vonneumann.png" title="Von Neumannova architektura" >}}
 
 Základní deska není zakreslena. Přestože se moderní počítače bez základní desky neobejdou, není to až tak zajímavá komponenta a později v tomto návodu pochopíte proč.

@@ -17,4 +17,4 @@ k počítači externě (klávesnice, myš, monitor...).
 Tyto pojmy znají dnes už i děti na základní škole. V tomto návodu půjdu však hlouběji a pojmenuji další pohledy na IT.
 
 
-{{< figure align=center width=600 src="/jak-se-stat-ajtakem/uvod-do-it/hw-sw.png" title="Hardware a software" >}}
+{{< figure align=center width=600 src="../hw-sw.png" title="Hardware a software" >}}
