@@ -36,6 +36,12 @@ Funkcionalita sběrnic propojující jednotlivé komponenty připojené k zákla
 
 Chipset základní desky není žádná konkrétní komponenta ale souhrn různých, na sobě závislých i nezávislých čipů které na základní desce mají různé zodpovědnosti za zprostředkování komunikace mezi komponentami.
 
+### Memory controller
+
+Komunikace mezi procesorem a RAM pamětí je tak důležitá že má svoji vlastní sběrnici tzn. moduly RAM paměti nezapojíte nikam jinam než do určených zásuvek na základní desce dedikovaných přímo pro RAM paměť.
+
+Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným čipem nazvaným *memory controller*. V moderních počítačích je však *memory controller* zabudovaný přímo v procesorech. 
+
 ### Pro běžného ajťáka toto není podstatné
 
 Komunikace mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami napříč všemi možnými sběrnicemi je řízena obrovským množstvím různých specifických systémů které se skládají z dalších dílčích subsystémů a podobně.
