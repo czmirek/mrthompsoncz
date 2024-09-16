@@ -4,6 +4,8 @@ title: Bajty
 weight: 1102
 ---
 
+Bajty, kilobajty, gigabajty, atd. jsou měrnou jednotkou bitů stejně jako centimetry, metry a kilometry jsou měrnou jednotkou vzdálenosti.
+
 ## byte (čti: [bajt])
 
 Byte = **8 bitů**. Proč 8?
