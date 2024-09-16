@@ -22,13 +22,20 @@ Uvádí se tyto 3 typy sběrnic.
 
 ### Spousta různých sběrnic
 
-V počítačích je spousta různých na sobě nezávislých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. 
+V počítačích je spousta různých na sobě nezávislých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům a fungují na různých rychlostech.
+
+Nejznámější typy sběrnic:
+
+- **PCI, PCIe**: sběrnice pro zapojení komponenty postavené jako integrovaný obvod přímo do základní desky
+- **SATA**: sběrnice pro kabelové zapojení persistentních uložišť (SSD, HDD)
+- **USB**: multifunkční sběrnice pro připojení všeho možného většinou přes USB kabel 
 
 ### Chipset základní desky
 
 Funkcionalita sběrnic propojující jednotlivé komponenty připojené k základní desce je závislá jak na procesoru tak i na *chipsetu základní desky*.
 
 Chipset základní desky není žádná konkrétní komponenta ale souhrn různých, na sobě závislých i nezávislých čipů které na základní desce mají různé zodpovědnosti za zprostředkování komunikace mezi komponentami.
+
 
 ### Pro běžného ajťáka toto není podstatné
 
