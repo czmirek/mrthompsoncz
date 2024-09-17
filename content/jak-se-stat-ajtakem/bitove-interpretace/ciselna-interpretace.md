@@ -4,6 +4,8 @@ title: Číselná interpretace
 weight: 1101
 ---
 
+Číselná interpretace je pohled na bity jako na čísla.  
+
 ## Cifry desítkové soustavy
 Kolik používáme běžně **cifer** tzn. znaků, které reprezentují číslici?
 
