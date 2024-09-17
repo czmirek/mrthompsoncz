@@ -6,7 +6,7 @@ weight: 801
 
 Sběrnice (anglicky "*bus*") je bitový kanál sloužící pro komunikaci mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami (vstupy a výstupy) v počítači.
 
-{{< figure align=center width=700 src="../sbernice2.png" title="Sběrnice" >}}
+{{< figure align=center width=700 src="../sbernice3.png" title="Sběrnice" >}}
 
 ## 3 tradiční typy sběrnic
 
@@ -22,7 +22,7 @@ Uvádí se tyto 3 typy sběrnic.
 
 ### Spousta různých sběrnic
 
-V počítačích je spousta různých na sobě nezávislých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům a fungují na různých rychlostech.
+V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům a fungují na různých rychlostech.
 
 Nejznámější typy sběrnic:
 
@@ -40,7 +40,7 @@ Chipset základní desky není žádná konkrétní komponenta ale souhrn různ�
 
 Komunikace mezi procesorem a RAM pamětí je tak důležitá že má svoji vlastní sběrnici tzn. moduly RAM paměti nezapojíte nikam jinam než do určených zásuvek na základní desce dedikovaných přímo pro RAM paměť.
 
-Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným čipem nazvaným *memory controller*. V moderních počítačích je však *memory controller* zabudovaný přímo v procesorech. 
+Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným čipem nazvaným *memory controller*. V moderních počítačích je však *memory controller* zabudovaný přímo v procesorech tzn. komunikaci s RAM pamětí si procesor řídí sám. 
 
 ### Pro běžného ajťáka toto není podstatné
 
