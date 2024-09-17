@@ -16,6 +16,8 @@ Příklad:
 - FF<sub>16</sub> = 255<sub>10</sub>
 - FFFF<sub>16</sub> = 65535<sub>10</sub>
 
+V IT se šestnáctková čísla často píšou se znaky `0x` na začátku (je to historická konvence). U čísla `0x005467` tak hned poznáte, že jde o hexadecimální číslo.
+
 ## 8: osmičková číselná soustava
 
 Z hlavy dokážu říct, že se tato číselná soustava používá v Linuxu u vyjádření práv pro čtení a zápis v souborech.

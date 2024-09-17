@@ -12,9 +12,11 @@ Jakým způsobem je procesor schopný přesunout **jen některé** bity z RAM na
 
 RAM paměť je **adresovatelná** což znamená, že všechny bity v RAM jsou rozdělené do nějakých kousků [^k] a každý tento kousek má svoji vlastní **adresu**.
 
-Tato adresa je obyčejné číslo které začíná od 1 pro každý kousek paměti.
+Tato adresa je obyčejné celé číslo. Můžeme si to pro zjednodušení představit jako obyčejné číslo, které začíná od 1 pro každý kousek paměti.
 
 {{< figure align=center width=200 src="../adresa.png" title="Bitové adresy" >}}
+
+Pro vyjádření adresy v paměti se v praxi používá hexadecimální vyjádření např. `0x00000FF`.
 
 ## RAM = Random Access Memory
 

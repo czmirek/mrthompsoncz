@@ -8,6 +8,8 @@ weight: 706
   
 Výstupní bity procesoru ale nemají žádnou pevnou šířku, dokonce ani žádný společný kanál, kterým putují všechny instrukce, jako je to u vstupních bitů.
 
+Procesor komunikuje se zbytkem počítače prostřednictvím **sběrnic**, o kterých budu mluvit v pozdější kapitole.
+
 {{< figure align=center width=600 src="../vystup-komplex.png" title="Komplexita výstupních bitů" >}}
 
 ⚠️ **Důležité k zapamatování**: Výstupní bity běžné ajťáky nezajímají. Toto "zadrátování" se liší podle *patice* procesoru což je fyzická zásuvka, do které se na základní desce procesor umisťuje.

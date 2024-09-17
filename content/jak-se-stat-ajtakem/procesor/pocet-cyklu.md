@@ -7,8 +7,8 @@ weight: 705
 U moderních procesorů za běžného provozu je prakticky nemožné odhadnout, kolik cyklů jaká instrukce zabere z následujících důvodů.
 
 - **Prediktivní mechanismy**
-  - Moderní procesory si ukládají krátkodobou statistiku nejpoužívanějších instrukcí a jejcih výsledků. V některých krocích se tedy snaží odhadnout výsledek, aby mohly hromadu dalších kroků přeskočit a být tak rychlejší.
-  - V nějaký moment si však musí ověřit, že skutečný výsledek je totožný s predikcí. Pokud predikce selže, musí se celá mašinérie *CPU pipeline* vrátit o několik kroků zpátky a instrukce se musí provést v jednotlivých krocích řádně, bez použití prediktivních kroků.[^b]
+  - Moderní procesory si ukládají krátkodobou statistiku nejpoužívanějších instrukcí a jejich výsledků. V některých krocích se tedy snaží odhadnout výsledek, aby mohly hromadu dalších kroků přeskočit a být tak rychlejší.
+  - V nějaký moment si však musí ověřit, že skutečný výsledek je totožný s predikcí. Pokud predikce selže, musí se celá mašinérie *CPU pipeline* vrátit o několik kroků zpátky a instrukce se musí provést v jednotlivých krocích řádně, bez použití prediktivních kroků. [^b]
 
 - Některé instrukce mohou některé kroky přeskočit v závislosti na výsledcích instrukcí, které proběhly před nimi.
 
