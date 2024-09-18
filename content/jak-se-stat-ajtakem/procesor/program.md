@@ -26,6 +26,6 @@ Běžný uživatel - a v mém pojetí i běžný ajťák - má ve svém počíta
 
 Což vede k otázce: pokud procesor čte instrukce jednu po druhé až do konce, jak je možné, že se operační po spuštění ihned nevypne?
 
-Tomu už také dokážeme porozumět. Instrukce operačního systému se totiž točí ve smyčce (viz. [JUMP instrukce]({{< ref "ridici-instrukce" >}})). Operační systém je naprogramovaný tak, že v této smyčce se točí do té doby, dokud mu to uživatel (nebo jiný mechanismus) neřekne. Jakmile uživatel takovou instrukci zadá, operační systém z této smyčky vystoupí a spustí se instrukce které zaúkolují základní desku, aby počítač vypla.
+Tomu už také dokážeme porozumět. Instrukce operačního systému se totiž točí ve smyčce (viz. [JUMP instrukce]({{< ref "ridici-instrukce" >}})). Operační systém je naprogramovaný tak, že v této smyčce se točí do té doby, dokud mu to uživatel (nebo jiný mechanismus) neřekne. Jakmile uživatel takovou instrukci zadá, operační systém z této smyčky vystoupí a spustí se instrukce které zaúkolují základní desku, aby počítač vypla (nebo restartovala, nebo dala do režimu spánku, atd.).
 
 [^b]: *Neexistuje žádná oficiální nebo formální definice toho, co v IT znamená software, aplikace nebo program. Pojmenovávání čehokoliv v IT je jedna z nejobtížnějších věcí v IT vůbec.*
