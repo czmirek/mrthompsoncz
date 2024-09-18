@@ -22,7 +22,7 @@ Software / program / aplikace --- ať už to nazveme jakkoliv [^b] --- z pohledu
 
 Běžný uživatel - a v mém pojetí i běžný ajťák - má ve svém počítači na disku připravený **operační systém**. Toto je z bitového pohledu aplikace, jako každá jiná - pouze seznam instrukcí, který se nahraje do RAM paměti a procesor tyto instrukce začne provádět, jednu po druhé, až do konce.
 
-## Pro operační systém nedoběhne až do konce?
+## Proč operační systém nedoběhne až do konce?
 
 Což vede k otázce: pokud procesor čte instrukce jednu po druhé až do konce, jak je možné, že se operační po spuštění ihned nevypne?
 
