@@ -10,4 +10,4 @@ Zároveň víte, že procesor je těmito instrukcemi schopný manipulovat data v
 
 {{< figure align=center width=200 src="../tok.png" title="Interakce procesoru a RAM paměti" >}}
 
-Z toho plyne celkem zjevná věc - **aplikace psaná na bitové vrstvě dokáže za běhu číst data o svých instrukcí a zároveň instrukce za běhu měnit**.
+Z toho plyne celkem zjevná věc - **aplikace psaná na bitové vrstvě dokáže za běhu číst data o svých instrukcích a zároveň instrukce za běhu měnit**.
