@@ -18,4 +18,19 @@ U moderních procesorů za běžného provozu je prakticky nemožné odhadnout, 
 
 ⚠️ **Důležité k zapamatování**: Běžný ajťák *většinou* nezná konkrétní instrukce natož aby věděl kolik cyklů která instrukce provede.
 
+## Moderní procesory jsou nedeterministické
+
+- **Deterministické** znamená, že za stejných podmínek se nějaký systém vždy chová stejně. 
+- **Nedeterministické** tedy znamená,že **za stejných podmínek se vždy chová jinak**.
+
+**Příklad:** 
+
+Řekněme, že máte přesně daný seznam instrukcí. Tyto instrukce reprezentují nějakou aplikaci, která vypočte nějakou matematickou úlohu. Tato vaše aplikace je **deterministická** to znamená, že daný seznam instrukcí vždy vede ke stejnému výsledku.
+
+Máte zároveň k dispozici laboratoř ve které zkoumáte, jak jednotlivé instrukce této aplikace putují nějakým moderním procesorem.
+
+Pokaždé, když instrukce do procesoru pustíte tak se matematická úloha vypočte vždy stejně. Vaše aplikace je deterministická takže je to očekávatelné chování.
+
+Když se ale ve své laboratoři pomocí nějakých přístrojů podíváte na **putování instrukcí v procesorové pipelině** tak při každém spuštění můžete vidět nějaký drobný rozdíl. To znamená, že chování moderních procesorů je **nedeterministické**
+
 [^b]: Běžný uživatel si toho nevšimne. K selhání CPU predikcí dochází ve vašem běžném počítači každou chvíli. Poměr úspěšných predikcí je však v běžném provozu vysoký a proto se výrobcům CPU vyplatí takové prediktivní systémy do CPU zabudovávat.

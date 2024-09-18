@@ -16,7 +16,7 @@ Tato adresa je obyčejné celé číslo. Můžeme si to pro zjednodušení před
 
 {{< figure align=center width=200 src="../adresa.png" title="Bitové adresy" >}}
 
-Pro vyjádření adresy v paměti se v praxi používá hexadecimální vyjádření např. `0x00000FF`.
+Pro vyjádření adresy v paměti se v praxi používá hexadecimální vyjádření. (příklad: `0x00000FF`).
 
 ## RAM = Random Access Memory
 

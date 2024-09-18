@@ -1,7 +1,7 @@
 ---
 draft: false
 title: BIOS a UEFI
-weight: 804
+weight: 773
 ---
 
 Základní desky u moderních počítačů obsahují přímo v sobě zabudovaný miniaturní a velmi primitivní "operační systém". Nedá se ale ještě mluvit o plnohodnotném operačním systému. Běžně v něm nelze instalovat a spouštět jiné programy.

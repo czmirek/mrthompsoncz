@@ -11,3 +11,5 @@ Procesor je hodně zjednodušeně elektronický čip, který umí přijmout něj
 Na obrázku níže je příklad instrukce, jejíž podoba je *010011*.  Toto není reálná instrukce, pouze příklad. Instrukcemi se budu podrobněji zabývat ještě jednou v pozdější kapitole.
 
 {{< figure align=center width=400 src="../instrukce-bity.png" title="Instrukce procesoru" >}}
+
+Instrukci v bitové podobě se také říká **strojový kód**.

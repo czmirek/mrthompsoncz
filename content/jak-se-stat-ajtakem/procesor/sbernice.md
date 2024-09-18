@@ -1,12 +1,12 @@
 ---
 draft: false
 title: Sběrnice
-weight: 801
+weight: 760
 ---
 
 Sběrnice (anglicky "*bus*") je bitový kanál sloužící pro komunikaci mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami (vstupy a výstupy) v počítači.
 
-{{< figure align=center width=700 src="../sbernice3.png" title="Sběrnice" >}}
+{{< figure align=center width=700 src="../sbernice4.png" title="Sběrnice" >}}
 
 ## 3 tradiční typy sběrnic
 
@@ -22,7 +22,7 @@ Uvádí se tyto 3 typy sběrnic.
 
 ### Spousta různých sběrnic
 
-V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům a fungují na různých rychlostech.
+V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům (tj. nemusí být striktně rozděleny na adresovou, datovou a řídící) a fungují na různých rychlostech.
 
 Nejznámější typy sběrnic:
 

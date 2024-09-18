@@ -9,7 +9,7 @@ Dalšími typy instrukcí jsou aritmeticko-logické instrukce.
 ## Aritmetické funkce 
 
 Mezi aritmetické (matematické) instrukce patří například:
-- sčítání (viz. [Sčítačka]({{< relref "../hradlova-vrstva/scitacka" >}})
+- sčítání (viz. [Sčítačka]({{< relref "../hradlova-vrstva/scitacka" >}}))
 - odčítání
 - násobení
 - dělení
