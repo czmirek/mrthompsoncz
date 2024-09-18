@@ -1,23 +1,42 @@
 ---
-draft: true
+draft: false
 title: Virtualizace
-weight: 715
+weight: 780
 ---
 
-Procesor může simulovat více procesorů (a komponent) najednou ale s každou přidanou simulací se sníží výkon všech ostatních „simulovaných“ procesorů. Tzn. pokud procesor simuluje 2 procesory tak každý z těchto „simulovaných“ procesorů, pokud bude zatížen na 100%, má ve výsledku maximálně 50% výkonu, než samotný procesor. Pokud simulujete 3 procesory tak každý má maximálně 33% výkonu atd. (pozn.: realita v moderních počítačích je složitější ale to není teď důležité).
+Virtualizace je **schopnost procesoru simulovat jiné procesory** a potažmo **celé počítače**. Na jednom procesoru jste díky virtualizaci schopni simulovat další počítače. 
 
-To se ale nevztahuje pouze na procesory. Procesor  dokáže simulovat jakékoliv jiné zařízení a proto může klidně simulovat celý počítač nebo několik počítačů najednou. Tomu se říká virtualizace.
+{{< figure align=center width=400 src="../virtualizace.png" title="Virtualizace" >}}
 
-Dnešní procesory jsou tak výkonné, že na jednom moderním procesoru hravě zvládnete provozovat až desítku (byť slabších) dalších počítačů.
+Běžný ajťák by však měl chápat rozdíl mezi **softwarovou virtualizací** a **hardwarovou virtualizací** už na úrovni procesoru.
 
-{{< figure align=center width=500 src="../virtualizace.png" title="Virtualizace" >}}
+## Softwarová virtualizace
 
-<div class="note1">
+Softwarová virtualizace je logická vlastnost každého [univerzálního turingova stroje]({{< relref "turinguv-stroj" >}}). 
 
-Váš běžný fyzický počítač dokáže simulovat nejspíš aspoň dva další počítače. Celkově tak můžete mít 3 počítače: 1 fyzický a 2 virtuální. Moderní procesory toto hravě zvládnou obsloužit. V IT je to (z mnoha důvodů) často využívaný mechanismus. Ještě se k tomuto tématu později vrátíme.
+Univerzální turingův stroj dokáže simulovat jakýkoliv jiný turingův stroj i jakýkoliv jiný univerzální turingův stroj --- tzn. procesor dokáže simulovat jiný procesor. 
 
-</div>
+Jak by to vypadalo v praxi? Jednoduše musíte mít k dispozici **program** tedy **bitové instrukce**, kterými procesor **simulujete**. Váš program je simulací procesoru, RAM paměti a klidně i jakýchkoliv jiných komponent. Tento váš nasimulovaný procesor má svoji vlastní instrukční sadu a svoji vlastní logiku chování.
 
-## Shrnutí
+Jsou to pořád všechno jen putující bity. 
 
-- Virtualizace je schopnost procesoru simulovat nejenom další procesory ale klidně i celé počítače s vlastními vstupy i výstupy.
+### Nevýhody softwarové virtualizace
+
+Pokud chcete na reálném počítači simulovat jiný moderní počítač tak musíte simulovat úplně vše, co k tomu patří: chipset základní desky, procesor, RAM paměť, sběrnice, nějaké komponenty a podobně. 
+
+Taková simulace je i pro moderní procesory dost náročná. Sice teď máte dva počítače ale jeden je příšerně pomalý a druhý je na tom ještě hůř. 
+
+## Hardwarová virtualizace
+
+Virtualizace je v IT průmyslu tak často využívaný mechanismus, že se pro tento účel začaly přizpůsobovat i moderní procesory a instrukční sady.
+
+V rámci instrukce vstupující do procesoru jsou některé bity určené pro identifikaci **virtuálního procesoru**.
+
+**Příklad:** 
+
+- V normálním provozu vypadá instrukce pro procesor následovně: <span style="color:red">1101</span><span style="color:orange">100110101011</span><span style="color:green">00000000</span> --- červená je kód instrukce, oranžově jsou data, zeleně jsou nevyužité bity instrukce
+- Ve virtualizovaném tatáž instrukce vypadá následovně procesor následovně: <span style="color:red">1101</span><span style="color:orange">100110101011</span><span style="color:green">000000</span><span style="color:blue">01</span> --- modře je identifikátor virtuálního stroje. 00 je normální provoz, 01 až 11 jsou 3 virtuální stroje.
+
+Tímto způsobem je výkonnost virtuálních počítačů podstatně vyšší --- prostě se jenom dělí o instrukce s reálným počítačem. Zatímco u softwarové virtualizace musíte napsat aplikaci, která simuluje procesor kompletně se vším všudy, u hardwarové virtualizace jsou instrukce virtuálního procesoru obsluhovány reálným procesorem.
+
+Toto je možné pouze tehdy, pokud procesor HW virtualizaci podporuje, což v dnešní době umí téměř všechny.
