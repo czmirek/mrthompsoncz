@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Stav procesoru
-weight: 707
+weight: 70070
 ---
 
 Ihned po zapnutí počítače zůstává procesor vypnutý [^o]. Procesor je z historických důvodů [^h] postavený tak, že při svém zapnutí okamžitě příjmá instrukce a jakmile je všechny spustí až do konce, tak se zase vypne.

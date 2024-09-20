@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Operační systém
 weight: 2010
 ---

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Řídící instrukce
-weight: 732
+weight: 70320
 ---
 
 Řídící instrukce je schopna **změnit tok instrukcí**.

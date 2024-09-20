@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Přesunové instrukce
-weight: 730
+weight: 70300
 ---
 
 Co všechno vlastně lze pomocí instrukcí dělat?

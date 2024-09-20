@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Aritmeticko-logické instrukce
-weight: 731
+weight: 70310
 ---
 
 Dalšími typy instrukcí jsou aritmeticko-logické instrukce.

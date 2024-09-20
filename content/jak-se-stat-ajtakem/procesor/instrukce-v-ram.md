@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Schopnost změny instrukce
-weight: 775
+weight: 70750
 ---
 
 Z předchozích dílů už víte, že procesor přijímá instrukce z RAM paměti.

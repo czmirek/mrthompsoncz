@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Adresovatelnost
-weight: 712
+weight: 70120
 ---
 
 Představme si, že během provozu počítače jsou nějaké bity uloženy v RAM paměti a v různých perzistentních komponentách.

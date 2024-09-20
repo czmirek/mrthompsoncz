@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Celá záporná čísla
-weight: 1105
+weight: 80050
 ---
 
 Řekněme, že máme 1 bajt. Už víte, že 1 bajt = 8 bitů a také, že 8 bitů je číslo v rozsahu 2<sup>8</sup> nebo od 0 do 255. Od nuly se počítá takto.

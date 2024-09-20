@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Šířka instrukce
-weight: 702
+weight: 70020
 ---
 
 **Šířka instrukce** je **počet bitů v instrukci**. Každý procesor je vyrobený na danou šířku instrukce. U moderních počítačů je šířka instrukce 64 bitů. [^s]

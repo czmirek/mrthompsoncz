@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Hardwarové složitosti které lze ignorovat
-weight: 790
+weight: 70900
 ---
 
 Každá komponenta v počítači běží pod určitou rychlostí. Architektura moderního počítače obsahuje obrovské množství různých pomocných obvodů a čipů, nebo "*bufferů*" které slouží právě k dočasnému uložení dat mezi komponentami, které pracují na různých rychlostech.

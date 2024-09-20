@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Zjednodušený bitový model
-weight: 799
+weight: 70990
 ---
 
 Tato kapitola je shrnutí, čemu je důležité na bitové vrstvě rozumět.

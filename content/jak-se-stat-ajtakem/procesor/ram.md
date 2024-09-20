@@ -1,7 +1,7 @@
 ---
 draft: false
 title: RAM paměť
-weight: 770
+weight: 70700
 ---
 
 RAM paměť je extrémně rychlá [^a] [^b], dokáže fungovat na vysokých frekvencích avšak za cenu toho, že po odpojení z elektřiny - tedy po vypnutí počítače - jakékoliv informace z RAM paměti zmizí (viz. [Flip-flop]({{< relref "../hradlova-vrstva/flipflop" >}} "Flip-Flop")).

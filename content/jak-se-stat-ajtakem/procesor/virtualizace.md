@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Virtualizace
-weight: 780
+weight: 70800
 ---
 
 Virtualizace je **schopnost procesoru simulovat jiné procesory** a potažmo **celé počítače**. Na jednom procesoru jste díky virtualizaci schopni simulovat další počítače. 

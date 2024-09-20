@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Instrukční sada
-weight: 708
+weight: 70080
 ---
 
 Instrukční sada je **předepsaná norma** podle které je procesor vyrobený a s tím souvisí i jaké instrukce podporuje a jak se tyto instrukce chovají.

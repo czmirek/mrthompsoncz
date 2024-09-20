@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: OS cyklus
 weight: 2060
 ---

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Variabilní délka instrukce
-weight: 710
+weight: 70100
 ---
 
 Moderní procesory nefungují na fixní délce instrukcí ale na **variabilní délce instrukce**. Instrukční sady `x86` a potažmo i `x86_64` podporují **proměnlivou délku instrukce** tzn. instrukce může mít délku mezi nějakým minimálním a maximálním počtem bitů. 

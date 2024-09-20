@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Sběrnice
-weight: 760
+weight: 70600
 ---
 
 Sběrnice (anglicky "*bus*") je bitový kanál sloužící pro komunikaci mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami (vstupy a výstupy) v počítači.

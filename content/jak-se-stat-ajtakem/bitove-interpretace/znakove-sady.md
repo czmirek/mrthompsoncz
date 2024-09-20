@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Znakové sady
-weight: 1111
+weight: 80110
 ---
 
 **Znaková sada** je nějaká bitová interpretace normálních písmen a znaků.

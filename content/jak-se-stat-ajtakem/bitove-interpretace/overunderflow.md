@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Přetečení a podtečení
-weight: 1106
+weight: 80060
 ---
 
 ## Co se stane, když výsledek matematické operace je větší, než rozsah výsledného čísla?

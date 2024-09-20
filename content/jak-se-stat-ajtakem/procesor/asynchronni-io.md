@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Asynchronní I/O instrukce
-weight: 772
+weight: 70720
 ---
 
 Asynchronní I/O instrukce fungují oproti synchronním instrukcím tak, že procesor těmito instrukcemi instruuje chipset základní desky aby:

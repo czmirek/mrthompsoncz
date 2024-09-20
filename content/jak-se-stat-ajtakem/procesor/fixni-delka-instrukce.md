@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Fixní délka instrukce
-weight: 709
+weight: 70090
 ---
 
 Předpokládejme, že máme nějaký starší procesor s **fixní délkou instrukce** 16 bitů.

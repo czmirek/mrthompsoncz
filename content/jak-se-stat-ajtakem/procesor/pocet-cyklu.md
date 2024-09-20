@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Počet cyklů
-weight: 705
+weight: 70050
 ---
 
 U moderních procesorů za běžného provozu je prakticky nemožné odhadnout, kolik cyklů jaká instrukce zabere z následujících důvodů.

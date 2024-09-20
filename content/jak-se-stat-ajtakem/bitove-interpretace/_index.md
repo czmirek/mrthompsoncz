@@ -1,6 +1,6 @@
 ---
 draft: false
 title: Bitové interpretace
-weight: 800
+weight: 80000
 ---
 

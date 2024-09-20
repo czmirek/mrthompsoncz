@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Virtuální pamět
 weight: 2020
 ---

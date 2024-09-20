@@ -1,10 +1,10 @@
 ---
 draft: false
 title: Univerzální turingův stroj
-weight: 775
+weight: 70750
 ---
 
-**Turingův stroj** potažmo **universální turingův stroj** [^t] jsou matematické modely počítačů.
+**Turingův stroj** potažmo **universální turingův stroj** [^t] [^p] jsou matematické modely počítačů.
 
 ## Turingův stroj
 
@@ -14,7 +14,7 @@ Pokud něco dokáže fungovat jako **turingův stroj**, tak to musí umět:
 - vymazat informaci
 - změnit informaci
 
-Tento model je totéž jako moderná počítač, který má na bitové vrstvě nainstalovaný jeden jediný program, který dělá jedno a totéž, podobně jako se používaly počítače před dekádami.
+Takový model odpovídá nějakému stroji, který je vyrobený aby dělal jenom jednu nebo pár konkrétních věcí. Je to totéž jako počítač s nějakým předinstalovaným programem který nejde odinstalovat nebo změnit.
 
 ## Universální turingův stroj
 

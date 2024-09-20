@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Bajty
-weight: 1102
+weight: 80020
 ---
 
 Bajty, kilobajty, gigabajty, atd. jsou měrnou jednotkou bitů stejně jako centimetry, metry a kilometry jsou měrnou jednotkou vzdálenosti.

@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Software a OS
 weight: 2050
 ---

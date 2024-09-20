@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Výstupní bity
-weight: 706
+weight: 70060
 ---
 
 "Výstupní bity" jsou instrukce prováděné procesorem na zbytku systému v počítači. Toto jsou konkrétní elektronické signály, kterými procesor může úkolovat všechny ostatní komponenty v počítači okolo sebe, samozřejmě **na základě vstupních instrukcí**.

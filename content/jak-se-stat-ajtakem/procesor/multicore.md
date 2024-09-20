@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Multijádrové procesory
-weight: 750
+weight: 70500
 ---
 
 Jak víte z předchozích dílů, procesor zpracovává instrukce v sérii za sebou, jednu po druhé. Přestože moderní procesory obsahují více krokové *pipeliny* které jsou schopné v každém kroku zpracovávat jednu instrukci tak není možné, aby v rámci jednoho kroku pipeliny bylo zpracováváno více, než jedna instrukce.

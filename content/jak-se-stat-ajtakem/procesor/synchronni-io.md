@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Synchronní I/O instrukce
-weight: 771
+weight: 70710
 ---
 
 U běžných počítačů můžete předpokládat, že procesor dokáže komunikovat s každou komponentou - tzn. s každým vstupem a výstupem - napřímo.

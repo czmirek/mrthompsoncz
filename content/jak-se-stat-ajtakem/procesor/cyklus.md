@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Frekvence a cyklus procesoru
-weight: 703
+weight: 70030
 ---
 
 Moderní procesory mají frekvence mezi 2 až 5 GHz což je 2 až 5 **miliardy cyklů za vteřinu**. 

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Instrukce procesoru
-weight: 701
+weight: 70010
 ---
 
 Procesor je hodně zjednodušeně elektronický čip, který umí přijmout nějakou kombinaci bitů na vstupu a na základě této kombinace vyprodukovat jinou kombinaci bitů na výstupu.

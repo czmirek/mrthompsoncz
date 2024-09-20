@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Plovoucí desetinná čárka
-weight: 1110
+weight: 80100
 ---
 
 Plovoucí desetinná čárka je další způsob, kterým lze desetinná čísla reprezentovat. Už z názvu je jasné, že rozdělení na celou a desetinnou část není fixní ale plovoucí nebo proměnlivé.
