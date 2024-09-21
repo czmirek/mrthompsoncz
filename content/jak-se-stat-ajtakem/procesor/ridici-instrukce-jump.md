@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Řídící instrukce
+title: 'Řídící instrukce'
 weight: 70320
 ---
 
