@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Operační systémy (OS vrstva)
-weight: 90000
+title: OS vrstva
+weight: 100000
 ---
 

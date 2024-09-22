@@ -4,7 +4,7 @@ title: Univerzální turingův stroj
 weight: 70750
 ---
 
-**Turingův stroj** potažmo **universální turingův stroj** [^t] [^p] jsou matematické modely počítačů.
+**Turingův stroj** potažmo **universální turingův stroj** [^t] [^p] jsou modely popisující počítač z matematického pohledu.
 
 ## Turingův stroj
 
@@ -22,7 +22,7 @@ Pokud něco dokáže fungovat jako **univerzální turingův stroj** tak to mus�
 - obdržet instrukci (zapamatovat, přečíst, vymazat, změnit informaci)
 - změnit svoji vlastní instrukci
 
-Moderní počítače splňují všechna tato kritéria. 
+**Moderní počítače splňují všechna tato kritéria.** 
 - Zapamatování informací se děje v RAM paměti. 
 - Čtení, mazání a změna informací se děje skrz instrukce
 - Instrukce se nachází v RAM paměti

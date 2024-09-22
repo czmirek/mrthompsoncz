@@ -8,7 +8,7 @@ Základní desky u moderních počítačů obsahují přímo v sobě zabudovaný
 
 Tento systém slouží pro diagnostiku a konfiguraci počítače a jednotlivých komponent na úplně základní úrovni která nemusí být možná v rámci plnohodnotného operačního systému.
 
-Pro běžného ajťáka je důležité vědět, že tento systém se běžně stará o nalezení instrukcí, které má procesor spustit. Tyto instrukce běžně představuje plnohodnotný operační systém.
+Pro běžného ajťáka je důležité vědět, že tento systém se běžně stará o nalezení instrukcí, které má procesor spustit. Ze zapojených dostupných komponent (zpravidla z persistentního uložiště jako SSD, HDD, Flash) se snaží najít tzv. **boot record** což jsou instrukce identifikující začátek nějakého programu.
 
 Existují dva standardy těchto systémů: BIOS a UEFI
 
@@ -27,8 +27,8 @@ BIOS poznáte tak, že je většinou graficky velmi primitivní. Pouze text, rá
 
 ## UEFI
 
-UEFI je novější standard ve všech moderních počítačích. UEFI je program stejně jako BIOS avšak je na procesoru nezávislý. Běží na samostatném čipu nebo na velmi jednoduchém "mini-procesoru" který je pro UEFI zabudovaný přímo v základní desce. V tomto mini-procesoru je i flash paměť, ve které je UEFI program uložený.
+UEFI je novější standard ve všech moderních počítačích. UEFI je program stejně jako BIOS avšak je na procesoru nezávislý. Běží na samostatném, velmi jednoduchém "mini-procesoru" který je pro UEFI zabudovaný přímo v základní desce. V tomto mini-procesoru je i flash paměť, ve které je UEFI program předpřipravený.
 
-UEFI poznáte tak, že je často graficky mnohem bohatší a můžete zde pohybovat i s kurzorem myši.
+UEFI poznáte tak, že je často graficky mnohem bohatší a oproti BIOSu lze můžete pohybovat i kurzorem myši.
 
 {{< figure align=center width=500 src="../uefi.gif" title="UEFI" >}}

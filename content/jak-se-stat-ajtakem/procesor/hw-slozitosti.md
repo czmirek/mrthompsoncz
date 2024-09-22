@@ -14,7 +14,7 @@ Každý výrobce však k tomu může mít jiný přístup.
 
 - Každá základní deska může obsahovat úplně jiné uspořádání čipů/bufferů
 - Každá komponenta může obsahovat úplně jiné uspořádání čipů/bufferů
-- Každý procesor může obsahovat úplně jiné uspořádání cache, registrů a odlišné chování pipeline i 
+- Každý procesor může obsahovat úplně jiné uspořádání cache, registrů a odlišné chování pipeline.
 
 Realita, jak a kudy tečou v moderních počítačích konkrétní bity, by se lépe dala znázornit následujícím obrázkem.
 

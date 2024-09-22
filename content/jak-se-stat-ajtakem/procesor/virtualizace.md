@@ -16,9 +16,7 @@ Softwarová virtualizace je logická vlastnost každého [univerzálního turing
 
 Univerzální turingův stroj dokáže simulovat jakýkoliv jiný turingův stroj i jakýkoliv jiný univerzální turingův stroj --- tzn. procesor dokáže simulovat jiný procesor. 
 
-Jak by to vypadalo v praxi? Jednoduše musíte mít k dispozici **program** tedy **bitové instrukce**, kterými procesor **simulujete**. Váš program je simulací procesoru, RAM paměti a klidně i jakýchkoliv jiných komponent. Tento váš nasimulovaný procesor má svoji vlastní instrukční sadu a svoji vlastní logiku chování.
-
-Jsou to pořád všechno jen putující bity. 
+Jak by to vypadalo v praxi? Jednoduše musíte mít k dispozici **program** tedy **bitové instrukce**, kterými jiný procesor **simulujete**. Váš program je simulací procesoru, RAM paměti a klidně i jakýchkoliv jiných komponent. Tento váš nasimulovaný procesor má svoji vlastní instrukční sadu a svoji vlastní logiku chování.
 
 ### Nevýhody softwarové virtualizace
 
