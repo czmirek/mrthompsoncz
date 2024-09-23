@@ -22,6 +22,14 @@ Každá tato distribuce má za sebou svoji vlastní skupinu lidí nebo společno
 
 Linuxovou distribucí je mimochodem i **Android** [^a] o kterém budu mluvit v následujících dílech.
 
+## Pohled do historie: Unix
+
+Důležitý pohled do historie: Linux je inspirován OS zvaným **Unix**. Tento operační systém v nějakých distribucích (např. FreeBSD) existuje dodnes, já jej nepovažuji za běžný OS, se kterým se běžný ajťák denně setkává. 
+
+Z Unixu byl postaven i **macOS**. 
+
+Proto je možné při práci s Linuxovými distribucemi a macOS narazit na určité podobnosti - obojí totiž vychází z Unixu.
+
 [^k]: *[StackOverflow - Is it possible to install the Linux kernel alone?](https://unix.stackexchange.com/questions/17122/is-it-possible-to-install-the-linux-kernel-alone)*
 
 [^a]: *Přesto se však Android za samostatnou distribuci nepovažuje. Google má Androida pevně pod kontrolou, vzhledem k zaměření na telefony oproti tradičním distribucím funguje hodně odlišně a není moc běžné, že byste Androida někam instalovali.*

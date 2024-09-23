@@ -10,5 +10,6 @@ Běžné operační systémy lze seskupit následovně:
 
 - **Windows**
 - **Linuxové distribuce**
-- **Android**
 - **macOS**
+- **Android**
+- **iOS**
