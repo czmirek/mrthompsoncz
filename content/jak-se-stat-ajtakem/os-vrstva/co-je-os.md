@@ -30,11 +30,11 @@ Základní deska může fungovat různě:
 
 OS toto všechno znají a jsou na to připravené.
 
-### 3. Umožňují instalovat a spouštět programy
+### 3. Umožňují instalovat a spouštět programy paralelně
 
 S moderním počítačem se nemusí pracovat stejně jako na konci 60., 70. let 20. století. Nemusíte se zabývat tím, že na procesorovém jádře můžete reálně rozeběhnout [pouze jeden program]({{< relref "../procesor/jediny-program"  >}}).
 
-Díky OS můžete na počítač nainstalovat a spustit libovolné množství programů. [^m]
+Díky OS můžete na počítač nainstalovat a spustit libovolné množství programů, které mohou běžet paralelně tzn. několik najednou ve stejný čas. [^m]
 
 ### 4. Mají nad zařízením plnou kontrolu
 
