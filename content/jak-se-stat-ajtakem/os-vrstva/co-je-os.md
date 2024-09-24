@@ -36,7 +36,11 @@ S moderním počítačem se nemusí pracovat stejně jako na konci 60., 70. let 
 
 Díky OS můžete na počítač nainstalovat a spustit libovolné množství programů. [^m]
 
-### 4. Vytváří nad počítačem úplně novou vrstvu
+### 4. Mají nad zařízením plnou kontrolu
+
+OS jsou programy, které mají nad zařízením, kde jsou nainstalovány, plnou kontrolu.
+
+### 5. Vytváří nad počítačem úplně novou vrstvu
 
 Tento bod není důležitý pro běžného *uživatele* ale je naprosto klíčový pro **běžného ajťáka** který musí OS vrstvě velmi dobře rozumět.
 

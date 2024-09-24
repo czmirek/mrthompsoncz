@@ -1,0 +1,13 @@
+Procesor - kernel, user
+Aplikace, procesy, vlákna
+Podprocesy --- konec procesu ukonci/neukonci/zabije childy
+Multithreading
+Multitasking
+Context switching
+
+Virtuální paměť
+
+Idle thread
+Souborový systém
+
+Terminál / konzole - stdio: stdin, stdout, stderr
