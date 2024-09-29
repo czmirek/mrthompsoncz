@@ -14,7 +14,7 @@ V těchto kapelách hrají jenom vojáci kteří vás poslouchají na slovo, pro
 
 Můžete jakoukoliv kapelu kdykoliv přerušit a vyměnit za jinou kapelu i uprostřed písničky. V ten moment se však musí kapela na pódiu sebrat a vypadnout a uvolnit místo jiné kapele, která tam musí naběhnout, připravit si nástroje a pak začít hrát.
 
-Takový koncert by byl pravděpodobně za moc nestál ale o to tady nejde.
+Takový koncert by pravděpodobně za moc nestál ale o to tady nejde.
 
 ## Multithreading
 
