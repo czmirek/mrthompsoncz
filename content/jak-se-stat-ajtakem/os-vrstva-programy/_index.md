@@ -1,6 +1,6 @@
 ---
 draft: false
-title: OS vrstva do detailu
+title: OS vrstva - programy
 weight: 200000
 ---
 
