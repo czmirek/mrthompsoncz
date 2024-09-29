@@ -43,7 +43,8 @@ Scheduler toto balancování rozhoduje:
 - podle počtu jader na procesoru
 - podle aktuálního počtu běžících programů
 - podle aktuálních i historických statistik které si o běžících programech udržuje
-- podle napřímo nastavených uživatelských priorit - přestože toto OS umožňují tak manipulace s prioritami není běžná jak pro běžné uživatele tak ani pro běžné ajťáky.
+- podle uživatelem nastavených uživatelských priorit [^4]
+- podle uživatelem nastavených jader [^5]
 - atd.
 
 ## Context switch
@@ -53,3 +54,5 @@ Context switch, jak už bylo řečeno, je proces přepnutí mezi přidělením �
 [^1]: *V přirovnání výše to byl šílený velitel*  
 [^2]: *V přirovnání výše to je proces výměny jedné kapely za druhou*.
 [^3]: *1 mikrosekunda = 1 miliontina sekundy*
+[^4]: *Přestože moderní OS umožňují uživatelům přidělovat běžícím programům jakési priority tak to není běžná praxe jak mezi běžnými uživateli tak i mezi běžnými ajťáky.*
+[^5]: *OS umožňují uživatelům určit, na jakém procesorovém jádře mají jednotlivé programy běžet. Stejně jako výše, není to běžná praxe.*
