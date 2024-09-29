@@ -22,12 +22,7 @@ Jakmile se program spustí tak se pro něj vytvoří **proces**. Proces je však
 
 Při vytvoření nového procesu z nějakého programu OS najde jeho **entry point** což je jinými slovy místo, kde pro daný program začínají instrukce, které mohou začít téct pro procesor.
 
-Tento entry point je standard **odlišný mezi různými OS**. Z tohoto důvodu není možné aplikaci na Windows
+Tento entry point je standard který je **odlišný mezi různými OS**. Z tohoto důvodu není možné aplikaci na Windows spustit např. na macOS a naopak.
 
-
-
-
-
-
-OS v programu najde **entry point** na kterém spustí **vlákno**.
-
+## Vlákno
+...
