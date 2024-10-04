@@ -10,10 +10,5 @@ Po nalezení entry pointu se pro program vytvoří nový **proces**. Proces je p
 
 Proces však není to, co běží. Je to pouze záznam v paměti OS. To, co reálně běží je **thread**.
 
-## Stav procesu
+## Ukončení procesu
 
-Procesy mají stavy, jejich názvy a význam se však mezi jednotlivými OS liší. Jejich význam je však podobný:
-
-- **běží** = proces normálně běží
-- **pozastavený** = proces je zastavený nebo pozastavený
-- **

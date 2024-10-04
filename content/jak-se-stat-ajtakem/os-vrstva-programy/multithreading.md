@@ -20,11 +20,11 @@ Takový koncert by pravděpodobně za moc nestál ale o to tady nejde.
 
 Multithreading je přesně tento proces, který umí všechny běžné OS.
 
-**Čas procesoru je každému programu přidělován**. 
+**Čas procesoru je každému programu přidělován**.  
 
 Procesu který organizuje kdy který program bude běžet se v OS říká **scheduler** [^1]. Operace přepnutí mezi přidělením času z jednoho na druhý program se říká **context switch** [^2].
 
-Toto znamaná, že **souběžný běh programů je vlastně jen na oko**. Procesory pořád zpracovávají instrukce za sebou.
+Toto znamená, že **souběžný běh programů je vlastně jen na oko**. Procesory pořád zpracovávají instrukce za sebou.
 
 Moderní procesory jsou však tak extrémně rychlé, že to v praxi vypadá, jako by umožňovaly souběžný běh více programů najednou.
 
