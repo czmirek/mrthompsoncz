@@ -1,3 +1,5 @@
+Režimy CPU - OS vrstva která blokuje procesům přístup ke komponentám --- procesy se musí pro přístup dotázat OS.
+
 Procesor - kernel, user
 Aplikace, procesy, vlákna
 Podprocesy --- konec procesu ukonci/neukonci/zabije childy
