@@ -4,7 +4,9 @@ title: Režimy CPU
 weight: 201200
 ---
 
-Před další kapitolou o procesech je nutné se na chvíli vrátit k procesorům, konkrétně k **procesorovým režimům** (anglicky *CPU mode*)
+Před další kapitolou o procesech je nutné se na chvíli vrátit k procesorům, konkrétně k **procesorovým režimům** (anglicky *CPU mode*). 
+
+CPU režim si lze představit jako jakýsi stav celého procesoru. Tímto režimem se určuje, které instrukce lze spouštět a které ne.
 
 Moderní procesory podporují 2 základní režimy [^a] zvané:
 - **privilegovaný režim**
@@ -20,7 +22,7 @@ Speciální instrukcí je možné přepnout procesor do uživatelského režimu.
 
 {{< figure align=center width=500 src="../uzivatelsky-rezim.png" title="Uživatelský režim" >}}
 
-⚠️ **Důležité k zapamatování:** V uživatelském režimu běží **všechny** procesy spuštěné v rámci OS [^s]. Pokud se jakýkoliv proces běžící v OS pokusí o přímou komunikaci s jakoukoliv komponentou tak to CPU zablokuje a ještě to napráská OS které to vyhodnotí jako chybu procesu. 
+⚠️ **Důležité k zapamatování:** V uživatelském režimu běží **všechny** procesy spuštěné v rámci OS [^s] .  Jakýkoliv pokus o přímou komunikaci s jakoukoliv komponentou CPU zablokuje a oznámí to OS. Ve výsledku to OS interpretuje jako chybu procesu a ukončí jej.
 
 [^a]: *V rámci tohoto návodu se budeme mnohem později ještě bavit o třetím "virtualizačním" režimu*
 [^s]: *Situace se trochu komplikuje jakmile se začneme bavit o ovladačích neboli "driverech" ale to teď není důležité.*
