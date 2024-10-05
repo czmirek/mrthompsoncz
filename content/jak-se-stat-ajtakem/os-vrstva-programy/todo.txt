@@ -1,4 +1,9 @@
-Režimy CPU - OS vrstva která blokuje procesům přístup ke komponentám --- procesy se musí pro přístup dotázat OS.
+Programy
+-- Režimy CPU - OS vrstva která blokuje procesům přístup ke komponentám --- procesy se musí pro přístup dotázat OS.
+-- libovolné množství vláken
+
+
+
 
 Procesor - kernel, user
 Aplikace, procesy, vlákna
