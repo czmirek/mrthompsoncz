@@ -8,7 +8,4 @@ Po nalezení entry pointu se pro program vytvoří nový **proces**. Proces je p
 
 {{< figure align=center src="../program-proces.png" width=300 title="Program a proces" >}}
 
-Proces však není to, co běží. Je to pouze záznam v paměti OS. To, co reálně běží je **thread**.
-
-## Ukončení procesu
-
+Technicky správné označení je "proces" ale běžným označením je i "běžící program". **Proces ale reálně není to, co běží.** Proces je pouze záznam v paměti OS. To, co reálně běží je **vlákno** neboli **thread**.
