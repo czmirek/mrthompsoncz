@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Univerzální turingův stroj
 weight: 70750
 ---

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Thread
+title: Vlákno
 weight: 200700
 ---
 
