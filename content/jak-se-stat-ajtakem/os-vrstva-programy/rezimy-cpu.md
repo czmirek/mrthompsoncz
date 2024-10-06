@@ -22,7 +22,4 @@ Speciální instrukcí je možné přepnout procesor do uživatelského režimu.
 
 {{< figure align=center width=500 src="../uzivatelsky-rezim.png" title="Uživatelský režim" >}}
 
-⚠️ **Důležité k zapamatování:** V uživatelském režimu běží **všechny** procesy spuštěné v rámci OS [^s] .  Jakýkoliv pokus o přímou komunikaci s jakoukoliv komponentou CPU zablokuje a oznámí to OS. Ve výsledku to OS interpretuje jako chybu procesu a ukončí jej.
-
 [^a]: *V rámci tohoto návodu se budeme mnohem později ještě bavit o třetím "virtualizačním" režimu*
-[^s]: *Situace se trochu komplikuje jakmile se začneme bavit o ovladačích neboli "driverech" ale to teď není důležité.*
