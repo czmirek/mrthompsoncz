@@ -19,7 +19,9 @@ Nicméně z pohledu běžného ajťáka je nám docela jedno, o jaký typ fyzick
 
 ## Co není běžný počítač
 
-Běžný počítač není zařízení, která jsou součástí jiných větších "neběžných" celků a nejsou určeny pro *běžný software*. Mezi taková zařízení patří například:
+Běžný počítač není zařízení, která jsou součástí jiných větších "neběžných" celků a nejsou určeny pro *běžný software*. Často jde o specializované "počítače" které umí jen hrstku věcí. 
+
+Mezi taková zařízení patří například:
 
 - **řídící jednotky**
   - k autům, k robotům, k letadlům, k raketám země-vzduch...

@@ -8,7 +8,7 @@ Binární sčítačka je sestavení hradel takovým způsobem, že určitá skup
 
 Je mnoho způsobů, jak lze sčítačku z hradel postavit. Na následujícím obrázku je nejjednodušší sčítačka, která sečte 2 bity.
 
-*(Pozn: O dvojkové/desítkové soustavě se dočtete v kapitole o bitových interpretacích.)* 
+*(Pozn: O dvojkové/desítkové soustavě se dočtete později v kapitole o bitových interpretacích.)* 
 
 {{< figure align=center width=500 src="../img/scitacka_2bit.gif" title="2 bitová sčítačka" >}}
 

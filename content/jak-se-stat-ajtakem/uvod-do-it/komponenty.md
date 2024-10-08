@@ -37,4 +37,4 @@ Komponenty moderních počítačů jsou dodnes stavěny podle Von Neumannovy arc
 
 {{< figure align=center width=400 src="../vonneumann.png" title="Von Neumannova architektura" >}}
 
-Základní deska není zakreslena. Přestože se moderní počítače bez základní desky neobejdou, není to až tak zajímavá komponenta a později v tomto návodu pochopíte proč.
+Základní deska není zakreslena. Přestože se moderní počítače bez základní desky neobejdou, není to až zas tak zajímavá komponenta.

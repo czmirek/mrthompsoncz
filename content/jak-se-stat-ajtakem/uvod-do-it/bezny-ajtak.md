@@ -6,7 +6,7 @@ weight: 140
 
 Neexistuje žádná přesná definice, kdo ještě je a kdo není "ajťák".
 
-Tento návod je psaný pro každého kdo se chce stát **běžným ajťákem** tzn. člověkem, který znalosti z tohoto webu využije na pracovním trhu.
+Tento návod je psaný pro každého kdo se chce stát **běžným ajťákem** tzn. člověkem, který znalosti z tohoto webu s vysokou pravděpodobností využije na pracovním trhu.
 
 Drtivá většína software je psaná na úrovni operačního systému a pracovní trh poptává hlavně lidi, kteří dokáží takový software vytvořit.
 

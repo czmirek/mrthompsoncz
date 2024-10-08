@@ -23,7 +23,7 @@ Moderní a běžné instrukčnísady jsou:
 
 ## Proč je tak málo instrukčních sad?
 
-- **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly. Instrukční sada `x86` vznikla v roce 1978. [^z]
+- **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly a vylepšovaly. Instrukční sada `x86` vznikla v roce 1978 a používá se dodnes. [^z]
 
 - **Zpětná kompatibilita**: Instrukční sada `x86` je kritizována za spoustu historických přešlapů se kterými už ale nelze nic dělat. Proč? Protože celý IT svět je víceméně na `x86` postavený.
 

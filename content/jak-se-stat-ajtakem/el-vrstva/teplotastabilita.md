@@ -30,4 +30,4 @@ Pokud větráček odstraníte, moderní procesor bude fungovat i bez chlazení a
 
 Overclocking je praxe, kdy se z procesorů "vymačkává" další výkon. Do procesoru se jednoduše posílá vyšší napětí, procesor se pak víc přehřívá a kvalitní chlazení je nutnost.
 
-Overclocking však **není** normální praxe pro běžné ajťáky ale spíš pro hráče her, proto se na něj víc soustředit nebudu.
+Overclocking však **není** normální praxe pro běžné ajťáky ale spíš pro hráče her a různé hračičky, proto se na něj víc soustředit nebudu.

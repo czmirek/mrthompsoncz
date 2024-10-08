@@ -25,19 +25,19 @@ Pro takový počítač musíme mít zdroj s výkonem minimálně 65 W.
 
 Základní deska je integrovaný obvod do kterého jsou zasazené všechny komponenty a je v nějaké podobě přítomná ve všech běžných zařízeních: v mobilních telefonech, tabletech, noteboocích, stolních počítačech i serverech.
 
-Základní deska všechny komponenty spojuje a není bez ní možné, aby běžný počítač fungoval. Pro běžného ajťáka to však není až zas tak zajímavá komponenta kterou je nutné do detailu studovat.
+Základní deska všechny komponenty spojuje a není bez ní možné, aby běžný počítač fungoval.
 
 ## Procesor
 
-Procesor je srdcem a mozkem celého počítače a víceméně definuje, že nějaké zařízení může fungovat jako počítač. 
+❗Procesor je srdcem a mozkem celého počítače a víceméně definuje, že nějaké zařízení může fungovat jako počítač. 
 
-Běžný počítač bez procesoru není počítač a nemůže jako počítač fungovat. Toto platí pro všechny běžné počítače:
+❗Běžný počítač bez procesoru není počítač a nemůže jako počítač fungovat. Toto platí pro všechny běžné počítače:
 
 - mobilní telefony/tablety
 - stolní počítače/notebooky
 - servery
 
-**Porozumění, jak funguje procesor, je pro běžného ajťáka klíčové!!!** Proto se na procesor budu v rámci tohoto návodu soustředit nejvíce.
+❗**Porozumění, jak funguje procesor, je pro běžného ajťáka klíčové!** Proto se na procesor budu v rámci tohoto návodu soustředit nejvíce.
 
 ## RAM paměť
 
@@ -55,9 +55,9 @@ Perzistentní uložiště je jakákoliv komponenta, která si **pamatuje data i 
 
 HDD neboli *hard drive* jsou uložiště, která drží data na kovových plotnách ve formě rozdílů v magnetické polaritě
 
-HDD jsou mnohem pomalejší než SSD (viz. níže) ale extrémně levná
+HDD jsou mnohem pomalejší než SSD (viz. níže) ale extrémně levné.
 
-### Flash
+### Flash (včetně SSD)
 
 Běžný člověk zná "flešku" jako to malé drobné zařízení, na které si může ukládat fotky. 
 
@@ -85,9 +85,10 @@ Pro komunikaci s jinými zařízeními v síti a pro připojení k internetu je 
 
 Počítačovým sítím se však budeme zabývat zvlášť jindy.
 
-## Klávesnice
+## Klávesnice a myš
 
-Pro práci s běžným fyzickým počítačem je vždy nutná klávesnice, díky které můžete pracovat s BIOSem, s UEFI a následně v každém běžném operačním systému.
+Běžný ajťák pracuje s klávesnicí a myší (někdy i s dotykovou obrazovkou). [^m]
 
 [^1]: *Výkon se vypočte jako napětí krát proud. Např. `2V * 5A = 7.5W`. U většiny komponent je však hodnota ve wattech vždy uvedená nebo dohledatelná.* 
 [^2]: *Persistentní = trvalé. V IT toto slovo téměř vždy znamená "informace, která je nějakým způsobem zachována". Na fyzické úrovni to znamená "zachována i po odpojení z elektřiny".*
+[^m]: *Někteří běžní ajťáci práci s myší nesnáší ale do těchto diskuzí se zde nechci pouštět.*

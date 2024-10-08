@@ -27,7 +27,7 @@ Jinými slovy jsme si teď definovali **jednoduchou rozhodovací logiku**
 
 Počítače obsahují obrovské množství obvodů. Výkonné čipy jako procesor nebo čipy na grafické kartě obsahují miliardy obvodů.
 
-Tyto obvody se navzájem ovlivňují a díky tomu vznikají větší, logické struktury které pracují s podstatně složitější logikou než s tou uvedenou výše --- těmi se však budeme zabývat až v digitální vrstvě.
+Tyto obvody se navzájem ovlivňují a díky tomu vznikají větší, logické struktury které pracují s podstatně složitější logikou než s tou uvedenou výše --- těmi se však budeme zabývat až v bitové vrstvě.
 
 V elektronické vrstvě nám stačí vědět, jak se jednotlivé obvody ovlivňují.
 

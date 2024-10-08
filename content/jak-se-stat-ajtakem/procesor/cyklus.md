@@ -11,3 +11,5 @@ Moderní procesory mají frekvence mezi 2 až 5 GHz což je 2 až 5 **miliardy c
 Na obrázku níže je příklad instrukce, která potřebuje 5 cyklů pro zpracování.
 
 {{< figure align=center width=300 src="../cyklus.png" title="Cyklus procesoru" >}}
+
+Jednomu cyklu se v angličtině říká **tick**.

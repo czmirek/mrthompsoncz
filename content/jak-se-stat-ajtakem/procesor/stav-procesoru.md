@@ -16,6 +16,6 @@ Jakmile však procesor dojde s instrukcemi až na konec tak se procesor zase vyp
 
 ⚠️ **Důležité k zapamatování**: U moderního počítače se **neočekává, že procesor dojde až na konec instrukcí**. Instrukce se totiž točí dokola v cyklu v rámci operačního systému. O tom si však povíme později.
 
-[^o]: "Vypne" zde může znamenat odpojení elektrického obvodu ale i přechod do nějakého speciálního stavu, který je s vypnutím identický.
+[^o]: *"Vypne" zde může znamenat odpojení elektrického obvodu ale i přechod do nějakého speciálního stavu, který je s vypnutím identický.*
 
-[^h]: S historickými počítači se takto reálně pracovalo. Instrukce byly předpřipravené na nějakých médiích, které se do počítače nejdřív musely fyzicky napojit. Poté se počítač spustil a hned začal provádět zadané instrukce. Po poslední instrukci se zařízení buď vyplo, nebo muselo být odpojeno.
+[^h]: *S historickými počítači se takto reálně pracovalo. Instrukce byly předpřipravené na nějakých médiích, které se do počítače nejdřív musely fyzicky napojit. Poté se počítač spustil a hned začal provádět zadané instrukce. Po poslední instrukci se zařízení buď vyplo, nebo muselo být odpojeno.*
