@@ -18,7 +18,7 @@ Poté základní deska předává otěže procesoru. Jak už víte z předchozí
 
 V tuto chvíli si ještě nebavíme o operačních systémech. Pohybujeme se na bitové úrovni tzn. žádný operační systém nemáme k dispozici, zabýváme se pouze tím, jak procesor funguje a co dokáže.
 
-Na bitové úrovni můžeme předpokládat, že procesor v počítači dokáže **úplně všechno**. [^u]
+Na bitové úrovni můžeme předpokládat, že procesor v počítači dokáže **úplně všechno**.
 
 Stejně tak dokáže i načíst instrukce z jiného místa, než jen z RAM paměti, běžně se to ale nedělá protože jakýkoliv jiný zdroj instrukcí je **řádově pomalejší** než procesor.
 
@@ -28,5 +28,3 @@ Procesor je schopný zpracovat miliardy instrukcí za vteřinu. Pokud by se proc
 [^a]: *Moderní RAM paměť funguje na vysokých frekvencích avšak ne na stejných frekvencích jako procesor. Procesor má navíc své vlastní "paměťi" (zvané *cache*) které v několika úrovních s RAM pamětí synchronizuje.*
 
 [^b]: *Komunikace mezi procesorem a RAM pamětí je tak důležitá že z toho vznikla řada samostatných standardů které musí být společně podporovány procesorem, chipsetem základní desky a samotnými moduly RAM paměti. Jinak hrozí, že RAM paměť - i když je schopná běžet rychleji - poběží podle pomalejšího standardu protože procesor nebo chipset základní desky tento standard nepodporuje.*
-
-[^u]: *Většina procesorů. Pravděpodobně. Detaily toho, co procesory reálně umí a neumí nejsou pro běžného ajťáka zas tak podstatné.*

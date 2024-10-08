@@ -9,7 +9,7 @@ Asynchronní I/O instrukce fungují oproti synchronním instrukcím tak, že pro
 - **pro čtení:** připravil data která potřebuje do RAM paměti
 - **pro zápis:** data z RAM paměti vzal a zapsal je do dané I/O komponenty.
 
-Tímto způsobem procesor procesor jen komanduje základní desku co má dělat, nemusí se zdržovat čekáním na ostatní komponenty a může pokračovat ve zpracovávání běžného toku instrukcí.
+Tímto způsobem procesor komanduje základní desku co má dělat, nemusí se zdržovat čekáním na ostatní komponenty a může pokračovat ve zpracovávání běžného toku instrukcí.
 
 Jakmile je operace čtení/zápisu hotová tak chipset základní desky pošle do procesoru **přerušení** na které procesor může navázat.
 

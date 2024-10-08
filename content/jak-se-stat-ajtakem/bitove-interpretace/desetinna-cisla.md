@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Desetinná čísla
-weight: 80080
+weight: 7080
 ---
 
 Desetinná čísla znáte. Víte, že `5 / 2 = 2,5`
@@ -42,10 +42,16 @@ Je to stejné, jako `10 / 3 = 3,333333…`
 
 ## Počítače neumí být přesné v desetinné interpretaci
 
-⚠️ Pozor na to: většina desetinných čísel desítkové soustavy mají ve dvojkové soustavě hodnoty, jejichž cifry se táhnou do nekonečna ale počítače nemají schopnost uložit nekonečně veliké ani nekonečně přesné číslo.
+⚠️ **Pozor na to**: většina desetinných čísel desítkové soustavy mají ve dvojkové soustavě hodnoty, jejichž cifry se táhnou do nekonečna ale počítače nemají schopnost uložit nekonečně veliké ani nekonečně přesné číslo.
 
 Co to znamená?
 
 Pokud například pracujete v počítači s číslem 0,8<sub>10</sub> tak musíte počítat s tím, že jeho vyjádření v počítači není přesné protože místo `0,11001100110011001100110011001100....` se uloží například jen `0,1100110011001100`.
 
 Jakmile tuto binární hodnotu převedete zpátky tak nedostanete 0,8<sub>10</sub> ale něco jako **0.799999998779…<sub>10</sub>**
+
+## Není to problém?
+
+Není.
+
+Jako ajťák však musíte dobře znát nástroje, se kterými pracujete. O práci s desetinnými čísly se budeme bavit později v kapitolách o tvorbě softwaru.

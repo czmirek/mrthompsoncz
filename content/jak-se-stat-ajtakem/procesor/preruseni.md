@@ -33,5 +33,7 @@ Jakmile zpracuje všechny instrukce až do konce tak se vrátí k původním ins
 
 {{< figure align=center width=500 src="../interrupt3.png" title="Přerušení - krok 3" >}}
 
-[^s]: Kurzor není nic jiného, než jen pár světélek (pixelů) na vašem monitoru.
-[^n]: Jednoduchým příkladem je signál z klávesnice nebo myši. Komplikovanější příklad je signál na základě jiné instrukce, o tom budu však mluvit později. 
+Pohybování kurzorem po obrazovce generuje klidně stovky přerušení za vteřinu a každé toto přerušení znamená pohyb kurzoru myši z jednoho místa na obrazovce na jiné místo na obrazovce.
+
+[^s]: *Kurzor není nic jiného, než jen pár světélek (pixelů) na vašem monitoru.*
+[^n]: *Jednoduchým příkladem je signál z klávesnice nebo myši. Komplikovanější příklad je signál na základě jiné instrukce, o tom budu však mluvit později.* 

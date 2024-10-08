@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Přetečení a podtečení
-weight: 80060
+weight: 7060
 ---
 
 ## Co se stane, když výsledek matematické operace je větší, než rozsah výsledného čísla?
@@ -29,11 +29,9 @@ Jenže ve dvojkovém doplňku to vypadá jinak!
 
 ## Není to problém?
 
-To záleží.
+Není.
 
-Jako ajťák musíte dobře znát nástroje, se kterými pracujete. 
-
-Některé programovací jazyky považují přetečení/podtečení za chybu, kvůli které aplikace spadne a některé považují přetečení/podtečení za vlastnost výpočetní techniky, se kterou je nutné počítat.
+Jako ajťák však musíte dobře znát nástroje, se kterými pracujete. O přetečení a podtečení se budeme bavit ještě znovu až v kapitolách o tvorbě softwaru.
 
 ![Xkcd](https://imgs.xkcd.com/comics/cant_sleep.png)
 

@@ -18,11 +18,11 @@ Takový koncert by pravděpodobně za moc nestál ale o to tady nejde.
 
 ## Multithreading
 
-Multithreading je přesně tento proces, který umí všechny běžné OS.
+Multithreading je přesně tento proces, který umí všechny běžné OS. OS je šílený velitel, kapely jsou jednotlivé programy. 
 
 **Čas procesoru je každému programu přidělován**.  
 
-Procesu který organizuje kdy který program bude běžet se v OS říká **scheduler** [^1]. Operace přepnutí mezi přidělením času z jednoho na druhý program se říká **context switch** [^2].
+Procesu který organizuje kdy který program bude běžet se v OS říká **scheduler**. Operace přepnutí mezi přidělením času z jednoho na druhý program se říká **context switch** [^2].
 
 Toto znamená, že **souběžný běh programů je vlastně jen na oko**. Procesory pořád zpracovávají instrukce za sebou.
 
@@ -51,7 +51,6 @@ Scheduler toto balancování rozhoduje:
 
 Context switch, jak už bylo řečeno, je proces přepnutí mezi přidělením času procesorového jádra z jednoho programu na jiný program. Tento proces, přestože není jednoduchý, je v moderních procesorech **extrémně rychlý** a v průměru trvá v řádech mikrosekund.
 
-[^1]: *V přirovnání výše to byl šílený velitel*  
 [^2]: *V přirovnání výše to je proces výměny jedné kapely za druhou*.
 [^3]: *1 mikrosekunda = 1 miliontina sekundy*
 [^4]: *Přestože moderní OS umožňují uživatelům přidělovat běžícím programům jakési priority tak to není běžná praxe jak mezi běžnými uživateli tak i mezi běžnými ajťáky.*

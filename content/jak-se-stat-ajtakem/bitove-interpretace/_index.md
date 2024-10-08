@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Bitové interpretace
-weight: 80000
+title: "Bitová vrstva: bitové interpretace"
+weight: 7000
 ---
 

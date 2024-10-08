@@ -4,7 +4,7 @@ title: Souběžnost programů
 weight: 200100
 ---
 
-V minulé kapitole jsem řekl, že operační systém umožňuje paralelní běh více progamů najednou.
+V minulé kapitole jsem řekl, že operační systém umožňuje paralelní běh více programů najednou.
 
 Toto je rozdíl oproti [bare-metal programování]({{< relref "../os-vrstva-bit/bare-metal-programming" >}}). Procesor samotný - respektive každé procesorové jádro - dokáže rozeběhnout pouze **jeden jediný program**. Operační systém ale umožňuje **souběžný běh více programů najednou** a to i na **jednojádrovém procesoru**. [^1]
 

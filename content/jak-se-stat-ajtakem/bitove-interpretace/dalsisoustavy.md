@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Další číselné soustavy
-weight: 80030
+weight: 7030
 ---
 
 ## 16: šestnáctková (hexadecimální) číselná soustava
@@ -16,7 +16,7 @@ Příklad:
 - FF<sub>16</sub> = 255<sub>10</sub>
 - FFFF<sub>16</sub> = 65535<sub>10</sub>
 
-V IT se šestnáctková čísla často píšou se znaky `0x` na začátku (je to historická konvence). U čísla `0x005467` tak hned poznáte, že jde o hexadecimální číslo.
+V IT se šestnáctková čísla často píšou se znaky `0x` na začátku (z historických důvodů). U čísla `0x005467` tak hned poznáte, že jde o hexadecimální číslo.
 
 ## 8: osmičková číselná soustava
 
@@ -24,4 +24,4 @@ Z hlavy dokážu říct, že se tato číselná soustava používá v Linuxu u v
 
 ## 64: šedesátičtyřková soustava
 
-Tato soustava se používá velmi často pro jednoduchou kompresi dat (kolektivně se tomu říká `base64`).
+Tato soustava se používá velmi často pro jednoduchou kompresi různých dat (kolektivně se tomu říká `base64`).

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Číselná interpretace
-weight: 80010
+weight: 7010
 ---
 
 Číselná interpretace je pohled na bity jako na čísla.  
