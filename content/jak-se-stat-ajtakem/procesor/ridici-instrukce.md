@@ -29,8 +29,10 @@ Podívejte se na obrázek níže. Odhadnete, kdy program spuštěný na obrázku
 - ...
 ```
 
-**POZOR!**: Parametrem **JUMP** je adresa v paměti. JUMP tak může skočit v RAM paměti úplně kamkoliv - dopředu i dozadu ale klidně i do úplně jiného seznamu instrukcí, který se v RAM paměti může také nacházet (pokud jsme si ho tam připravili).
+⚠️ **POZOR!**: Parametrem **JUMP** je adresa v paměti. JUMP tak může skočit v RAM paměti úplně kamkoliv - dopředu i dozadu ale klidně i do úplně jiného seznamu instrukcí, který se v RAM paměti může také nacházet (pokud jsme si ho tam připravili).
+
+{{< figure align=center width=500 src="../jump-forward.png" title="JUMP vpřed" >}}
 
 ## HALT
 
-Další důležitou řídící instrukcí je instrukce **HALT**. Tato instrukce zjednodušeně řečeno **zastavuje činnost procesoru** byť třeba jen na krátký časový úsek. 
+Další důležitou řídící instrukcí je instrukce **HALT**. Tato instrukce zjednodušeně řečeno **zastavuje činnost procesoru** byť třeba jen na krátký časový úsek. Tato instrukce bude ještě klíčová mnohem později v kapitolách o operačních systémech. 
