@@ -14,6 +14,20 @@ Běžné počítače však neběží na střídavém proudu ale na jednosměrné
 
 V uzavřeném obvodu jednosměrného proudu putuje elektřina vždy jen jedním směrem.
 
+## Ilustrativní video
+
+Jednosměrný proud vlevo, střídavý proud vpravo. Modré tečky jsou znázornění elektronů.
+
+<video width="500"  style="display:block;margin:0 auto" controls>
+  <source src="../acdc.mp4" type="video/mp4">
+  Váš prohlížeč nepodporuje video
+</video> 
+
+<br />
+
+*Zdroj: [Javalab](https://javalab.org/en/dc_and_ac_en/)*
+
+
 ## Převodník[^p]
 
 Aby počítač bylo možné připojit do elektrické sítě, musí obsahovat převodník ze střídavého proudu do jednosměrného proudu.

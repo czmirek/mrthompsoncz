@@ -18,7 +18,11 @@ Některé čipy za **běžného provozu** produkují teplo ale mohou fungovat i 
 
 Výkonější čipy vyžadují aspoň **pasivní chlazení** což jsou takové žebrovité struktury přilepené přímo na čip. Tyto struktury jsou vyrobené z materiálu, který velmi dobře odvádí teplo.
 
+{{< figure align=center width=200 src="../passivecooling.png" title="Pasivní chlazení" >}}
+
 Nejvýkonější čipy - zpravidla na procesorech a na lepších grafických kartách - vyžadují **aktivní chlazení** ve formě větráku nebo vodního chlazení.
+
+{{< figure align=center width=100 src="../aktivnichlazeni.png" title="Aktivní chlazení" >}}
 
 ## Chlazení procesorů v běžných PC
 
