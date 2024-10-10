@@ -53,8 +53,8 @@ Jenže se to vůbec neujalo. Nikdo to nepoužívá a většinou ani nezná. Nikd
 
 Další velmi často používaný zápis je přímo nad bity, ne nad bajty. Bity a bajty se rozlišují velikostí písmena ale málokdo to používá správně.
 
-MB = mega**bajt**
-Mb = mega**bit**
+- MB = mega**bajt**
+- Mb = mega**bit**
 
 S tímto zápisem se nejčastěji potkáte kdekoliv, kde se měří rychlost, kterou proudí data (např. rychlost zápisu, rychlost čtení, atd.) zejména v počítačových sítích.
 
