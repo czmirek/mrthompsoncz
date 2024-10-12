@@ -1,7 +1,7 @@
 ---
 draft: false
 title: OS API / syscalls
-weight: 201400
+weight: 201350
 ---
 
 Programy běžící pod OS nemohou napřímo komunikovat s jednotlivými komponentami počítače, mohou však komunikovat přímo s OS který slouží jako prostředník mezi programy OS a komponentami.

@@ -3,6 +3,7 @@ draft: false
 title: Izolace programu v uživatelském režimu
 weight: 201300
 ---
+
 <div class="note-blue">
 
 ⚠️ **Důležité k zapamatování:** V uživatelském režimu běží **všechny** procesy spuštěné v rámci OS. 

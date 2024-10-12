@@ -6,9 +6,13 @@ weight: 70330
 
 Díky **JUMP** instrukci je možné definovat **funkce**. Na úrovni strojového kódu se funkcím říká anglicky **subroutine** česky **podrutiny**.
 
-Funkce je jednoduše nějaká část instrukcí, která má začátek a konec a kterou lze volat opakovaně.
+Funkce je jednoduše nějaká část instrukcí, která má začátek a konec a kterou lze volat opakovaně. 
 
-**Příklad:**
+Po zavolání funkce se vrátíte zpět do původního toku instrukcí.
+
+{{< figure align=center width=500 src="../podrutina.png" title="Funkce / podrutina" >}}
+
+## Příklad s JUMP instrukcí
 
 Podívejte se na obrázek níže. Funkce je umístěná mezi adresami 2 až 10.
 
@@ -19,10 +23,8 @@ Podívejte se na obrázek níže. Funkce je umístěná mezi adresami 2 až 10.
 3. Další instrukcí `JUMP 2` vstoupíme do samotné funkce. Ta se začne provádět.
 4. Jakmile je celá funkce provedena, vrátíme se instrukcí `JUMP 16` zpět tam, kde jsme skončili tj. na adresu 16.
 
-
 ## Realita v moderních procesorech
 
 V moderních procesorech se pro účely funkcí používají instrukce `JUMP`, `CALL` a `RET` které využívají **stack register**. K těmto mechanismům se ale vrátíme až mnohem později až v sekci o tvorbě softwaru.
 
-
-[^m]: *Toto je pouze ilustrace, reálné použití instrukce `MOV` vypadá trochu jinak.*
+[^m]: *Toto je pouze ilustrace, reálné použití instrukce `MOV` vypadá trochu jinak a může se lišit mezi instrukčními sadami.*

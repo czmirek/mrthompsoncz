@@ -25,6 +25,6 @@ Stejně tak dokáže i načíst instrukce z jiného místa, než jen z RAM pamě
 Procesor je schopný zpracovat miliardy instrukcí za vteřinu. Pokud by se procesor snažil číst instrukce z jiného uložiště, než z RAM paměti, dramaticky by se zpomalil. Běžné načtení instrukce z RAM trvá jednotky až desítky cyklů zatímco z jiného uložiště by toto mohlo trvat tisíce až miliony cyklů.
 
 
-[^a]: *Moderní RAM paměť funguje na vysokých frekvencích avšak ne na stejných frekvencích jako procesor. Procesor má navíc své vlastní "paměťi" (zvané *cache*) které v několika úrovních s RAM pamětí synchronizuje.*
+[^a]: *Moderní RAM paměť funguje na vysokých frekvencích avšak ne na stejných frekvencích jako procesor. Procesor má navíc své vlastní "paměťi" (zvané *cache*) které v několika úrovních s RAM pamětí synchronizuje. Tento proces však není pro běžného ajťáka podstatný.*
 
 [^b]: *Komunikace mezi procesorem a RAM pamětí je tak důležitá že z toho vznikla řada samostatných standardů které musí být společně podporovány procesorem, chipsetem základní desky a samotnými moduly RAM paměti. Jinak hrozí, že RAM paměť - i když je schopná běžet rychleji - poběží podle pomalejšího standardu protože procesor nebo chipset základní desky tento standard nepodporuje.*
