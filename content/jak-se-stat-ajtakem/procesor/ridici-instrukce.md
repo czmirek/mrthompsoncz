@@ -1,12 +1,11 @@
 ---
 draft: false
-title: 'Řídící instrukce'
+title: 'Řídící instrukce: JUMP'
 weight: 70320
 ---
 
-Řídící instrukce je schopna **změnit tok instrukcí**.
+Řídící instrukce je schopna **změnit tok instrukcí**. 
 
-## JUMP
 Nejznámější a nejpoužívanější řídící instrukcí je instrukce zvaná **JUMP** která přeskočí na tok instrukcí určený adresou této instrukce.
 
 Podívejte se na obrázek níže. Odhadnete, kdy program spuštěný na obrázku níže skončí?
@@ -32,7 +31,3 @@ Podívejte se na obrázek níže. Odhadnete, kdy program spuštěný na obrázku
 ⚠️ **POZOR!**: Parametrem **JUMP** je adresa v paměti. JUMP tak může skočit v RAM paměti úplně kamkoliv - dopředu i dozadu ale klidně i do úplně jiného seznamu instrukcí, který se v RAM paměti může také nacházet (pokud jsme si ho tam připravili).
 
 {{< figure align=center width=500 src="../jump-forward.png" title="JUMP vpřed" >}}
-
-## HALT
-
-Další důležitou řídící instrukcí je instrukce **HALT**. Tato instrukce zjednodušeně řečeno **zastavuje činnost procesoru** byť třeba jen na krátký časový úsek. Tato instrukce bude ještě klíčová mnohem později v kapitolách o operačních systémech. 

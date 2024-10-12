@@ -1,12 +1,12 @@
 ---
 draft: false
-title: 'Řídící instrukce: funkce'
+title: 'Řídící instrukce: podrutiny'
 weight: 70330
 ---
 
-Díky **JUMP** instrukci je možné definovat **funkce**, v tomto kontextu na bitové úrovni se tomu také často říká anglicky **subroutine** česky **podrutiny**.
+Díky **JUMP** instrukci je možné definovat **funkce**. Na úrovni strojového kódu se funkcím říká anglicky **subroutine** česky **podrutiny**.
 
-Funkce je jednoduše nějaká část instrukcí, kterou lze volat opakovaně. 
+Funkce je jednoduše nějaká část instrukcí, která má začátek a konec a kterou lze volat opakovaně.
 
 **Příklad:**
 
@@ -22,8 +22,7 @@ Podívejte se na obrázek níže. Funkce je umístěná mezi adresami 2 až 10.
 
 ## Realita v moderních procesorech
 
-V moderních procesorech se pro účely funkcí používá také instrukce `RET` která využívá mechanismus procesoru zvaný *stack registr*. **Pro účely této sekce o procesorech to ale není podstatné.** 
+V moderních procesorech se pro účely funkcí používají instrukce `JUMP`, `CALL` a `RET` které využívají **stack register**. K těmto mechanismům se ale vrátíme až mnohem později až v sekci o tvorbě softwaru.
 
-K instrukci `RET` a ke stack registru se vrátím ještě MNOHEM později, až se budeme zabývat tvorbou softwaru pro OS. 
 
 [^m]: *Toto je pouze ilustrace, reálné použití instrukce `MOV` vypadá trochu jinak.*

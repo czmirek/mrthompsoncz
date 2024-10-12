@@ -44,4 +44,6 @@ OS jsou programy, které mají nad zařízením, kde jsou nainstalovány, plnou 
 
 Tento bod není důležitý pro běžného *uživatele* ale je naprosto klíčový pro **běžného ajťáka** který musí OS vrstvě velmi dobře rozumět.
 
+Běžný ajťák nepracuje s počítačem napřímo ale přes OS vrstvu.
+
 [^m]: *A běžný ajťák by měl rozumět, jak to OS dělají. Toto popisuji v pozdější kapitole.*

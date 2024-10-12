@@ -51,6 +51,8 @@ Scheduler toto balancování rozhoduje:
 
 Context switch, jak už bylo řečeno, je proces přepnutí mezi přidělením času procesorového jádra z jednoho programu na jiný program. Tento proces, přestože není jednoduchý, je v moderních procesorech **extrémně rychlý** a v průměru trvá v řádech mikrosekund.
 
+Během běžného provozu počítače proběhnou stovky až tisíce *context switch* za vteřinu (v závislosti na OS, počtu běžících programů atd.).
+
 [^2]: *V přirovnání výše to je proces výměny jedné kapely za druhou*.
 [^3]: *1 mikrosekunda = 1 miliontina sekundy*
 [^4]: *Přestože moderní OS umožňují uživatelům přidělovat běžícím programům jakési priority tak to není běžná praxe jak mezi běžnými uživateli tak i mezi běžnými ajťáky.*

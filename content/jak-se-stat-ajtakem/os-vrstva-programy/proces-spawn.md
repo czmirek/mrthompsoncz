@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Proces child/parent
+title: Proces spawn
 weight: 201000
 ---
 
