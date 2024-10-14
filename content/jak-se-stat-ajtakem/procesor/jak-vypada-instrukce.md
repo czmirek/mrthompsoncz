@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Fixní délka instrukce
+title: Jak vypadá instrukce
 weight: 70090
 ---
 

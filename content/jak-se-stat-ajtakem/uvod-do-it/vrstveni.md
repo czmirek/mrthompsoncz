@@ -28,7 +28,7 @@ Kvalitní ajťák by těmto vrstvám měl dobře rozumět a proto jim bude věno
 ## Software vrstva
 - **Bare-metal/embedded software** = software běžící přímo "na železe". Tento software je běžný u "specializovaných počítačů" jako jsou chytré domácnosti, řídící jednotky v automobilech a podobně.
 - **Operační systém** = software sjednocující obrovskou složitost a rozdílnost hardwaru v počítačích do jednoho uživatelského rozhraní.
-- **Software** = software běžící v rámci operačního systému. Tento návod je zaměřený na "běžné" ajťáky kteří píší software na této vrstvě. Na této úrovni je (dle mého názoru) psáno 90% veškerého softwaru na světě.
+- **Běžný software** = software běžící v rámci operačního systému. Tento návod je zaměřený na "běžné" ajťáky kteří píší software na této vrstvě. Na této úrovni je (dle mého názoru) psáno 90% veškerého softwaru na světě.
 
 ## Ilustrace
 

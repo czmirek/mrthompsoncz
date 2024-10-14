@@ -31,7 +31,7 @@ Veškerá ostatní zařízení lze oddělit na vstupy a výstupy.
 
 Komponenty moderních počítačů jsou dodnes stavěny podle Von Neumannovy architektury.
 
-- Procesor je napřímo propojený s RAM pamětí do které čte a zapisuje
+- Procesor je napřímo propojený s RAM pamětí ze které čte a do které zapisuje
 - Do procesoru proudí data přes vstupní signály - od vstupních zařízení
 - A naopak: z procesoru proudí data přes výstupní signály - do výstupních zařízení
 

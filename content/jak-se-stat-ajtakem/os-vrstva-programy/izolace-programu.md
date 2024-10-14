@@ -12,4 +12,4 @@ weight: 201300
 
 {{< figure align=center src="../izolace2.png" width=600 title="Izolace OS programů" >}}
 
-Jakýkoliv pokus o přímou komunikaci s jakoukoliv komponentou CPU zablokuje a způsobí chybu kterou OS zachytí a chybující proces ukončí.
+Jakýkoliv pokus o přímou komunikaci s jakoukoliv komponentou CPU zablokuje a způsobí přerušení které OS zachytí a chybující proces ukončí.

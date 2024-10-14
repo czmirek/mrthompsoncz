@@ -8,7 +8,7 @@ Jak víte z předchozích dílů, procesor zpracovává instrukce v sérii za se
 
 Technologický vývoj a s ním spojené neustálé zmenšování obvodů a tranzistorů v procesoru však umožnil, že procesory **mají více jader**. 
 
-Jinými slovy, jeden fyziký procesor je ve skutečnosti **několik procesorů** najednou a každý tento procesor dokáže běžet nezávisle na ostatních.
+Jinými slovy, jeden fyzický procesor je ve skutečnosti **několik procesorů** najednou a každý tento procesor dokáže běžet nezávisle na ostatních.
 
 {{< figure align=center width=400 src="../multicore.png" title="Vícejádrový procesor" >}}
 

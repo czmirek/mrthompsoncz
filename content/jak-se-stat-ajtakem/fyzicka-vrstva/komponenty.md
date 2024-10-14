@@ -11,13 +11,11 @@ Důležitou komponentou, které by měl běžný ajťák rozumět (na fyzické, 
 {{< figure align=center width=200 src="../psu.png" title="Zdroj pro stolní počítače" >}}
 {{< figure align=center width=200 src="../serverpsu.png" title="Zdroj pro servery" >}}
 
-Je to součást počítače, která obsahuje AC/DC převodník a napájí elektřinou všechny ostatní komponenty.
-
-Zdroj většinou neřešíte u mobilních telefonů nebo tabletů, ten je tam napevno zabudovaný a zpravidla nelze vyměnit.
+Je to součást počítače, která obsahuje AC/DC převodník a napájí elektřinou všechny ostatní komponenty. Zdroj většinou neřešíte u mobilních telefonů nebo tabletů kde je napevno zabudovaný.
 
 U počítačů, které lze stavět jako stavebnice, je nutné vždy zajistit, že v počítači je zdroj **s dostatečným výkonem**.
 
-Výkon se měří ve **wattech**[^1]. Funkční počítač musí mít zdroj takový, aby pokryl výkon všech svých komponent.
+Výkon se měří ve **wattech** [^1]. Funkční počítač musí mít zdroj takový, aby pokryl výkon všech svých komponent.
 
 Příklad:
 - Základní deska = 10 W
@@ -37,9 +35,9 @@ Základní deska všechny komponenty spojuje a není bez ní možné, aby běžn
 
 ## Procesor
 
-❗Procesor je srdcem a mozkem celého počítače a víceméně definuje, že nějaké zařízení může fungovat jako počítač. 
+❗Procesor je srdcem a mozkem celého počítače a určuje, že zařízení může fungovat jako počítač. 
 
-❗Běžný počítač bez procesoru není počítač a nemůže jako počítač fungovat. Toto platí pro všechny běžné počítače:
+❗Počítač bez procesoru není počítač a nemůže jako počítač fungovat. Toto platí pro všechny běžné počítače:
 
 - mobilní telefony/tablety
 - stolní počítače/notebooky

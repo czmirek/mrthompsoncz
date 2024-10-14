@@ -12,6 +12,6 @@ Tzn. procesor je schopný na základě dané instrukce přečíst nebo zapsat da
 
 Nevýhoda tohoto způsobu spočívá v tom, že instrukce plýtvá obrovské množství cyklů protože jakékoliv I/O zařízení je řádově pomalejší, než samotný procesor.
 
-Zatímco procesor pracuje v rychlostech miliardy cyklů za vteřinu tak ostatní komponenty jsou vždy pomalejší. Procesor tak čekáním může vyplýtvat klidně až miliony cyklů. U běžného použití to znamená, že se počítač může reálně "kousnout" protože čeká na nějaké zařízení.
+Zatímco procesor pracuje v rychlostech miliardy cyklů za vteřinu tak ostatní komponenty jsou vždy pomalejší. Procesor tak čekáním může vyplýtvat klidně celé miliardy cyklů. U běžného použití to znamená, že se počítač může reálně "kousnout" protože čeká na nějaké zařízení.
 
 Z tohoto důvodu se synchronní I/O instrukce nepoužívají.

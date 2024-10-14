@@ -1,7 +1,7 @@
 ---
-draft: false
+draft: true
 title: CPU pipeline
-weight: 70040
+weight: 79940
 ---
 
 Moderní procesory zpracovávají instrukce v několika krocích a počet těchto kroků je různý napříč různými modely procesorů. Některé procesory mohou potřebovat 10, některé až 50 kroků k vykonání některých instrukcí.

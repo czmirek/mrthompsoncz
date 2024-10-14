@@ -24,7 +24,7 @@ Moderní procesory pracují se 64-bitovými (ale i většími) instrukcemi ale *
 
 Jenže jak víte, v počítačích je všechno v mocninách čísla 2. Nebylo by tedy lepší, kdyby kilobajt byl 2<sup>10</sup> = 1024? Megabajt by byl 1024 kilobajtů a tak dále. Hezky to do sebe matematicky zapadá, jak jsou to ty mocniny dvou, jiný důvod to nemá.
 
-A proto velmi častý způsob vyjádření množství dat je dle násobitele 1024. Tuto logiku používá operační systém Windows.
+A proto velmi častý způsob vyjádření množství dat je dle násobitele 1024. Tuto logiku používá operační systém Windows a spousta softwaru.
 
 - kilobajt (kB) = 2<sup>10</sup> bajtů = 1024 bajtů
 - megabajt (MB) = 2<sup>10</sup> kilobajtů = 1024 kilobajtů

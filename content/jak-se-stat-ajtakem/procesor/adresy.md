@@ -8,7 +8,7 @@ Představme si, že během provozu počítače jsou nějaké bity uloženy v RAM
 
 {{< figure align=center width=500 src="../nejake-bity.png" title="Nějaké bity" >}}
 
-RAM paměť ale i běžná perzistentní uložiště jsou většinou **adresovatelná** zařízení. To znamená, že všechny bity v RAM jsou rozdělené do nějakých kousků [^k] a každý tento kousek má svoji vlastní **adresu**.
+RAM paměť ale i běžná perzistentní uložiště jsou **adresovatelná** zařízení. To znamená, že všechny bity jsou rozdělené do nějakých kousků [^k] a každý tento kousek má svoji vlastní **adresu**.
 
 Tato adresa je obyčejné číslo.
 

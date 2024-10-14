@@ -22,11 +22,11 @@ Uvádí se tyto 3 typy sběrnic.
 
 ### Spousta různých sběrnic
 
-V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům (tj. nemusí být striktně rozděleny na adresovou, datovou a řídící) a fungují na různých rychlostech.
+V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům, nemusí být striktně rozděleny na adresovou, datovou a řídící, a fungují na různých rychlostech.
 
 Nejznámější typy sběrnic:
 
-- **PCI, PCIe**: sběrnice pro zapojení komponenty postavené jako integrovaný obvod přímo do základní desky
+- **PCI, PCIe**: sběrnice pro zapojení komponenty do základní desky
 - **SATA**: sběrnice pro kabelové zapojení persistentních uložišť (SSD, HDD)
 - **USB**: multifunkční sběrnice pro připojení všeho možného většinou přes USB kabel 
 
@@ -38,7 +38,7 @@ Chipset základní desky není žádná konkrétní komponenta ale souhrn různ�
 
 ### Memory controller
 
-Komunikace mezi procesorem a RAM pamětí je tak důležitá že má svoji vlastní sběrnici tzn. moduly RAM paměti nezapojíte nikam jinam než do určených zásuvek na základní desce dedikovaných přímo pro RAM paměť.
+Komunikace mezi procesorem a RAM pamětí je tak důležitá že má svoji vlastní sběrnici. Moduly RAM paměti nezapojíte nikam jinam než do určených zásuvek na základní desce dedikovaných přímo pro RAM paměť.
 
 Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným čipem nazvaným *memory controller*. V moderních počítačích je však *memory controller* zabudovaný přímo v procesorech tzn. komunikaci s RAM pamětí si procesor řídí sám. 
 
@@ -46,4 +46,8 @@ Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným 
 
 Komunikace mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami napříč všemi možnými sběrnicemi je řízena obrovským množstvím různých specifických systémů které se skládají z dalších dílčích subsystémů a podobně.
 
+<div class="note-blue">
+
 ⚠️ **Důležité k zapamatování:** Tyto obrovské složitosti tvořené všemi možnými mezinárodní korporáty zabývající se IT a výrobou počítačové techniky *(Intel, AMD, NVIDIA, atd.)* je lepší nechat na autorech operačních systémů. Běžný ajťák se těmito tématy zpravidla nezabývá.
+
+</div>
