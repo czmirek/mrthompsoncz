@@ -4,7 +4,7 @@ title: Složitosti kterým nemusíme rozumět
 weight: 70900
 ---
 
-## CPU cache
+## Cache
 
 RAM pamět byla historicky pomalejší než procesor.
 
@@ -12,7 +12,7 @@ Z tohoto důvodu obsahují procesory řadu svých vlastních miniaturních pamě
 
 Synchronizace mezi RAM pamětí a procesorem tak probíhá i prostřednictvím těchto cache. Tyto synchronizace jsou celkem komplikované a hlavně probíhají už na hardwarové úrovni.  
 
-## CPU registry
+## Registry
 
 Instrukce pracují s **registry** což jsou opravdu malé paměti s kapacitou jen třeba 4 bajty. 
 
@@ -26,7 +26,7 @@ Instrukce sečtení uložila výsledek do registru C.
 
 V moderních procesorech je těchto registrů z historických důvodů obrovské množství a jejich použití je napříč instrukcemi nekonzistentní. V rámci tohoto návodu se však registry zabývat nebudeme.
 
-## CPU pipelines
+## Pipelines
 
 V moderních procesorech se instrukce zpracovávají v rámci **pipeline** která instrukce zpracovává v několika krocích. Počet těchto kroků se liší mezi procesory, u některých se uvádí 5 až 10, u jiných klidně až 50.
 
@@ -34,13 +34,13 @@ Každý krok může vyžadovat různé množství cyklů pro zpracování.
 
 {{< figure align=center width=300 src="../pipeline.png" title="Cyklus procesoru" >}}
 
-## CPU superskalární architektura
+## Superskalární architektura
 
 Moderní procesory jsou zároveň schopné **v rámci jednoho procesorového jádra** reálně zpracovávat **některé** instrukce paralelně. Během jednoho cyklu je tak procesor schopný z instrukčního toku zpracovat více než 1 instrukci najednou.
 
 Nejde o "skutečnou" paralelitu jako v případě dvou a více procesorových jader. Moderní CPU jednoduše dokáže rozlišit, že některé instrukce z instrukčního toku lze spustit najednou aniž by to ovlivnilo výsledek. 
 
-## CPU optimalizace pořadí instrukcí [^o]
+## Optimalizace pořadí instrukcí [^o]
 
 Instrukce tečou do procesoru v pořadí, jedna za druhou. Moderní CPU se však tímto pořadím nutně neřídí. 
 
@@ -48,13 +48,19 @@ Moderní CPU je schopné detekovat, že aktuálně probíhající instrukce ček
 
 Samozřejmě to nesmí ovlivnit celkový výsledek --- CPU toto provádí jen pokud si je 100% jisté, že si toto "přeskakování" může dovolit a výsledek zůstane stejný.
 
-## CPU prediktivní mechanismy
+## Prediktivní mechanismy
 
-Moderní procesory si ukládají krátkodobou statistiku nejpoužívanějších instrukcí a jejich výsledků. V některých krocích se tedy snaží odhadnout výsledek pro ušetření velkého množství cyklů a zpracování dalších instrukcí.
+Moderní procesory si ukládají krátkodobou statistiku nejpoužívanějších instrukcí a jejich výsledků. Při zpracování instrukcí se snaží odhadnout výsledek pro ušetření velkého množství cyklů a zpracování dalších instrukcí.
 
 V nějaký moment si však musí ověřit, že skutečný výsledek je totožný s predikcí. Pokud predikce selže, musí se CPU vrátit o několik kroků zpátky a všechny instrukce se musí provést v jednotlivých krocích řádně, bez použití prediktivních kroků.
 
 Běžný uživatel si toho nevšimne. K selhání CPU predikcí dochází ve vašem běžném počítači každou chvíli. Poměr úspěšných predikcí je však v běžném provozu vysoký a proto se výrobcům CPU vyplatí takové prediktivní systémy do CPU zabudovávat.
+
+## Variabilní délka instrukce
+
+U moderních CPU mají instrukce proměnlivou délku. U `x86` to je mezi 8 až 120 bity (nebo 1 až 15 bajty).
+
+CPU v jednom cyklu nejdřív detekuje typ instrukce podle kterého zjistí, jakou délku tato instrukce může mít a v dalších cyklech se pustí do dekódování zbytku instrukce. 
 
 ## Buffery
 

@@ -12,5 +12,5 @@ Do tohoto procesoru se může poslat následující instrukce.
 
 Tato instrukce se skládá ze dvou částí:
 
-- <span style="color:orange">**typ instrukce**</span> – toto říká, co procesor má udělat.
-- <span style="color:red">**data**</span> – většina instrukcí vyžaduje ještě nějaké informace navíc. Může jít například o adresu v paměti nebo konkrétní hodnotu která se má někam uložit, například pro dokončení nějaké matematické operace.
+- <span style="color:orange">**opcode**</span> – toto je identifikátor konkrétní instrukce.
+- <span style="color:red">**data**</span> – data obsahují další parametry k instrukci. Může jít například o adresu v paměti nebo konkrétní hodnotu která se má někam uložit, například pro dokončení nějaké matematické operace.

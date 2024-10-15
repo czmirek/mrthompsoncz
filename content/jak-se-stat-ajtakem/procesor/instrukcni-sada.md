@@ -4,16 +4,19 @@ title: Instrukční sada
 weight: 70080
 ---
 
-Instrukční sada je **předepsaná norma** podle které je procesor vyrobený a s tím souvisí i jaké instrukce podporuje a jak se tyto instrukce chovají.
+Instrukční sada je **předepsaná norma instrukcí** která určuje, jaké instrukce musí procesor podporovat a jak se tyto instrukce mají v procesoru chovat.
 
-Moderní a běžné instrukčnísady jsou:
+<div class="note-blue">
+
+⚠️ **Důležité k zapamatování**: Každý procesor je vyrobený pro jednu konkrétní instrukční sadu. Procesory podporující více instrukčních sad se nevyrábí.
+
+</div>
+
+Mezi moderní a běžné instrukční sady patří:
 
 - `x86` – starší počítače a procesory.
-  - Šířka instrukce: 32
 - `x86-64` (nebo jen `x64`) – rozšíření x86, prakticky ve všech počítačích, notebocích a serverech všude na světě.
-  - Šířka instrukce: 64
 - `ARM` – mobilní telefony a tablety
-  - Šířka instrukce: 32 a 64 (ARM64)
 
 ⚠️ **Některé instrukční sady lze zaměnit, některé ne.**
 
