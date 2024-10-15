@@ -1,5 +1,5 @@
 ---
-draft: false
-title: OS vrstva - paměť
+draft: true
+title: OS vrstva - virtuální paměť
 weight: 210000
 ---
