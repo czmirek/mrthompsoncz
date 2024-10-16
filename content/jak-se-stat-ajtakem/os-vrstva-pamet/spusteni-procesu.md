@@ -10,7 +10,7 @@ Při spuštění programu se instrukce tohoto programu načtou do **user space**
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování**: Operační systémy **nedovolují procesům** [měnit své vlastní instrukce]({{< relref "../procesor/instrukce-v-ram" >}}). Časem se totiž ukázalo, že běžný software tuto přirozenou schopnot procesoru normálně nevyužívá. [^z] Často to však využívají viry a záškodnické programy.
+⚠️ **Důležité k zapamatování**: Operační systémy **nedovolují procesům** [měnit své vlastní instrukce]({{< relref "../procesor/instrukce-v-ram" >}}). Časem se totiž ukázalo, že běžný software tuto přirozenou schopnost procesoru nevyužívá [^z] . Často to však využívají viry a záškodnické programy, které se tímto způsobem vyhýbají antivirům.
 
 </div>
 
