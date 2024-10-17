@@ -16,4 +16,4 @@ Proces se ve virtuální paměti dělí na následující části [^s] kterým s
 
 **Data segment**, **stack** a **heap** části podrobně popíšu v následujících kapitolách.
 
-[^s]: *Napříč různými OS může být členění bohatší o nějaké různé, specializované segmenty navíc. To už však není pro běžného ajťáka důležité.*
+[^s]: *V různých OS je toto členění různě komplikované (např. [PE](https://upload.wikimedia.org/wikipedia/commons/1/1b/Portable_Executable_32_bit_Structure_in_SVG_fixed.svg) členění ve Windows). Zde uvádím pouze ty zásadní části důležité pro běžného ajťáka.*

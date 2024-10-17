@@ -14,9 +14,9 @@ Proces z těchto hodnot může libovolně **číst i zapisovat** ale **nemůže 
 
 ## Příklad
 
-Jaké hodnoty najdete v datovém segmentu nějaké běžné aplikace?
+Jaké hodnoty najdete v datovém segmentu nějaké běžné aplikace? Z pravidla takové, které musí být k dispozici pro celý proces, ne jen pro jednu funkci.
 
-- Jednou variantou je nějaká **konfigurace** aplikace. Tato konfigurace může mít vliv na všechny části procesu, proto musí být přístupná všude.
+- Například **konfigurace** aplikace. Taková konfigurace může mít vliv na všechny části procesu, proto musí být přístupná všude.
 - Dalším příkladem jsou **texty** [^t]. Běžně například texty v horním menu aplikace jako na obrázku níže: "Soubor", "Domů", "Vložení", atd. Tyto názvy se aplikaci často opakují.
 
 {{< figure align=center width=300 src="../word.png" title="Texty aplikace" >}}
