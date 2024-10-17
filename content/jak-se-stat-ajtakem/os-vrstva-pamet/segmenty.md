@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Segmenty
+title: Segmenty 
 weight: 210800
 ---
 
