@@ -14,7 +14,7 @@ Z toho důvodu existují  **calling conventions** neboli "volací konvence". Ka�
 
 - jak se mají správně dělat podrutiny
 - jak se mají podrutiny správně volat
-- jak se dokončené podrutiny mají správně vracet do předchozího kódu
+- jak se dokončené podrutiny mají po ukončení správně vracet do kódu, který rutinu zavolal
 
 <div class="note-blue">
 
@@ -30,6 +30,6 @@ Z toho důvodu existují  **calling conventions** neboli "volací konvence". Ka�
 
 <div class="note-blue">
 
-⚠️ **Běžný ajťák se volacími konvencemi nezabývá**. Běžný ajťák (v mém pojetí) netvoří software na tak úrovni volacích konvencí.
+⚠️ **Běžný ajťák se volacími konvencemi nezabývá**. Běžný ajťák (v mém pojetí) netvoří software na úrovni volacích konvencí.
 
 </div>
