@@ -10,7 +10,7 @@ RAM pamět byla historicky pomalejší než procesor.
 
 Z tohoto důvodu obsahují procesory řadu svých vlastních miniaturních pamětí zvaných *cache* jejichž kapacita bývá jen pár megabajtů. Tyto paměti jsou odstupňované od nejrychlejší (L1) po nejpomalejší (až L4) a tyto *cache* mohou být v procesoru vyrobeny i za použití jiné výrobní technologie.
 
-Synchronizace mezi RAM pamětí a procesorem tak probíhá i prostřednictvím těchto cache. Tyto synchronizace jsou celkem komplikované a hlavně probíhají už na hardwarové úrovni.  
+Synchronizace mezi RAM pamětí a procesorem tak probíhá i prostřednictvím těchto cache. Tyto synchronizace jsou celkem komplikované a hlavně probíhají už na hardwarové úrovni (tzn. už je to tak "zadrátované").
 
 ## Registry
 
@@ -24,7 +24,7 @@ Když chcete např. sečíst dvě čísla tak instrukce vašeho programu mají z
   
 Instrukce sečtení uložila výsledek do registru C.
 
-V moderních procesorech je těchto registrů z historických důvodů obrovské množství a jejich použití je napříč instrukcemi nekonzistentní. V rámci tohoto návodu se však registry zabývat nebudeme.
+V moderních procesorech je těchto registrů z historických důvodů obrovské množství a jejich použití je napříč instrukcemi nekonzistentní. V rámci tohoto návodu se však registry zabývat nepotřebujeme.
 
 ## Pipelines
 
@@ -60,11 +60,11 @@ Běžný uživatel si toho nevšimne. K selhání CPU predikcí dochází ve va�
 
 U moderních CPU mají instrukce proměnlivou délku. U `x86` to je mezi 8 až 120 bity (nebo 1 až 15 bajty).
 
-CPU v jednom cyklu nejdřív detekuje typ instrukce podle kterého zjistí, jakou délku tato instrukce může mít a v dalších cyklech se pustí do dekódování zbytku instrukce. 
+CPU v jednom cyklu nejdřív detekuje typ instrukce podle kterého zjistí, jakou délku tato instrukce může mít a v dalších cyklech (v rámci pipelajny, viz. výše) se pustí do dekódování zbytku instrukce. 
 
 ## Buffery
 
-Každá komponenta v počítači běží pod určitou rychlostí. Architektura moderního počítače obsahuje obrovské množství různých pomocných obvodů a čipů, nebo "*bufferů*" které slouží právě k dočasnému uložení dat mezi komponentami, které pracují na různých rychlostech. Toto je závislé na **chipsetu základní desky**.
+Každá komponenta v počítači běží pod určitou rychlostí. Architektura moderního počítače obsahuje obrovské množství různých pomocných obvodů a čipů, nebo "*bufferů*" které slouží právě k dočasnému uložení dat mezi komponentami, které pracují na různých rychlostech. To se odvíjí i od **chipsetu základní desky**.
 
 Každý výrobce však k tomu může mít jiný přístup.
 
@@ -84,4 +84,4 @@ Realita, jak a kudy tečou v moderních počítačích konkrétní bity, by se l
 
 [^o]: *Z angličtiny "out-of-order execution"*
 
-[^x]: *Snad kromě člověka, který v [nejpopulárnější otázce na Stackoverflow](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) řešil problém způsobený právě prediktivní mechanismy CPU.*
+[^x]: *Snad kromě člověka, který v [nejpopulárnější otázce na Stackoverflow](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) řešil problém způsobený právě prediktivními mechanismy CPU.*

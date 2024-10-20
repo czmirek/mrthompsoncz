@@ -13,3 +13,9 @@ Zde je shrnutí, co vše stack segment obsahuje.
 - Jakmile je podrutina dokončena, stack frame zanikne.
 
 {{< figure align=center width=600 src="../stack-segment.png" title="Stack segment struktura" >}}
+
+<div class="note-blue">
+
+⚠️ **Důležité k zapamatování**: Stack segmentu se běžně říká jen **stack**.
+
+</div>

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Hardwarové přerušení
-weight: 70335
+weight: 70339
 ---
 
 Jak už víte z předchozích kapitol, procesor zpracovává instrukce **sériově, tedy za sebou, jednu po druhé**. Procesor v rámci *pipeline* je sice schopný zpracovávat instrukce v různých krocích, může v rámci této pipeline přeskakovat zbytečné instrukce či predikovat jejich výsledek, každopádně pořád platí to, že procesor v každém tomto kroce zpracovává právě pouze jednu instrukci.
