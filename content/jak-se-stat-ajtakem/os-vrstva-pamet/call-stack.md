@@ -1,8 +1,10 @@
 ---
 draft: false
-title: Call stack
+title: 'Stack segment: call stack'
 weight: 212000
 ---
+
+**Stack segment** je už trochu složitější struktura.
 
 ## Řetězení podrutin
 
@@ -16,7 +18,7 @@ V moderních procesorech se u některých aplikací podrutiny mohou řetězit kl
 
 Pro každé **vlákno** programu operační systém přiřadí **call stack** [^t] což je jednoduše kus virtuální paměti. 
 
-**Call stack** je něco jako nádoba, do které lze házet kostičky na sebe. Vyndat ale můžete jenom tu nejhornější kostičku. Tomu se také říká **LIFO** [^l]. Těmto kostičkám se říká **stack frame** což je jen kus virtuální paměti dedikovaný pro dané **volání podrutiny**.
+**Call stack** je něco jako nádoba, do které lze házet kostičky na sebe. Vyndat ale můžete jenom tu nejhornější kostičku. Tomu se také říká **LIFO** struktura [^l] . Těmto kostičkám se říká **stack frame** což je jen kus virtuální paměti dedikovaný pro dané **volání podrutiny**.
 
 V rámci **[volací konvence]({{< relref "calling-convention" >}})** vzniká pro každou volanou podrutinu **stack frame**.
 
@@ -27,5 +29,5 @@ Dále je důležité si zapamatovat, že:
 - Jakmile je podrutina dokončena, její stack frame se odstraní.
 - Jakmile skončí celé vlákno, odstraní se i celý jeho call stack.
 
-[^t]: *Nebo "thread stack" ale myslí se tím jedno a totéž.*
+[^t]: *Nebo "thread stack" ale myslí se tím jedno a totéž. Do češtiny se nepřekládá.*
 [^l]: *Last In First Out - poslední uvnitř, první ven*
