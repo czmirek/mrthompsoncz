@@ -16,7 +16,7 @@ Tato kapitola je shrnutí všech důležitých informací z kapitol o procesoru.
   - **datové**: těmito instrukcemi procesor přikazuje, kam se který bit má přesunout
   - **aritmeticko-logické**: těmito instrukcemi procesor bity matematicky či logicky transformuje
   - **řídící**: těmito instrukcemi procesor mění tok instrukcí
-- **Podrutina** je opakovaně přepoužitelný seznam instrukcí. 
+- **Podrutina/funkce** je opakovaně přepoužitelný seznam instrukcí se vstupními parametry a **jedním** výstupním parametrem.
 - **Calling convention** je konvence určující jak se má s podrutinami pracovat.
 - **Hardwarové přerušení** je proces, kdy je možné jakoukoliv jinou komponentou v počítači ovlivnit právě probíhající tok instrukcí. CPU podle přerušení zavolá nějakou funkci (podrutinu) a až ji vykoná, vrátí se zpět k normálnímu toku instrukcí.
 - **Softwarové přerušení** je situace, kdy nějaká instrukce, úmyslně či neúmyslně, vyvolá v procesoru přerušení a ovlivní tak tok instrukcí. CPU podle přerušení zavolá nějakou funkci (podrutinu) a až ji vykoná, vrátí se zpět k normálnímu toku instrukcí.

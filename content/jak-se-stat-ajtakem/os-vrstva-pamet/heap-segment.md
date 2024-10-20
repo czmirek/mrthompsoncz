@@ -37,15 +37,13 @@ Vrácení paměti je přímočaré.
 
 </div>
 
-<!-- 
 <div class="note-blue">
 
 ☝️ Jakmile podrutina skončí tak skončí i daný stack frame a s ním i adresa na paměť v heapu. Co proces musí udělat, aby daná paměť byla přístupná i pro další podrutiny?
 
-✅ Proces má dvě možnosti. Může adresu uložit:
+✅ Proces má dvě možnosti. Může:
 
-- do připravené položky v **data segmentu**. 
+- uložit adresu do nějaké připravené položky v **data segmentu**
+- adresu vrátit jako **výstupní parametr** funkce/podrutiny
 
 </div>
-
--->

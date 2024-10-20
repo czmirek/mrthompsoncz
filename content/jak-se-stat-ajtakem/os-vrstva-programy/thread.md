@@ -12,4 +12,8 @@ Vlákno je **přidělená kapacita procesoru pro zpracovávání instrukcí**. D
 
 {{< figure align=center src="../instrukce-vlakna.png" width=500 title="Běžící vlákno" >}}
 
+<div class="note-blue">
+
 ⚠️ **Důležité k zapamatování**: Jakmile skončí hlavní vlákno procesu, **skončí celý proces**.
+
+</div>
