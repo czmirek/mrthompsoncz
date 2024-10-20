@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'Řídící instrukce: podrutiny'
+title: 'Podrutiny'
 weight: 70330
 ---
 
