@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'Úplná funkce'
+title: 'Funkce 2'
 weight: 70331
 ---
 
@@ -22,7 +22,7 @@ Zápis funkce s dosazenými hodnotami vypadá takto:
 
 > `7 = SEČTI(3, 4)`
 
-Jak sami vidíte, je to jenom takový jiný zápis pro `3 + 4 = 7`. Když použijete čísla 3 a 4 tak výsledek vždy bude 7.
+Jak sami vidíte, je to jenom takový jiný, divný zápis pro `3 + 4 = 7`. Když *"zavoláte"* funkci SEČTI a použijete čísla 3 a 4 jako vstupní parametry tak vám vždy *"vrátí"* výsledek 7 bez ohledu na to, kolikrát funkci *"zavoláte"*.
 
 ## Jak udělat funkci v instrukcích pro procesor [^f]
 

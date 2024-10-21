@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'Podrutiny'
+title: 'Funkce'
 weight: 70330
 ---
 

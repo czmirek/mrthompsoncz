@@ -14,4 +14,8 @@ Procesor komunikuje se zbytkem počítače prostřednictvím **sběrnic** na zá
 
 {{< figure align=center width=600 src="../vystup-komplex.png" title="Komplexita výstupních bitů" >}}
 
+<div class="note-blue">
+
 ⚠️ **Důležité k zapamatování**: Výstupní bity běžné ajťáky nezajímají. Toto "zadrátování" se liší podle *patice* procesoru což je fyzická zásuvka, do které se na základní desce procesor umisťuje.
+
+</div>
