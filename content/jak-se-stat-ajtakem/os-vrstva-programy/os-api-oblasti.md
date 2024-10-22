@@ -15,12 +15,10 @@ OS nedovoluje komunikovat s komponentami napřímo. Programy místo toho musí v
 - **Virtuální paměť** = práce s pamětí
 - **Souborový systém** = práce s persistentním [^p] uložištěm
 - **Síťový interface** = komunikace se sítí/internetem
-
+- **Standard I/O** = historicky první a dodnes platný způsob, kterým procesy mohou interagovat s uživatelem a mezi sebou.
 
 {{< figure align=center src="../osapioblasti.png" width=600 title="Oblasti OS API / syscalls" >}}
 
-
-Tyto oblasti si však zaslouží rozepsat v samostatných sekcích.
-
+Každá z těchto oblastí si zaslouží rozepsat v samostatných sekcích.
 
 [^p]: *Souborový systém lze v běžných OS postavit i nad RAM pamětí. Vzhledem k charakteru RAM paměti se po vypnutí počítače všechny soubory z daného souborového uložiště ztratí.*
