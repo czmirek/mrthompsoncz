@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Heap segment
+title: "Heap segment: Získání paměti"
 weight: 214000
 ---
 
@@ -19,21 +19,7 @@ Funguje to následovně:
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování**: Proces může skrz tuto adresu může libovolně číst a měnit jakékoliv bity v tomto 4 bajtovém rozsahu **a to ze všech vláken po celou dobu běhu procesu** nebo dokud se nerozhodne paměť vrátit (viz. níže).
-
-</div>
-
-## Vrácení paměti
-
-Vrácení paměti je přímočaré.
-
-- Proces sdělí OS API, že už danou položku heapu nepotřebuje a předá adresu, kterou původně od OS API dostal.
-- OS API položku uvolní.
-- Proces již nemůže adresu jakkoliv využít
-
-<div class="note-blue">
-
-⚠️ **Důležité k zapamatování**: Adresy dodané OS jsou **jediný možný způsob** jak se proces k přidělené paměti může dostat. Pokud špatně naprogramovaný proces adresu ztratí **tak už se k získané paměti nedostane**.
+⚠️ **Důležité k zapamatování**: Proces může skrz tuto adresu může libovolně číst a měnit jakékoliv bity v tomto 4 bajtovém rozsahu **a to ze všech svých vláken po celou dobu běhu procesu** nebo dokud se nerozhodne paměť vrátit (viz. další kapitola).
 
 </div>
 
@@ -43,12 +29,7 @@ Vrácení paměti je přímočaré.
 
 ✅ Proces má dvě možnosti. Může:
 
-- uložit adresu do nějaké připravené položky v **data segmentu**
+- uložit adresu do nějaké předem připravené položky v **data segmentu**
 - adresu vrátit jako **výstupní parametr** funkce/podrutiny
 
 </div>
-
-
-## 🐛 Memory leak
-
-Situaci, kdy proces nevrátí již nepoužívanou paměť, se říká **memory leak**.
