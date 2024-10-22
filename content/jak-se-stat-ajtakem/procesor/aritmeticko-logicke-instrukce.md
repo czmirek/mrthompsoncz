@@ -16,7 +16,7 @@ Mezi aritmetické (matematické) instrukce patří například:
 
 Tyto instrukce provádějí operace nad dvojkovou soustavou. Z kapitoly o [celých číslech]({{< relref "../bitove-interpretace/cela-cisla" >}}) už víte, že čísla ve dvojkové soustavě lze normálně převést do desítkové soustavy. **Matematické operace ve dvojkové soustavě dávají stejný výsledek, jako v desítkové soustavě.**
 
-Moderní procesory umí stovky dalších matemtaických funkcí (na dvojkové soustavě) např. pro práci s desetinnými čísly, s vektory a podobně.
+Moderní procesory umí stovky dalších matematických funkcí (na dvojkové soustavě) např. pro práci s desetinnými čísly, s vektory a podobně.
 
 ## Logické funkce
 

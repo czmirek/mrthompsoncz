@@ -16,7 +16,11 @@ Moderní procesory pracují se 64-bitovými (ale i většími) instrukcemi ale *
 
 ## kilobajt, megabajt, gigabajt…
 
+<div class="note-blue">
+
 ⚠️ **Důležité k zapamatování**: Historicky se neustálilo jen jedno pravidlo tak se bohužel dodnes používá více způsobů. 
+
+</div>
 
 ### kilobajt = 1024 bajtů
 

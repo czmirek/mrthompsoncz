@@ -4,7 +4,7 @@ title: 'Stack segment: call stack'
 weight: 212000
 ---
 
-**Stack segment** je už trochu složitější struktura.
+**Stack segment** nebo jen **stack** je paměť dedikovaná [podrutinám]({{< relref "../procesor/fce-podrutina" >}}).
 
 Nejdřív bych rád připomněl kapitolu o [řetězení podrutin]({{< relref "../procesor/retezeni-podrutin" >}}), konkrétně následující obrázek.
 
@@ -12,9 +12,9 @@ Nejdřív bych rád připomněl kapitolu o [řetězení podrutin]({{< relref "..
 
 ## Call stack
 
-Pro každé **vlákno** programu operační systém přiřadí **call stack** [^t] což je jednoduše kus virtuální paměti. 
+Pro každé **vlákno** programu operační systém přiřadí **call stack** [^t] což je jednoduše kus virtuální paměti, který se může nafukovat a zase smršťovat.
 
-**Call stack** je něco jako nádoba, do které lze házet kostičky na sebe. Vyndat ale můžete jenom tu nejhornější kostičku. Tomu se také říká **LIFO** struktura [^l] . Těmto kostičkám se říká **stack frame** což je jen kus virtuální paměti dedikovaný pro dané **volání podrutiny**. 
+**Call stack** je něco jako nádoba, do které lze házet kostičky na sebe. Vyndat ale můžete jenom tu nejhornější kostičku. Tomu se také říká **LIFO** struktura [^l] . Jednotlivým kostičkám se říká **stack frame** což je jen kus virtuální paměti dedikovaný pro dané **volání podrutiny**. 
 
 V rámci **[volací konvence]({{< relref "calling-convention" >}})** vzniká pro každou volanou podrutinu **stack frame**.
 

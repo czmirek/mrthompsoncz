@@ -24,7 +24,7 @@ Toto přerušení je jednoduše instrukce která se na základě **nějakého si
 
 {{< figure align=center width=500 src="../interrupt1.png" title="Přerušení - krok 1" >}}
 
-Přerušení v sobě nese jakýsi identifikátor označující hardwarové přerušení. CPU se podle tohoto identifikátoru podívá do speciální tabulky [^t] která obsahuje dva sloupce: identifikátor a adresa v RAM paměti na [funkci/rutinu]({{< relref "ridici-instrukce-2" >}}), která se má v případě přerušení zpracovat.
+Přerušení v sobě nese jakýsi identifikátor označující hardwarové přerušení. CPU se podle tohoto identifikátoru podívá do speciální tabulky [^t] která obsahuje dva sloupce: identifikátor a adresa v RAM paměti na [funkci/podrutinu]({{< relref "fce-podrutina2" >}}), která se má v případě přerušení zpracovat.
 
 {{< figure align=center width=500 src="../interrupt2.png" title="Přerušení - krok 2" >}}
 

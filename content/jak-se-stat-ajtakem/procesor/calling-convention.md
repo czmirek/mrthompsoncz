@@ -4,17 +4,20 @@ title: Calling convention
 weight: 70335
 ---
 
-V předchozích kapitolách o [podrutinách]({{< relref "ridici-instrukce-2" >}}) a o [funkcích]({{< relref "funkce" >}}) jsem uvedl příklady, jak lze dělat podrutiny nebo funkce se vstupními/výstupními parametry jen s pomocí `JUMP` instrukce. 
+V předchozích kapitolách o [podrutinách / funkcích]({{< relref "fce-podrutina2" >}}) jsem uvedl příklady, jak lze dělat podrutiny nebo funkce se vstupními/výstupními parametry jen s pomocí `JUMP` instrukce. 
 
-**Je nutné ale zdůraznit, že šlo pouze o ukázkové příklady.** V moderních procesorech lze stejného výsledku dosáhnout obrovským množstvím jiných způsobů. Z tohoto důvodu existují **calling conventions** neboli **volací konvence**.
+**Je nutné ale zdůraznit, že šlo pouze o ukázkové příklady.** V moderních procesorech lze stejného výsledku dosáhnout obrovským množstvím jiných způsobů. 
 
-Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací konvence je jinými slovy soubor pravidel které určují:
+Z tohoto důvodu existují **calling conventions** neboli **volací konvence**.
 
-- jak se mají správně dělat funkce/podrutiny
-- jak se mají funkce/podrutiny správně volat
-- jak se mají **správně předávat vstupní parametry**
-- jak se má **správně předávat výstupní parametry**
-- jak se dokončené funkce/podrutiny mají po ukončení **správně vracet do kódu, který rutinu zavolal**
+## 📜 Co je volací konvence?
+
+Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací konvence je jinými slovy soubor pravidel které určují, jaké instrukce se mají používat a jakým způsobem pro:
+
+- **tvorbu funkcí**: včetně vstupních parametrů a výstupu funkce, pokud ji funkce definuje
+- **volání funkcí**: včetně předávání vstupních hodnot a vrácení výstupní hodnoty
+  - **vstup do funkce**: jakým způsobem se při volání funkce přejde z jedné podrutiny do další
+  - **výstup z funkce**: jakým způsobem se při dokončení konkrétní funkce kód vrátí do podrutiny, která funkci zavolala
 
 <div class="note-blue">
 
@@ -29,8 +32,8 @@ Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací 
 
 <div class="note-blue">
 
-⚠️ Přestože to pro moderní procesory není problém, běžné volací konvence umí pracovat pouze s **jedním výstupním parametrem**. Toto má historické ale i logické důvody, ke kterým se vrátím v kapitolách o programování.
+⚠️ Přestože to pro moderní procesory není problém, běžné volací konvence umožňují <u>**žádný nebo jen jeden**</u> výstupní parametr. Toto má historické ale i logické důvody, ke kterým se vrátím v kapitolách o programování a tvorbě softwaru.
 
-⚠️ **Běžný ajťák se volacími konvencemi nezabývá**. Běžný ajťák (v mém pojetí) totiž netvoří software na úrovni podrutin a volacích konvencí.
+⚠️ **Běžný ajťák se volacími konvencemi nezabývá** (měl by však vědět, že existují). Běžný ajťák (v mém pojetí) netvoří software na úrovni podrutin a volacích konvencí.
 
 </div>

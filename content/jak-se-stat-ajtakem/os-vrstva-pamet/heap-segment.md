@@ -33,7 +33,7 @@ Vrácení paměti je přímočaré.
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování**: Adresy dodané OS jsou **jediný možný způsob** jak se proces k přidělené paměti může dostat. Pokud špatně naprogramovaný proces adresu ztratí **tak už se k získané paměti nedostane**. 
+⚠️ **Důležité k zapamatování**: Adresy dodané OS jsou **jediný možný způsob** jak se proces k přidělené paměti může dostat. Pokud špatně naprogramovaný proces adresu ztratí **tak už se k získané paměti nedostane**.
 
 </div>
 
@@ -47,3 +47,8 @@ Vrácení paměti je přímočaré.
 - adresu vrátit jako **výstupní parametr** funkce/podrutiny
 
 </div>
+
+
+## 🐛 Memory leak
+
+Situaci, kdy proces nevrátí již nepoužívanou paměť, se říká **memory leak**.

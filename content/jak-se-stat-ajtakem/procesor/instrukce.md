@@ -12,4 +12,8 @@ Na obrázku níže je příklad 6 bitové instrukce *010011*.
 
 {{< figure align=center width=400 src="../instrukce-bity.png" title="Instrukce procesoru" >}}
 
-Instrukcím v bitové podobě se říká **strojový kód**.
+<div class="note-blue">
+
+⚠️ **Důležité k zapamatování**: Instrukcím v bitové podobě se říká česky **strojový kód** (z anglického *machine code*).
+
+</div>

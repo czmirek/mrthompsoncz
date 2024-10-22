@@ -4,7 +4,7 @@ title: Šířka instrukce
 weight: 70020
 ---
 
-**Šířka instrukce** je **počet bitů v instrukci**. Každý procesor je vyrobený na danou šířku instrukce. U moderních počítačů je šířka instrukce 32 nebo 64 bitů. [^s]
+**Šířka instrukce** je **počet bitů v instrukci**. Každý procesor je vyrobený na danou šířku instrukce. [^s]
 
 V minulém díle jsem použil příklad instrukce v procesoru, kde byla **šířka instrukce 6 bitů**.
 
@@ -20,4 +20,4 @@ Toto je pouze příklad. O tom co ty instrukce dělají a co jednotlivé bity zn
 
 {{< figure align=center width=300 src="../vstupni-instrukce.png" title="Vstupní instrukce procesoru" >}}
 
-[^s]: *Realita je trochu složitější, moderní procesory podporují variabilní délku instrukce, toto však není pro běžného ajťáka podstatné.*
+[^s]: *Realita je trochu složitější, moderní procesory podporují variabilní délku instrukce až do určité maximální délky, to však není pro běžného ajťáka podstatné.*

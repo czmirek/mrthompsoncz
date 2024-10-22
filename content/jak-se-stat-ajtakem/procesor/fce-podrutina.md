@@ -1,10 +1,10 @@
 ---
 draft: false
-title: 'Funkce'
+title: Funkce / podrutina
 weight: 70330
 ---
 
-Díky **JUMP** instrukci je možné definovat **funkce**. Na úrovni strojového kódu se funkcím říká anglicky **subroutine** česky **podrutiny**.
+Díky **JUMP** instrukci je možné definovat **funkce**. Na úrovni [strojového kódu]({{< relref "instrukce" >}}) se funkcím říká anglicky **subroutine** česky **podrutiny**.
 
 Funkce je jednoduše nějaká část instrukcí, která má začátek a konec a kterou lze volat opakovaně. 
 
@@ -12,7 +12,7 @@ Po zavolání funkce se vrátíte zpět do původního toku instrukcí.
 
 {{< figure align=center width=500 src="../podrutina.png" title="Funkce / podrutina" >}}
 
-## Příklad s JUMP instrukcí
+## Příklad s JUMP instrukcí 
 
 Podívejte se na obrázek níže. Funkce je umístěná mezi adresami 2 až 10.
 
