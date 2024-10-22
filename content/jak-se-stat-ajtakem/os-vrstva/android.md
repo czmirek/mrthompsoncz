@@ -4,6 +4,8 @@ title: Android
 weight: 100600
 ---
 
+{{< figure align=center width=100 src="../android.png" title="Android logo" >}}
+
 Android je operační systém specializovaný pro smartphony a tablety vyrobený společností **Google** [^a]
 
 Android vznikl z Linuxového jádra které bylo upraveno pro potřeby provozu na telefonech. Tyto úpravy jsou však tak rozsáhlé, že ve výsledku se Android běžně nepovažuje za klasickou Linuxovou distribuci.

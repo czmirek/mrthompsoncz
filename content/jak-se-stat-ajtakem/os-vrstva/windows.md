@@ -4,6 +4,8 @@ title: Windows
 weight: 100400
 ---
 
+{{< figure align=center width=100 src="../windows.png" title="Windows logo" >}}
+
 **Windows** je jeden z nejznámějších operačních systémů vůbec vyvinutý americkou firmou Microsoft.
 
 Pro běžného ajťáka je důležité vědět, že v dnešní době (2024) existují dva Windows OS:

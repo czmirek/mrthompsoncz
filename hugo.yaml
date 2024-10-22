@@ -109,11 +109,11 @@ menu:
       url: /o-mne/
       weight: 11
     - identifier: piano
-      name: Piano
+      name: 🎹 Piano
       url: /piano/
       weight: 12
     - identifier: jak-se-stat-ajtakem
-      name: Jak se stát ajťákem
+      name: 💻 Jak se stát ajťákem
       url: /jak-se-stat-ajtakem/
       weight: 20
     - identifier: it-blog
