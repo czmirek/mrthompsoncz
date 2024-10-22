@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Jak se stát ajťákem
+title: 💻 Jak se stát ajťákem
 layout: list2
 params:
   hidemeta: true
