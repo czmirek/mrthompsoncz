@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Heap segment: Získání paměti"
+title: "Heap segment: získání paměti"
 weight: 214000
 ---
 
