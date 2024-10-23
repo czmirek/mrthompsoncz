@@ -108,6 +108,10 @@ menu:
       name: O mně
       url: /o-mne/
       weight: 11
+#    - identifier: skoleni
+#      name: 📑 Školení
+#      url: /skoleni/
+#      weight: 11
     - identifier: piano
       name: 🎹 Piano
       url: /piano/

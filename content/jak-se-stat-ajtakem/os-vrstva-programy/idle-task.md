@@ -10,7 +10,7 @@ Co ale OS dělá, když jsou všechny instrukce **splněny včas** a už nejsou 
 
  V tom případě procesor přidělí čas procesoru jedné své vlastní speciální úloze, které se říká **idle task**.
 
-**Idle task** reálně **nic nedělá** a toto "nicnedělání" dělá do nekonečna. Tato úloha má však nejnižší možnou prioritu. Jejím účelem je zaplnit procesor instrukcemi do té doby, dokud nepřijde čas pro zpracování instrukcí pro další procesor. Toto balancování v procesorech probíhá každou chvíli, v mikrosekundových intervalech!
+**Idle task** reálně **nic nedělá** a toto "nicnedělání" dělá do nekonečna. Tato úloha má nejnižší možnou prioritu a jejím účelem je zaplnit procesor nějakými "nicnedělajícími" instrukcemi do té doby, dokud nenastane čas pro zpracování instrukcí pro další proces. Toto balancování probíhá každou chvíli, v mikrosekundových intervalech!
 
 ## Instrukce pro "nicnedělání"
 
