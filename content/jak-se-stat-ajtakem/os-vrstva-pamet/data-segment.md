@@ -6,7 +6,7 @@ weight: 210900
 
 Datový segment má **fixní délku** a obsahuje hodnoty, které jsou předem nadefinované již v aplikaci. 
 
-Samotné hodnoty mohou být různě široké avšak také mají **fixní délku**.
+Samotné hodnoty také mají **fixní délku**.
 
 {{< figure align=center width=600 src="../data-segment.png" title="Segmenty procesové paměti" >}}
 
