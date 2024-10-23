@@ -12,7 +12,7 @@ Co je přesně všechno se ale počítá jako **volná virtuální paměť proce
 
 - Ve Windows jsou limity na virtuální paměť závislé na instrukční sadě procesoru a na edici OS.
 - U Linuxu jsou tyto Limity odlišné v každé distribuci.
-- Limity jsou většinou vysoké, někdy i "nekonečné".
+- Limity jsou většinou vysoké, někdy i "nekonečné" tzn. OS využití virtuální paměti nijak dál nelimituje, než kapacitou dostupné RAM paměti + persistentních uložišť.
 
 ---
 
