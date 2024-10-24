@@ -47,12 +47,19 @@ params:
     }
 
     #sendMessageForm {
+        background-color: #CFCFCF;
+    }
+    body.dark #sendMessageForm {
+        background-color: #2F2F2F;
+    }
+    
+    #sendMessageForm {
         max-width: 500px;
         margin:0 auto;
-        background-color: #2F2F2F;
+        
         padding: 1.3em;
         border-radius: 1em;
-    }
+    }    
 
     #sendMessageForm label {
         display: block;
