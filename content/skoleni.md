@@ -139,6 +139,26 @@ params:
         display: none;
         float:right;
       }
+
+        body.dark .price {
+            background-color: #AFAFAF;
+            color:black;
+        }
+        .price {
+            background-color: #000000;
+            color:white;
+        }
+
+      .price {
+        padding:0.5em;
+        width: 270px;
+        border-radius:1em;
+        margin: 0 auto;
+        margin-top:2em;
+        margin-bottom:2em;
+        font-size: 18pt;
+        text-align: center;
+      }
 </style>
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LeK1mkqAAAAAFy3v2kXD0TSBHdUkDUdEpatn907"></script>
@@ -265,6 +285,9 @@ params:
     </div>
 </div>
 
+<div class="price">
+    Cena: 12.000,- / den
+</div>
 
 <h2 style="text-align: center;margin-top:1em;">Mám zájem o školení</h2>
 
