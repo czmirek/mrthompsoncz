@@ -286,7 +286,7 @@ params:
 </div>
 
 <div class="price">
-    Cena: 12.000,- / den
+    Cena: 10.000,- / den
 </div>
 
 <h2 style="text-align: center;margin-top:1em;">Mám zájem o školení</h2>
