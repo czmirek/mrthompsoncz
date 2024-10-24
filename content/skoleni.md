@@ -7,9 +7,13 @@ params:
   ShowBreadCrumbs: false
 ---
 
-Nabízím školení.
-
 <style type="text/css">
+    .itemlist {
+        list-style-type: none;
+    }
+    .itemlist li {
+        margin-top:0.7em;
+    }
     .red {
         color: red;
         margin-left: 0.3em;
@@ -32,8 +36,23 @@ Nabízím školení.
     
     }
 
+    #errorDiv {
+        background-color: #f8d7da;
+        color:black;
+        padding: 1em;
+        border-radius: 1em;
+        float:none;
+        clear:both;
+        margin-top:1em;
+        display: none;        
+    }
+
     #sendMessageForm {
         max-width: 500px;
+        margin:0 auto;
+        background-color: #2F2F2F;
+        padding: 1.3em;
+        border-radius: 1em;
     }
 
     #sendMessageForm label {
@@ -128,6 +147,8 @@ Nabízím školení.
     
         window.onFormClick = function () {
     
+            let serverHost = "https://mrthompsonapp.azurewebsites.net";
+
             if (!validateForm()) {
                 return;
             }
@@ -139,7 +160,7 @@ Nabízím školení.
                     var formData = new FormData(form);
                     formData.append("g-recaptcha-response", token);
     
-                    fetch("https://mrthompsonapp.azurewebsites.net/api/SendMessage", {
+                    fetch(serverHost + "/api/SendMessage", {
                         method: "POST",
                         body: formData
                     }).then(function (response) {
@@ -147,7 +168,8 @@ Nabízím školení.
                             var success = document.getElementById("successDiv");
                             success.style.display = "block";
                         } else {
-                            console.log("Něco se pokazilo. Zkuste to prosím znovu.");
+                            var error = document.getElementById("errorDiv");
+                            error.style.display = "block";
                         }
                     });
                 });
@@ -158,6 +180,28 @@ Nabízím školení.
     }
     
 </script>
+<div style="margin:0">
+    <div class="col2">
+        <img src="/ich.jpg" width="200" alt="Miroslav Thompson" />
+    </div>
+    <div class="col1">
+        Nabízím školení a konzultace v oblasti softwarové architektury, softwarového inženýrství, cloudu, DevOps a kontejnerové orchestrace.
+        <br /><br />
+        Mám zkušenosti s výukou v následujících oblastech:
+        <br /><br />
+        <ul class="itemlist">
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="25" style="display:inline;margin:0;"/> <strong>Azure</strong></li>
+            <li>💻 <strong>Azure Devops</strong> - organizace, pipelines, skriptování</li>
+            <li>👷 <strong>IT architektura</strong>: on-prem, cloud, hybrid, migrace, rozpočty, monitoring, bezpečnost, SaaS/PaaS/IaaS, atd.</li>
+            <li>👷‍♂️ <strong>Softwarové inženýrství</strong> - životní cyklus projektu, architektura aplikace, programování a DevOps</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" width="25" style="display:inline;margin:0;"/> <strong>Kubernetes</strong></li>
+            <li>📱 <strong>Programování mobilních aplikací</strong></li>
+        </ul>
+    </div>
+</div>
+
+
+<h2 style="text-align: center;margin-top:1em;">Mám zájem o školení</h2>
 
 <form id="sendMessageForm">
     <div class="form-input">
@@ -185,4 +229,8 @@ Nabízím školení.
     <div id="successDiv">
         ✅ Zpráva byla odeslána, děkuji. Jakmile to bude možné, ozvu se Vám.
     </div>
+    <div id="errorDiv">
+        ❌ Něco se pokazilo. Zkuste to prosím znovu.
+    </div>
+
 </form>
