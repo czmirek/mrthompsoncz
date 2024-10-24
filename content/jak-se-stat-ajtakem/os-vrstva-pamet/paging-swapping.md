@@ -35,7 +35,7 @@ Historicky existují dva způsoby, jak se toto dělá: **paging** a **swapping**
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování**: OS běžně nemá žádný názor na to, které procesory by měly zabírat kolik paměti. V běžném provozu tak jakýkoliv proces může zahltit celou paměť a způsobit swapování. V takovém případě je to chyba daného procesu, nikoliv OS. [^a]
+⚠️ **Důležité k zapamatování**: OS běžně nemá žádný názor na to, které procesy by měly zabírat kolik paměti. V běžném provozu tak jakýkoliv proces může zahltit celou paměť a způsobit swapování. V takovém případě je to chyba daného procesu, nikoliv OS. [^a]
 
 </div>
 
