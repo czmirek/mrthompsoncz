@@ -31,7 +31,6 @@ params:
         border-radius: 1em;
         float:none;
         clear:both;
-        margin-top:1em;
         display: none;        
     
     }
@@ -81,6 +80,58 @@ params:
         float: right;
         margin-top: 1em;
     }
+    @keyframes top-cricle {
+        from {
+          transform: rotate(-25deg);
+        }
+        to {
+          transform: rotate(335deg);
+        }
+      }
+      @keyframes bottom-cricle {
+        from {
+          transform: rotate(-15deg);
+        }
+        to {
+          transform: rotate(345deg);
+        }
+      }
+      .progress-bar {
+        position: relative;
+        width: 25px;
+        height: 25px;
+      }
+      
+      .circle {
+        height: 100%;
+        right: 0px;
+        position: absolute;
+        border: solid 5px  #a9a9a9;
+        border-top-color:  #a9d161;
+        border-radius: 50%;
+      }
+      
+      .border {
+        width: 100%;
+        transform: rotate(135deg);  
+        animation: spin 1.3s steps(2) .2s infinite;
+        -webkit-animation: spin 1.3s linear infinite;
+      
+      }
+      
+      @-webkit-keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      #progress-wrap {
+        display: none;
+        float:right;
+      }
 </style>
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LeK1mkqAAAAAFy3v2kXD0TSBHdUkDUdEpatn907"></script>
@@ -153,13 +204,16 @@ params:
                 return;
             }
     
+            var progress = document.getElementById("progress-wrap");
+            progress.style.display = "block";
+
             grecaptcha.ready(function () {
                 grecaptcha.execute('6LeK1mkqAAAAAFy3v2kXD0TSBHdUkDUdEpatn907', { action: 'submit' }).then(function (token) {
                     //send post request from form including the recaptcha token to mrthompsonapp.azurewebsites.net
                     var form = document.getElementById("sendMessageForm");
                     var formData = new FormData(form);
                     formData.append("g-recaptcha-response", token);
-    
+                    
                     fetch(serverHost + "/api/SendMessage", {
                         method: "POST",
                         body: formData
@@ -171,6 +225,10 @@ params:
                             var error = document.getElementById("errorDiv");
                             error.style.display = "block";
                         }
+                        progress.style.display = "none";
+
+                        var inputList = document.getElementById("inputlist");
+                        inputList.style.display = "none";
                     });
                 });
             });
@@ -204,27 +262,42 @@ params:
 <h2 style="text-align: center;margin-top:1em;">Mám zájem o školení</h2>
 
 <form id="sendMessageForm">
-    <div class="form-input">
-        <label for="name">Jméno<span class="red">*</span></label>
-        <input id="formName" type="text" name="name">
-        <span id="nameErr" class="err">Vyplňte prosím své jméno</span>
+    <div id="inputlist">
+        <div class="form-input">
+            <label for="name">Jméno<span class="red">*</span></label>
+            <input id="formName" type="text" name="name">
+            <span id="nameErr" class="err">Vyplňte prosím své jméno</span>
+        </div>
+        <div class="form-input">
+            <label for="name">Email<span class="red">*</span></label>
+            <input id="formEmail" type="email" name="email">
+            <span id="emailErr" class="err">Vyplňte prosím validní email</span>
+        </div>
+        <div class="form-input">
+            <label for="name">Telefon<span class="red">*</span></label>
+            <input id="formPhone" type="phone" name="phone">
+            <span id="phoneErr" class="err">Vyplňte prosím svůj telefon</span>
+        </div>
+        <div class="form-input">
+            <label for="name">Zpráva</label>
+            <textarea id="formMessage" name="message">
+            </textarea>
+        </div>
+        <button type="button" onclick="window.onFormClick()">Odeslat</button>
+        <br style="float:none;clear:both;" />
     </div>
-    <div class="form-input">
-        <label for="name">Email<span class="red">*</span></label>
-        <input id="formEmail" type="email" name="email">
-        <span id="emailErr" class="err">Vyplňte prosím validní email</span>
+    <div id="progress-wrap">
+        <table style="width:auto;">
+            <tr>
+                <td style="min-width: 25px !important;">
+                    <div class="progress-bar">
+                    <div class="circle border">
+                    </div>
+                </div></td>
+                <td>Odesílám...</td>
+            </tr>
+        </table>    
     </div>
-    <div class="form-input">
-        <label for="name">Telefon<span class="red">*</span></label>
-        <input id="formPhone" type="phone" name="phone">
-        <span id="phoneErr" class="err">Vyplňte prosím svůj telefon</span>
-    </div>
-    <div class="form-input">
-        <label for="name">Zpráva</label>
-        <textarea id="formMessage" name="message">
-        </textarea>
-    </div>
-    <button type="button" onclick="window.onFormClick()">Odeslat</button>
     <br style="float:none;clear:both;" />
     <div id="successDiv">
         ✅ Zpráva byla odeslána, děkuji. Jakmile to bude možné, ozvu se Vám.
