@@ -39,4 +39,4 @@ Historicky existují dva způsoby, jak se toto dělá: **paging** a **swapping**
 
 </div>
 
-[^a]: *Běžný ajťák tyto limity někdy nastavuje ručně ale až v kontextu virtualizace, o které budu hovořit mnohem později.*
+[^a]: *Běžný ajťák někdy nastavuje limity procesů ručně ale až v kontextu virtualizace, o které budu hovořit mnohem později.*
