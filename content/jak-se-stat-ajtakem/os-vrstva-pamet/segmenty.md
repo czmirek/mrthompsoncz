@@ -8,7 +8,8 @@ Proces se ve virtuální paměti dělí na následující části [^s] kterým s
 
 {{< figure align=center width=200 src="../segmenty.png" title="Segmenty procesové paměti" >}}
 
-- **Code segment**: Instrukce programu. Tato část je pouze pro čtení a má fixní délku. Proces nemůže za běhu měnit své vlastní instrukce.
+- **Code segment**: Instrukce programu. Tato část je pouze pro čtení a má fixní délku. 
+  - ⚠️ Proces **nemůže** za běhu měnit své vlastní instrukce.
 - **Data segment**: *"pevně nastavená"* paměť
 - **Stack**: *"podrutinová"* paměť.
 - **Heap**: *"dynamická"* paměť.
@@ -16,4 +17,4 @@ Proces se ve virtuální paměti dělí na následující části [^s] kterým s
 
 **Data segment**, **stack** a **heap** části podrobně popíšu v následujících kapitolách.
 
-[^s]: *V různých OS je toto členění různě komplikované (např. [PE](https://upload.wikimedia.org/wikipedia/commons/1/1b/Portable_Executable_32_bit_Structure_in_SVG_fixed.svg) členění ve Windows). Zde uvádím pouze ty zásadní části důležité pro běžného ajťáka.*
+[^s]: *V různých OS je toto členění různě komplikované. Zde uvádím pouze ty zásadní části důležité pro běžného ajťáka.*

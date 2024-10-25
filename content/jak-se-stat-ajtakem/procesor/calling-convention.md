@@ -23,6 +23,8 @@ Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací 
 
 ⚠️ **Konvence není závazná.** Programy nemají povinnost konvence dodržovat u svých vlastních podrutin ale mají povinnost konvenci dodržovat pokud chtějí využívat OS API.
 
+⚠️ Běžný software je běžně vyrobený způsobem, který tyto konvence automaticky používá.
+
 </div>
 
 ## Nejběžnější volací konvence
@@ -32,7 +34,7 @@ Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací 
 
 <div class="note-blue">
 
-⚠️ Přestože to pro moderní procesory není problém, běžné volací konvence umožňují <u>**žádný nebo jen jeden**</u> výstupní parametr. Toto má historické ale i logické důvody, ke kterým se vrátím v kapitolách o programování a tvorbě softwaru.
+⚠️ Přestože to pro moderní procesory není problém, běžné volací konvence umožňují <u>**žádný nebo jen jeden výstupní parametr**</u>. Toto má historické ale i logické důvody, ke kterým se vrátím v kapitolách o programování a tvorbě softwaru.
 
 ⚠️ **Běžný ajťák se volacími konvencemi nezabývá** (měl by však vědět, že existují). Běžný ajťák (v mém pojetí) netvoří software na úrovni podrutin a volacích konvencí.
 
