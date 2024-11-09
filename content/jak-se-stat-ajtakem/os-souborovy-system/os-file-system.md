@@ -4,8 +4,6 @@ title: Základní operace OS nad souborovým systémem
 weight: 304000
 ---
 
-{{< figure align=center width=550 src="../fsos.png" title="OS API vrstva" >}}
-
 Operační systém dovoluje procesům pracovat na soubory **pouze skrz OS API** a to skrz následující funkce:
 
 - **Složky**
@@ -20,3 +18,5 @@ Operační systém dovoluje procesům pracovat na soubory **pouze skrz OS API** 
   - zapiš do souboru
   - zavři soubor
   - přejmenuj soubor
+
+{{< figure align=center width=550 src="../fsos.png" title="OS API vrstva" >}}
