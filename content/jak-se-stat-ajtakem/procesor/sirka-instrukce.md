@@ -2,15 +2,12 @@
 draft: false
 title: Šířka instrukce
 weight: 70020
+description: O šířce instrukce v procesorech
 ---
 
 **Šířka instrukce** je **počet bitů v instrukci**. Každý procesor je vyrobený na danou šířku instrukce. [^s]
 
-V minulém díle jsem použil příklad instrukce v procesoru, kde byla **šířka instrukce 6 bitů**.
-
-*010011*
-
-Toto je pouze příklad. O tom co ty instrukce dělají a co jednotlivé bity znamenají si povíme později.
+V minulém díle jsem použil příklad instrukce v procesoru, kde byla **šířka instrukce 6 bitů**. Toto je pouze příklad. O tom co instrukce dělají a co jednotlivé bity znamenají si povíme později.
 
 <div class="note-blue">
 
