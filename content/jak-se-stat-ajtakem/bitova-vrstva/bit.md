@@ -8,7 +8,11 @@ weight: 602
 
 <div class="note-blue">
 
-⚠️ Bit je **nejmenší a nedělitelná jednotka informace**. Nic menšího než bit neexistuje.
+⚠️ Bit je v celém IT **nejmenší a nedělitelná jednotka informace**. Nic menšího než bit neexistuje.
+
+⚠️ Na bitové vrstvě začíná skutečné IT.
+
+⚠️ Běžný ajťák by měl velmi dobře vědět, jak počítače s bity pracují.
 
 </div>
 
@@ -19,10 +23,10 @@ weight: 602
 Počítače nejsou nic jiného než zařízení, která pracují s **bity** pouze následujícími způsoby:
 
 - **bity jsou uložené**
-  - **persistentně** tzn. tyto bity jsou zachované i po vypnutí zařízení
-  - **v RAM paměti** tzn. tyto bity jsou ztracené po vypnutí zařízení 
+  - **persistentně** = bity jsou zachované i po vypnutí zařízení
+  - **v RAM paměti** = bity jsou ztracené po vypnutí zařízení 
 - **bity se od někud někam posílají**
-- **bity se proměňují** --- to je velice jednoduché protože jsou možné jen dvě změny:
+- **bity se proměňují** - možné jsoun jen dvě změny:
   - 0 se promění v 1
   - 1 se promění v 0
 
@@ -31,18 +35,17 @@ Každá běžná komponenta **komunikuje se zbytkem systému po binární vrstv�
 ## Slovník k zapamatování
 
 - **bit**: hodnota 0 nebo 1
-- **X bitů**: toto může znamenat 2 věci, záleží na kontextu
-  - šířka možných hodnot
-    - 5 bitový = rozsah, ptáme se *"Kolik jedniček a nul vedle sebe můžeme dát?"*
-  - číselná hodnota s konkrétní šířkou
-    - 5 bitů = hodnota, číslo mezi 00000 a 11111, ptáme se *"Jaká je to hodnota?"*
-    - O číslech si povíme později v kapitole o dvojkové soustavě.
+- **X bitový**: šířka možných hodnot
+  - ptáme se **Kolik jedniček a nul vedle sebe můžeme dát?**
+  - 5 bitový = zde lze umístit vedle sebe 5 bitů
+- **X bitů**: konkrétní bity
+  - ptáme se **Jaká je to hodnota?**
+  - 5 bitů = konkrétní hodnota např 10110
 
-**Pamatuj:**
+## Všechny další vrstvy jsou vrstvy nad bity
 
-- Počet bitů přídavným jménem - 5 bitový - znamená označení šířky možných hodnot.
-- Počet bitů podstatným jménem - 5 bitů - znamená hodnotu. 
+<div class="note-blue">
 
-## Vše ostatní je práce s bity
+⚠️ Vše po této kapitole je **vždy** nějak reprezentováno bity!
 
-Vše co budete číst po této kapitole je už práce s bity. Běžný ajťák **musí** dobře rozumět počítačům právě od bitové vrstvy. K tomu máte naštěstí tento návod.
+</div>

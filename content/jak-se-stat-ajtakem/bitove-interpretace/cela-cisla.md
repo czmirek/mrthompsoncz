@@ -12,14 +12,12 @@ Celé číslo je z matematiky číslo, které může být buď:
 
 V počítačích se však pracuje s celými čísly pouze dvěma způsoby:
 
-- **celé číslo bez znaménka** = (0, 1, 2, 3…) = nerozlišujeme kladná ani záporná čísla (nebo je považujeme pouze za kladná)
-- **celé číslo se znaménkem** = (…, -2, -1, 0, 1, 2….) = rozlišujeme i znaménko. Toto popíšu až v příští kapitole.
+- **celé číslo bez znaménka** = (0, 1, 2, 3…) = nerozlišujeme kladná ani záporná čísla, nebo je považujeme pouze za kladná
+- **celé číslo se znaménkem** = (…, -2, -1, 0, 1, 2….) = rozlišujeme i znaménko
 
 ## Bitový rozsah celých čísel
 
-V počítačích jsou celá čísla vždy spojena **s nějakým konkrétním bitovým rozsahem**. 
-
-To znamená, že pokud v počítači pracujete s jakýmkoliv číslem tak vždycky víte, že toto číslo má vždy nějaké minimum a maximum tzn. to číslo nemůže být menší nebo větší než nějaká konkrétní hodnota.
+V počítačích jsou celá čísla vždy spojena **s nějakým konkrétním bitovým rozsahem**. Z toho plyne, že celá čísla mají vždy nějaké minimum a maximum.
 
 <div class="note-blue">
 
@@ -37,9 +35,11 @@ To znamená, že pokud v počítači pracujete s jakýmkoliv číslem tak vždyc
 
 ## Práce s kladnými čísly
 
-Uložení celého kladného čísla (nebo nuly) je v počítači stejné jako kdybychom převáděli číslo mezi číselnými soustavami. Číslo v příkladu výše 999 se uloží jako `1111100111`.
+Celá kladná čísla se v počítačích ukládají stejně, jako kdybychom jen převáděli mezi číselnými soustavami. 
 
-Pokud v paměti pro tuto hodnotu vymezíme 10 bitů tak to znamená, že nejvyšší číslo, které v tomto prostoru můžeme uložit, je 2<sup>10</sup> tedy 1024. Ve dvojkové soustavě to bude 10 jedniček: `1111111111`.
+Číslo 999<sub>10</sub> se uloží jako 1111100111<sub>2</sub>.
+
+Pokud v paměti pro tuto hodnotu vymezíme 10 bitů tak to znamená, že nejvyšší číslo, které v tomto prostoru můžeme uložit, je 2<sup>10</sup> tedy 1024<sub>10</sub> tedy 1111111111<sub>2</sub>.
 
 ## Souhrn
 

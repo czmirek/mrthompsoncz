@@ -4,20 +4,7 @@ title: Celá záporná čísla
 weight: 7050
 ---
 
-Řekněme, že máme 1 bajt. Už víte, že 1 bajt = 8 bitů a také, že 8 bitů je číslo v rozsahu 2<sup>8</sup> nebo od 0 do 255. Od nuly se počítá takto.
-
-- 0 = 00000000  
-- 1 = 00000001  
-- 2 = 00000010  
-- 3 = 00000011  
-- …  
-- 42 = 00101010  
-- …  
-- 255 = 11111111  
-
-Ale co když potřebujete negativní čísla?
-
-Musíte vymyslet jiný „kód“ jakým způsobem se převádí bity (signály v počítači) do celého čísla, které umí být jak kladné tak i záporné!
+Jak počítače pracují se zápornými čísly?
 
 ## Znaménkový bit
 
@@ -34,14 +21,20 @@ No a záporné číslo **-42** by vypadalo takto.
 - <span style="color:red">**0**</span> = znaménko minus (-) symbolizující záporné číslo  
 - <span style="color:orange">**0101010**</span> = hodnota 42  
 
-## Záporná nula
+## Kladná a záporná nula
 
 Má to však problém: kladnou a zápornou nulu.
 
 0 = 1|0000000 …. +0?  
 0 = 0|0000000 …. -0?  
 
-Co se má stát, když sečtete plusovou nulu a negativní nulu? Co když je vynásobíte? Co když vynásobíte kladné číslo zápornou nebo kladnou nulou? Tento způsob se nepoužívá* protože kladná nebo záporná nula nemá reálný základ. Nula je jenom jedna a nemá znaménko a z toho důvodu se znaménkový bit nepoužívá. [^p]
+Co se má stát, když sečtete plusovou nulu a negativní nulu? Co když je vynásobíte? Co když vynásobíte kladné číslo zápornou nebo kladnou nulou? 
+
+<div class="note-blue">
+
+Tento způsob se nepoužívá [^p] protože kladná nebo záporná nula nemá reálný základ. Nula je jenom jedna a nemá znaménko.
+
+</div>
 
 ## Dvojkový doplněk
 
@@ -71,4 +64,6 @@ Tzn.
 …  
 -1 = 11111111  
 
-[^p]: V kapitole o desetinných číslech zjistíte, že to není zas tak úplně pravda.
+![Xkcd](https://imgs.xkcd.com/comics/cant_sleep.png)
+
+[^p]: *V kapitole o desetinných číslech zjistíte, že to není zas tak úplně pravda.*

@@ -10,28 +10,20 @@ Co když chcete sečíst 100 + 54 a uložit jej do bajtu, který pracuje ve dvoj
 
 Máte na výběr.
 
-- Výsledek můžete uložit do čísla s větším rozsahem, například jako integer (2<sup>32</sup>)
-- Výsledek se pokusíte narvat do bajtu – dojde k přetečení
+- Výsledek můžete uložit do čísla s větším rozsahem, například 2<sup>32</sup>
+- Rozsah nezměníte – dojde k přetečení
 
-Přetečení je to, co se stane, když výsledek operace přesahuje rozsah, do kterého se číslo vejde. (Podtečení je totéž ale na druhou stranu, když je číslo menší, než je záporná hranice čísla.)
+Přetečení znamená, že výsledek operace přesahuje rozsah, do kterého se číslo vejde. Podtečení je totéž ale na druhou stranu, když je číslo menší, než je záporná hranice čísla.
 
 100 + 54 = 154 matematicky vypadá takto.
 
-- 100 = 11001000
-- 54 = 110110
-- 154 = 10011010
+- 100<sub>10</sub> = 11001000<sub>2</sub>
+- 54<sub>10</sub> = 110110<sub>2</sub>
+- 154<sub>10</sub> = 10011010<sub>2</sub>
 
 Jenže ve dvojkovém doplňku to vypadá jinak!
 
-- 100 = 11001000
-- 54 = 00110110
-- <s>154</s> = 10011010 = **-102**
-
-## Není to problém?
-
-Není.
-
-Jako ajťák však musíte dobře znát nástroje, se kterými pracujete. O přetečení a podtečení se budeme bavit ještě znovu až v kapitolách o tvorbě softwaru.
-
-![Xkcd](https://imgs.xkcd.com/comics/cant_sleep.png)
+- 100<sub>10</sub> = 11001000<sub>2</sub>
+- 54<sub>10</sub> = 00110110<sub>2</sub>
+- <s>154<sub>10</sub></s> = 10011010<sub>2</sub> = **-102<sub>10</sub>**
 

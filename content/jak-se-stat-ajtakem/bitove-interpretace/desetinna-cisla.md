@@ -4,9 +4,7 @@ title: Desetinná čísla
 weight: 7080
 ---
 
-Desetinná čísla znáte. Víte, že `5 / 2 = 2,5`
-
-Jak se s číslem `2,5` pracuje v počítači?
+`5 / 2 = 2,5` - ale jak se s číslem `2,5` pracuje v počítači?
 
 ## Desetinná čísla ve dvojkové soustavě
 
@@ -42,7 +40,11 @@ Je to stejné, jako `10 / 3 = 3,333333…`
 
 ## Počítače neumí být přesné v desetinné interpretaci
 
-⚠️ **Pozor na to**: většina desetinných čísel desítkové soustavy mají ve dvojkové soustavě hodnoty, jejichž cifry se táhnou do nekonečna ale počítače nemají schopnost uložit nekonečně veliké ani nekonečně přesné číslo.
+<div class="note-blue">
+
+⚠️ **Pozor na to**: většina desetinných čísel desítkové soustavy mají ve dvojkové soustavě hodnoty, jejichž cifry se táhnou do nekonečna ale fyzické počítače nemají nekonečnou kapacitu.
+
+</div>
 
 Co to znamená?
 

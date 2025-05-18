@@ -6,9 +6,7 @@ weight: 7030
 
 ## 16: šestnáctková (hexadecimální) číselná soustava
 
-V IT se běžně pracuje s čísly v šestnáctkové soustavě. Tato soustava obsahuje následující cifry: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
-
-Počítá se následovně: 0, 1, …, 9, A, B, C, D, E, F, 10, 11, 12, 13 … 19, 1A, 1B, 1C, 1D, 1E, 1F, 20, 21.
+V IT se běžně pracuje s čísly v šestnáctkové soustavě. Počítá se následovně: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, ... 19, 1A, 1B, 1C, 1D, 1E, 1F, 20, 21 ...`
 
 Příklad:
 
@@ -16,11 +14,11 @@ Příklad:
 - FF<sub>16</sub> = 255<sub>10</sub>
 - FFFF<sub>16</sub> = 65535<sub>10</sub>
 
-V IT se šestnáctková čísla často píšou se znaky `0x` na začátku (z historických důvodů). U čísla `0x005467` tak hned poznáte, že jde o hexadecimální číslo.
+V IT se šestnáctková čísla často píšou se znaky `0x` na začátku (z historických důvodů, nemá to žádnou jinou logiku). U čísla `0x005467` tak hned poznáte, že jde o hexadecimální číslo s hodnotou `5467`.
 
 ## 8: osmičková číselná soustava
 
-Z hlavy dokážu říct, že se tato číselná soustava používá v Linuxu u vyjádření práv pro čtení a zápis v souborech.
+Tato číselná soustava používá v Linuxu u vyjádření práv pro čtení a zápis v souborech.
 
 ## 64: šedesátičtyřková soustava
 

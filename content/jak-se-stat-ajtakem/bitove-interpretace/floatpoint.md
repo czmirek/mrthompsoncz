@@ -4,11 +4,9 @@ title: Plovoucí desetinná čárka
 weight: 7100
 ---
 
-Plovoucí desetinná čárka je další způsob, kterým lze desetinná čísla reprezentovat. Už z názvu je jasné, že rozdělení na celou a desetinnou část není fixní ale plovoucí nebo proměnlivé.
-
 ## IEEE 754
 
-IEEE je organizace v USA která vymýšlí různé standardy a jeden z těchto standardů je na plovoucí desetinnou čárku s názvem IEEE 754. Tento způsob vyjádření desetinných čísel s používá v počítačích dodnes, v každém procesoru.
+IEEE je organizace v USA která vymýšlí různé standardy a jeden z těchto standardů je na uložení desetinného čísla pomocí techniky plovoucí desetinné čárky s názvem IEEE 754. Tento způsob vyjádření desetinných čísel s používá v každém moderním počítači.
 
 ### Jak to funguje?
 
@@ -16,7 +14,7 @@ Každé desetinné číslo lze reprezentovat tímto vzorečkem:
 
 **Desetinné číslo = mantisa * 10<sup>exponent</sup>**
 
-Já si myslím, že tuto reprezentaci jste už někde určitě viděli na nějaké kalkulačce, i když nejste ajťáci a slovo "mantisa" vidíte poprvé. Je to jednoduchá rovnice.
+Například:
 
 **1,2345 = 12345 * 10<sup>-4</sup>**
 
@@ -28,7 +26,7 @@ Hodnota desetinného čísla IEEE 754 se ukládá buď do 32 nebo 64 bitů a je 
 
 </div>
 
-- První bit je znaménko (ano, z toho plyne negativní a pozitivní nula, viz. níže)
+- První bit je znaménko *(ano, z toho plyne negativní a pozitivní nula, viz. níže)*
 - Dalších 11 bitů je exponent
 - Zbylých 52 bitů je mantisa
 
@@ -36,11 +34,9 @@ Hodnota desetinného čísla IEEE 754 se ukládá buď do 32 nebo 64 bitů a je 
 
 #### Kladná a záporná nula
 
-První bit je znaménko. Z předchozích kapitol už víte, že z toho plyne, že IEEE 754 podporuje kladnou a zápornou nulu.
+První bit je znaménko, z toho plyne kladná a záporná nula.
 
-Ajťáci z IEEE co to vymysleli si řekli, že bude jednodušší, aby se procesory nějak vypořádaly s kladnou a zápornou reprezentací nuly, než aby vymýšleli nějakou variantu „dvojkového doplňku“ pro desetinná čísla.
-
-Tato prazvlášnost negativní a pozitivní nuly je zahlazena už v definici. Standard IEEE 754 narovinu říká, že záporná a kladná nula se mají chovat naprosto stejně, jako kdyby to byla jen jediná nula.
+Lidé z IEEE dospěli k závěru, že je jednodušší vymyslet standard, ve kterém je kladná/záporná nějak zahrnuta (a ignorována), než vymýšlet variantu dvojkového doplňku fungujícího pro desetinná čísla.
 
 #### Kladné a záporné nekonečno
 
@@ -50,6 +46,4 @@ IEEE 754 obsahuje reprezentaci kladného nekonečna +∞ a záporného nekonečn
 
 `NaN` znamená "Not a Number", jinými slovy: "Toto není platné číslo". 
 
-Prostě hodnota, která reprezentuje "nesmysl" ... ale ne jeden nesmysl ale dokonce kladný nebo záporný nesmysl. Tuto hodnotu lze získat při některých matematických operacích, například dělení nulou.
-
-Pokud provedete dělení nulou **u celých čísel** tak procesor provede nad vaším programem přerušení a pokračuje v toku instrukcí, který buď nadefinoval programátor nebo operační systém. Při dělení nulou v kontextu desetinných čísel se ale přerušení neprovádí a místo toho se vrátí hodnota `NaN`.
+Tato hodnota reprezentuje nesmysl, který dokonce může být kladný nebo záporný. Tuto hodnotu lze získat například při dělení nulou.

@@ -7,9 +7,12 @@ weight: 7010
 Číselná interpretace je pohled na bity jako na čísla.  
 
 ## Cifry desítkové soustavy
+
 Kolik používáme běžně **cifer** tzn. znaků, které reprezentují číslici?
 
-Je jich 10. Jsou to znaky: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Každé číslo vyšší než 9 obsahuje kombinaci předchozích cifer.
+Je jich 10. 
+
+Jsou to znaky: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Každé číslo vyšší než 9 obsahuje kombinaci předchozích cifer.
 
 - 10 je číslo, které se skládá ze dvou cifer: 1 a 0.
 - 4269 je číslo, které se sdkládá ze 4 cifer: 4, 2, 6 a 9.
@@ -18,13 +21,11 @@ Jinak řečeno v běžném životě počítáme v **desítkové soustavě**.
 
 ## Cifry dvojkové soustavy
 
-Z předchozích kapitol ale už víte, že počítače pracují s **bity** které obsahují jen 2 možné hodnoty: 1 a 0.
+Počítače pracují s **bity** které obsahují jen 2 možné hodnoty: 1 a 0.
 
 Z těchto dvou hodnot už můžeme počítat ve **dvojkové soustavě**.
 
-Počítání funguje úplně stejně jako v desítkové soustavě až na to, že máme k dispozici jen 2 cifry: 1 a 0.
-
-Počítání od nuly tak vypadá následovně: 
+Počítání funguje úplně stejně jako v desítkové soustavě.
 - 0
 - 1
 - 10
@@ -38,13 +39,10 @@ Počítání od nuly tak vypadá následovně:
 
 ## Vztah mezi desítkovou a dvojkovou číselnou soustavou
 
-- **Dvojková soustava** se počítá takto: 0<sub>2</sub>, 1<sub>2</sub>, 10<sub>2</sub> … k číslům se přidává taková dvojka dole aby bylo jasné, že je to číslo ve dvojkové soustavě.
+- **Dvojková soustava** se počítá takto: 0<sub>2</sub>, 1<sub>2</sub>, 10<sub>2</sub> … k číslům se přidává dvojka dole aby bylo jasné, že je to číslo ve dvojkové soustavě.
 - **Desítková soustava** se počítá takto: 0<sub>10</sub>, 1<sub>10</sub>, 2<sub>10</sub>…
 
-**Otázka**: kolik je číslo 10<sub>2</sub> v desítkové číselné soustavě?
-Správně: je to číslo 2<sub>10</sub>!
-
-Podívejte se na následující číselnou řadu, jak číslo v desítkové soustavě odpovídá číslům ve dvojkové soustavě a začne to být jasné.
+Nyní se podívejte, jak čísla v desítkové soustavě odpovídají číslům ve dvojkové soustavě.
 
 - 0<sub>10</sub> = 0<sub>2</sub>
 - 1<sub>10</sub> = 1<sub>2</sub>
@@ -55,14 +53,14 @@ Podívejte se na následující číselnou řadu, jak číslo v desítkové sous
 
 ## Exponenciální řada 2<sup>x</sup>
 
-Většina běžných ajťáků si z hlavy pamatuje prvních cca 10 čísel z číselné řady 2<sup>x</sup> (2, 4, 8, 16, 32, 64…) protože se tyto hodnoty v IT vyskytují úplně všude. 
+Většina běžných ajťáků si pamatuje cca prvních 10 čísel z číselné řady 2<sup>x</sup> (2, 4, 8, 16, 32, 64…) protože se tyto hodnoty v IT vyskytují úplně všude.
 
 Podívejte se na následující tabulku.
 
 <pre>
  Dvojková         Desítková  
  číselná          číselná       Odpovídá číslu 2<sub>10</sub>
- soustava         soustava      s exponentem
+ soustava         soustava      s exponentem x
  --------------------------------------------------
  1                1             2<sup>0</sup>
  10               2             2<sup>1</sup>
