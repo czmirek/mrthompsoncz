@@ -2,6 +2,7 @@
 draft: false
 title: Celá čísla
 weight: 7040
+description: Jak v počítačích fungují celá čísla
 ---
 
 Celé číslo je z matematiky číslo, které může být buď:

@@ -2,6 +2,7 @@
 draft: false
 title: Hradlová vrstva
 weight: 501
+description: Krátký úvod do hradlové vrstvy v počítačích a pojmenování základních logických hradel
 ---
 
 *Hradlová vrstva* je vrstva ležící na signální vrstvě. 

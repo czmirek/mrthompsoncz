@@ -2,7 +2,7 @@
 draft: false
 title: CRLF
 weight: 7120
-description: Jak funguje nový řádek v počítačích skrz kódy CR a LF.
+description: Jak funguje nový řádek v počítačích skrz kódy CR a LF
 ---
 
 Podívejte se ještě jednou na tabulku ASCII, konkrétně na kódy pod číslem 13 a 10.
@@ -30,12 +30,12 @@ V IT světě bohužel existují paralelně **dvě konvence** pro reprezentován�
 
 <div class="note-blue">
 
-**Pozor!**
+**Pozor: problém reprezentace nového řádku se v IT oboru vleče už velmi dlouho**
 
 - OS není zárukou, že software, se kterým pracujete, uloží nové řádky jako CRLF nebo jen LF.
 - Bohužel narazíte i na mix CRLF a LF.
-- Dobrý software si dokáže s mixem CRLF/LF poradit (např. internetový prohlížeč, populární textový editor atd.).
-- Existuje spousta špatně napsaného softwaru, který si s tím poradit neumí.
+- Dobrý software si dokáže s mixem CRLF/LF poradit (např. internetový prohlížeč, populární textový editor atd.)
+- Existuje spousta špatně napsaného softwaru, který si s tím poradit neumí nebo používá CRLF/LF nekonzistentně.
 - Někteří lidé z IT jsou schopni se kvůli CRLF/LF i hádat.
 
 </div>

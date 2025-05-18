@@ -2,6 +2,7 @@
 draft: false
 title: Jedničky a nuly
 weight: 601
+description: Jak signály v počítači reprezentují pouze dva stavy v podobě jedniček a nul
 ---
 
 V počítačích putují informace pouze jedním způsobem:

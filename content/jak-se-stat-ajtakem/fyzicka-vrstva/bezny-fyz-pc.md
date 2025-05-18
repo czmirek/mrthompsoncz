@@ -2,6 +2,7 @@
 draft: false
 title: Běžný počítač
 weight: 210
+description: Co je počítač, jak jej lze či nelze definovat a co je a není běžný počítač
 ---
 
 Pro slovo počítač existuje víc definic. Některé "počítače" mohou splňovat matematickou definici pro počítač, normální člověk by však takové zařízení jako počítač nepojmenoval - např. inteligentní lednice.

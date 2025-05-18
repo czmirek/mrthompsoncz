@@ -2,6 +2,7 @@
 draft: false
 title: Teplota a chlazení
 weight: 304
+description: Jak obvody v počítačích generují teplo, proč je důležité je chladit a co to znamená pro běžného ajťáka
 ---
 
 Každý obvod, například i měděný kabel od zásuvky zasekaný do zdi, má nějaký přirozený elektrický odpor a putující elektřina v něm generuje teplo.

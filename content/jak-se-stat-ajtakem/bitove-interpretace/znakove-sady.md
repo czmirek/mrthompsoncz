@@ -2,6 +2,7 @@
 draft: false
 title: Znakové sady
 weight: 7110
+description: Jak lze v počítačích vyjádřit znaky a písmena skrz znakové sady, povídání o znakových sadách ASCII a Unicode, krátké povídání o historických znakových sadách a o "rozsypaném čaji"
 ---
 
 **Znaková sada** je bitová interpretace normálních písmen a znaků. Historicky existuje spousta znakových sad, zásadní jsou však jen některé.

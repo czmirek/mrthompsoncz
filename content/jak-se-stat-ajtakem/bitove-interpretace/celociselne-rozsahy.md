@@ -2,6 +2,7 @@
 draft: false
 title: Celočíselné rozsahy
 weight: 7070
+description: Jaké celočíselné rozsahy se běžně v počítačích používají
 ---
 
 V IT jsou zavedené rozsahy, se kterými se většinou pracuje při práci s celými čísly ale i s jakýmkoliv jiným typem dat. V moderní praxi už většinou není důležité se rozsahy příliš zabývat.

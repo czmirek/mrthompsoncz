@@ -2,6 +2,7 @@
 draft: false
 title: Přetečení a podtečení
 weight: 7060
+description: Co je přetečení a podtečení a proč k němu dochází při matematických operacích v počítačích
 ---
 
 ## Co se stane, když výsledek matematické operace je větší, než rozsah výsledného čísla?

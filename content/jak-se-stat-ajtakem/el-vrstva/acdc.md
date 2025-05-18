@@ -2,6 +2,7 @@
 draft: false
 title: Střídavý/jednosměrný proud
 weight: 303
+description: Co je střídavý proud, jednosměrný proud a k čemu slouží převodník
 ---
 
 ## Střídavý proud

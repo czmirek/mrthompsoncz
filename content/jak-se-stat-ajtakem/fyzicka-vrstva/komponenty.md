@@ -2,6 +2,7 @@
 draft: false
 title: Běžné komponenty
 weight: 230
+description: Jaké komponenty se nachází v běžných počítačích
 ---
 
 ## Zdroj

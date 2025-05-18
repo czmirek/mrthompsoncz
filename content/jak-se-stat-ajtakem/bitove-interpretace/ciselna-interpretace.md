@@ -2,6 +2,7 @@
 draft: false
 title: Číselná interpretace
 weight: 7010
+description: Jak lze bity používat jako čísla ve dvojkové soustavě a jaký je rozdíl mezi dvojkovou a desítkovou číselnou soustavou
 ---
 
 Číselná interpretace je pohled na bity jako na čísla.  

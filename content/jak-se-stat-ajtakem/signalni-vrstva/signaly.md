@@ -2,6 +2,7 @@
 draft: false
 title: Signály v IT
 weight: 403
+description: Jaké signály se používají v běžných počítačích a proč počítače nerozlišují více než 2 stavy
 ---
 
 ## Dvoustavový signál

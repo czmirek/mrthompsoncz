@@ -2,6 +2,7 @@
 draft: false
 title: Běžný ajťák
 weight: 140
+description: Kdo je ajťák a kdo je běžný ajťák a pro koho je tento návod
 ---
 
 Neexistuje žádná definice, kdo je/není "ajťák".

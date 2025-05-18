@@ -2,6 +2,7 @@
 draft: false
 title: Základy elektronické vrstvy
 weight: 301
+description: Krátce o tom, co je elektřina a co by měl běžný ajťák o elektřině vědět
 ---
 
 ## Co je elektřina

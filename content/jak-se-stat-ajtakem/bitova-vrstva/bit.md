@@ -2,6 +2,7 @@
 draft: false
 title: Bit
 weight: 602
+description: Co je to bit, jak počítače pracují s bity a co to znamená, když se řekně pětibitový nebo pět bitů
 ---
 
 Číslo 1 nebo 0 se v IT nazývá **bit** (vyslovuje se stejně jako se čte).

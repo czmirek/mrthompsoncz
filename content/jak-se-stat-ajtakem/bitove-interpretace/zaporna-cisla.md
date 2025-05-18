@@ -2,6 +2,7 @@
 draft: false
 title: Celá záporná čísla
 weight: 7050
+description: Jak v počítačích fungují celá záporná čísla, co je znaménkový bit, co je kladná a záporná nula a co je dvojkový doplněk
 ---
 
 Jak počítače pracují se zápornými čísly?

@@ -2,6 +2,7 @@
 draft: false
 title: Frekvence a časování
 weight: 402
+description: Proč je v počítačích důležitá frekvence, co je časovač a proč je to důležité pro komunikaci mezi jednotlivými komponentami
 ---
 
 Řekněme pro jednoduchost, že komponenty v počítačích spolu komunikují morseovkou [^m].

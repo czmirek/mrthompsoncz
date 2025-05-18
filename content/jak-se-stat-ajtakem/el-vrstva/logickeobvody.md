@@ -2,6 +2,7 @@
 draft: false
 title: Logické el. obvody
 weight: 307
+description: Jak lze v elektrických obvodech vytvářet logické, "rozhodovací" obvody, co je relé a k čemu je v počítačích tranzistor
 ---
 
 Představte si jednoduchý obvod se dvěma spínači za sebou.

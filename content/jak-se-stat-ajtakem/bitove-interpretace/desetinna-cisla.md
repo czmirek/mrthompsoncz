@@ -2,6 +2,7 @@
 draft: false
 title: Desetinná čísla
 weight: 7080
+description: Jak jsou ve dvojkové soustavě reprezentována desetinná čísla a proč je nelze v počítačích vyjádřit vždy přesně
 ---
 
 `5 / 2 = 2,5` - ale jak se s číslem `2,5` pracuje v počítači?

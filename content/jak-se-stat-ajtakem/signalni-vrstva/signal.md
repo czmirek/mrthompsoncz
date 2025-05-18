@@ -2,6 +2,7 @@
 draft: false
 title: Signál
 weight: 401
+description: Úvod do signální vrstvy
 ---
 
 Běžný ajťák se příliš nezabývá fyzickou či elektronickou vrstvou. To je práce pro elektrotechniky. Před přesunem do digitální vrstvy je ale nutné ještě pochopit signální vrstvu.

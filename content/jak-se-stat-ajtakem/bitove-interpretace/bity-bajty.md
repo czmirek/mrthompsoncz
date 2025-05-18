@@ -2,6 +2,7 @@
 draft: false
 title: Bajty
 weight: 7020
+description: Co je to bajt a jaké jsou další měrné jednotky nad bity i bajty
 ---
 
 Bajty, kilobajty, gigabajty, atd. jsou měrnou jednotkou bitů stejně jako centimetry, metry a kilometry jsou měrnou jednotkou vzdálenosti.
@@ -14,7 +15,11 @@ Bajty, kilobajty, gigabajty, atd. jsou měrnou jednotkou bitů stejně jako cent
 
 </div>
 
-Proč 8? Historické důvody. V minulosti byl někde bajt 4, někde 6, někde 12, někde dokonce 48 bitů. **8 bitový bajt** je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
+Proč 8? Proč vůbec bajt vzniknul? 
+
+Historické důvody. V prastarých počítačích v 50./60. letech v USA vznikla potřeba seskupovat bity do skupin. Aby se to nepletlo s "bit"-em tak to pojmenovali jako "byte".
+
+První bajty měly 4 bity, někdy 6, někdy 12, někdy dokonce 48 bitů. **8 bitový bajt** je standard, který historicky zvítězil a žádné jiné velikosti bajtu se už nepoužívají.
 
 ## kilobajt, megabajt, gigabajt…
 

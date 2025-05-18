@@ -2,6 +2,7 @@
 draft: false
 title: Další číselné soustavy
 weight: 7030
+description: Jaké další číselné soustavy se v počítačích používají
 ---
 
 ## 16: šestnáctková (hexadecimální) číselná soustava

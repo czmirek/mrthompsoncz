@@ -2,6 +2,7 @@
 draft: false
 title: Uzavření obvodu
 weight: 302
+description: Co je uzavření obvodu v počítačích, jaké všechny obvody se v počítačích nachází a co to znamená pro běžného ajťáka
 ---
 
 Aby elektřina mohla v obvodu putovat, musí být obvod **uzavřený**. Nejlépe se to ilustruje na diagramu obyčejné lampčiky s vypínačem.

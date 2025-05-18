@@ -2,6 +2,7 @@
 draft: false
 title: Diagnostika
 weight: 311
+description: Co to pro běžného ajťáka znamená zabývat se diagnostikou v počítačích
 ---
 
 Čas od času se stane, že některá komponenta v PC přestane fungovat nebo je vadná už z výroby.

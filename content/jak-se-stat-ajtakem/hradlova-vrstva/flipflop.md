@@ -2,6 +2,7 @@
 draft: false
 title: Flip-flop
 weight: 502
+description: Jak lze skrz hradla vytvořit flip-flop který reprezentuje jednobitovou paměť
 ---
 
 Flip-flop je hradlové schéma, díky kterému můžete držet stav signálu.

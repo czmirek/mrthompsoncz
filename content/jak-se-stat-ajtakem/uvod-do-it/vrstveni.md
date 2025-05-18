@@ -2,6 +2,7 @@
 draft: false
 title: Vrstvy IT
 weight: 130
+description: Jak se počítače dělí na vrstvy a co jednotlivé vrstvy znamenají
 ---
 
 Moderní počítače jsou extrémně komplexní zařízení. Z toho důvodu se nesnažíme pochopit počítač jako celek a místo toho zkoumáme jeho jednotlivé **vrstvy**. Podle těchto vrstev je víceméně psán i tento návod. 

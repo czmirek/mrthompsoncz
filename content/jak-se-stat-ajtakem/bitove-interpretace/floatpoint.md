@@ -2,6 +2,7 @@
 draft: false
 title: Plovoucí desetinná čárka
 weight: 7100
+description: Jak lze v počítačích uložit desetinné číslo pomocí plovoucí desetinné čárky a co je IEEE 754
 ---
 
 ## IEEE 754

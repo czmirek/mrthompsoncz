@@ -2,6 +2,7 @@
 draft: false
 title: Fixní desetinná čárka
 weight: 7090
+description: Jak lze v počítačích uložit desetinné číslo pomocí fixní desetinné čárky
 ---
 
 Jeden způsob uložení desetinného čísla je **fixní desetinná čárka**.
