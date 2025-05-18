@@ -10,8 +10,8 @@ Podívejte se ještě jednou na tabulku ASCII, konkrétně na kódy pod číslem
 
 Tyto dva signály v textu za sebou reprezentují **nový řádek** formou dvou **historických instrukcí pro tiskárnu**:
 
-- `CR = carriage return` = mechanická tisková hlava se posune na začátek stránky
-- `LF = line feed` = papír v tiskárně se posune o jeden řádek výše.
+- `13 = CR = carriage return` = mechanická tisková hlava se posune na začátek stránky
+- `10 = LF = line feed` = papír v tiskárně se posune o jeden řádek výše.
 
 Tisk v moderních tiskárnách probíhá skrz úplně jiné kódy a protokoly. Mechaniky a elektroniku v moderních tiskárnách není možné manipulovat napřímo skrz znakovou sadu, jako to šlo v minulosti. CRLF však zůstalo.
 
