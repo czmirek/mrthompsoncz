@@ -13,3 +13,14 @@
     margin-bottom: 1em;
     color:white;
 }
+
+.post-content figure
+{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.post-content figure figcaption
+{
+    color:black;
+}

@@ -4,15 +4,13 @@ title: Vrstvy IT
 weight: 130
 ---
 
-Moderní počítače jsou extrémně komplexní a komplikovaná zařízení.
+Moderní počítače jsou extrémně komplexní zařízení. Z toho důvodu se nesnažíme pochopit počítač jako celek a místo toho zkoumáme jeho jednotlivé **vrstvy**. Podle těchto vrstev je víceméně psán i tento návod. 
 
-Z toho důvodu se nesnažíme pochopit počítač jako celek a místo toho zkoumáme jeho jednotlivé **vrstvy**. Podle těchto vrstev je víceméně psán i tento návod. 
-
-Kvalitní ajťák by těmto vrstvám měl dobře rozumět a proto jim bude věnována patřičná pozornost.
+Každý ajťák by těmto vrstvám měl dobře rozumět a proto jim bude věnována patřičná pozornost.
 
 ## Hardware vrstva
 
-- **Fyzická vrstva** = reálná fyzická zařízení, kterých se můžete dotknout.
+- **Fyzická vrstva** = reálná fyzická zařízení
 - **Elektronická vrstva** = elektřina putující v těchto fyzických zařízeních
 - **Signální vrstva** = signály, která jsou elektřinou reprezentovány
 - **Bitová vrstva** = kódování, které je reprezentované signály
@@ -30,6 +28,6 @@ Kvalitní ajťák by těmto vrstvám měl dobře rozumět a proto jim bude věno
 - **Operační systém** = software sjednocující obrovskou složitost a rozdílnost hardwaru v počítačích do jednoho uživatelského rozhraní.
 - **Běžný software** = software běžící v rámci operačního systému. Tento návod je zaměřený na "běžné" ajťáky kteří píší software na této vrstvě. Na této úrovni je (dle mého názoru) psáno 90% veškerého softwaru na světě.
 
-## Ilustrace
+## Ilustrace vrstev
 
 {{< figure align=center width=600 src="../vrstvy2.png" title="Vrstvy IT" >}}

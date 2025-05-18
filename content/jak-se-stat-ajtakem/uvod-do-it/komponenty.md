@@ -7,14 +7,14 @@ weight: 120
 Na počítače se také můžeme dívat podrobnějším pohledem, kdy se ptáme na jednotlivé komponenty, které se v počítačích nachází.
 
 Tyto komponenty se rozdělují do dvou skupin:
-- **základní komponenty** tedy ty, bez kterých moderní a běžný počítač nemůže být počítačem.
+- **základní komponenty** - bez nich běžný počítač nemůže být počítačem.
 - **vstupy a výstupy**
 
 ## Základní komponenty
 
-- **Procesor** = nejdůležitější část, která dělá počítače počítačem. Procesoru se budu v tomto návodu věnovat nejvíce.
-- **RAM paměť** = "živá" a "rychlá" paměť počítače, kde se nachází data, se kterými procesor právě pracuje. Obsah paměti je ztracen, jakmile je počítač vypnutý.
-- **Základní deska** (motherboard) = integrovaný obvod, který komponenty propojuje. 
+- **Procesor** = ❗ komponenta která dělá počítač počítačem.
+- **RAM paměť** = ❗"rychlá" paměť počítače, kde se nachází data, se kterými procesor právě pracuje. Obsah paměti je ztracen, jakmile je počítač vypnutý.
+- **Základní deska** (motherboard) = integrovaný obvod, který propojuje procesor, RAM paměť a další komponenty. 
 
 ## Vstupy a výstupy
 

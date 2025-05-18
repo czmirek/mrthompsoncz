@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Základy
+title: Základy elektronické vrstvy
 weight: 301
 ---
 
@@ -8,7 +8,9 @@ weight: 301
 
 Elektřina se špatně vysvětluje. 
 
-Jakýkoliv laický popis je nepřesný a přesný popis elektřiny vyžaduje znalosti z kvantové fyziky. Běžném ajťákovi, možná překvapivě, stačí základní znalosti o fungování elektřiny z fyziky pro základní školy.
+Jakýkoliv laický popis je nepřesný a přesný popis elektřiny vyžaduje znalosti z kvantové fyziky.
+
+Běžném ajťákovi, možná překvapivě, stačí základní znalosti o fungování elektřiny z fyziky pro základní školy.
 
 ## Co běžný ajťák musí o elektřině vědět
 
