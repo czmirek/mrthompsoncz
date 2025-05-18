@@ -2,6 +2,7 @@
 draft: false
 title: Komponenty
 weight: 120
+description: Základní struktura běžného počítače a komponent, které se v běžných počítačích nachází.
 ---
 
 Na počítače se také můžeme dívat podrobnějším pohledem, kdy se ptáme na jednotlivé komponenty, které se v počítačích nachází.

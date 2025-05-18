@@ -2,6 +2,7 @@
 draft: false
 title: CRLF
 weight: 7120
+description: Jak funguje nový řádek v počítačích skrz kódy CR a LF.
 ---
 
 Podívejte se ještě jednou na tabulku ASCII, konkrétně na kódy pod číslem 13 a 10.

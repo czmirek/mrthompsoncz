@@ -2,6 +2,7 @@
 draft: false
 title: Klasický pohled
 weight: 110
+description: Klasický pohled na moderní počítače jako na hardware a software.
 ---
 
 Moderní počítače jsou složitá zařízení. Pro jejich popis existuje několik pohledů.
