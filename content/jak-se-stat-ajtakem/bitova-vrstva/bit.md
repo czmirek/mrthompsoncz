@@ -27,7 +27,7 @@ Počítače nejsou nic jiného než zařízení, která pracují s **bity** pouz
   - **persistentně** = bity jsou zachované i po vypnutí zařízení
   - **v RAM paměti** = bity jsou ztracené po vypnutí zařízení 
 - **bity se od někud někam posílají**
-- **bity se proměňují** - možné jsoun jen dvě změny:
+- **bity se proměňují** - možné jsou jen dvě změny:
   - 0 se promění v 1
   - 1 se promění v 0
 

@@ -16,13 +16,17 @@ Máte na výběr.
 
 Přetečení znamená, že výsledek operace přesahuje rozsah, do kterého se číslo vejde. Podtečení je totéž ale na druhou stranu, když je číslo menší, než je záporná hranice čísla.
 
+### Matematicky
+
 100 + 54 = 154 matematicky vypadá takto.
 
 - 100<sub>10</sub> = 11001000<sub>2</sub>
 - 54<sub>10</sub> = 110110<sub>2</sub>
 - 154<sub>10</sub> = 10011010<sub>2</sub>
 
-Jenže ve dvojkovém doplňku to vypadá jinak!
+### V omezené paměti počítače
+
+Pokud máte na výsledek bajtový rozsah (-128, +127) ve dvojkovém doplňku tak se výsledek interpretuje jako úplně jiné číslo!
 
 - 100<sub>10</sub> = 11001000<sub>2</sub>
 - 54<sub>10</sub> = 00110110<sub>2</sub>

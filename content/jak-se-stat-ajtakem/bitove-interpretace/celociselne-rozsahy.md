@@ -5,7 +5,7 @@ weight: 7070
 description: Jaké celočíselné rozsahy se běžně v počítačích používají
 ---
 
-V IT jsou zavedené rozsahy, se kterými se většinou pracuje při práci s celými čísly ale i s jakýmkoliv jiným typem dat. V moderní praxi už většinou není důležité se rozsahy příliš zabývat.
+V IT jsou zavedené rozsahy, se kterými se většinou pracuje při práci s celými čísly ale i s jakýmkoliv jiným typem dat.
 
 ## 2<sup>8</sup>, bajt
 
@@ -31,9 +31,9 @@ Použití se znaménkem není časté. Pokud jde o záporné číslo, pak se jed
 
 Toto je díky tomu, že po IT revoluci v 90. letech byly velmi dlouho populární procesory s 32 bitovou šířku instrukce. Operace s 32 bity jsou v moderních procesorech nejvymakanější a nejrychlejší.
 
-Tento číselný rozsah se nejčastěji používá **se znaménkem** s rozsahem -2147483648 až +2147483647 (cca -2 miliardy až +2 miliardy). Tento rozsah stačí pro počítání velké většiny celočíselných hodnot, se kterými počítač běžně pracuje.
+Tento číselný rozsah se nejčastěji používá **se znaménkem** s rozsahem -2147483648 až +2147483647 (cca -2 miliardy až +2 miliardy). Tento rozsah stačí pro počítání velké většiny celočíselných hodnot, se kterými počítač a většina lidí běžně pracuje.
 
-Integer se bez znaménka se zas tak moc nepoužívá – pak by to bylo číslo mezi 0 až 4294967295 (4 a čtvrt miliardy).
+Integer se bez znaménka se zas tak moc nepoužívá – pak by to bylo číslo mezi 0 až 4294967295 (zhruba 4 a čtvrt miliardy).
 
 ## 2<sup>64</sup>
 

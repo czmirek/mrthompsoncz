@@ -17,4 +17,8 @@ Na obrázku níže je příklad instrukce, která potřebuje 5 cyklů pro zpraco
 
 {{< figure align=center width=300 src="../cyklus.png" title="Cyklus procesoru" >}}
 
-Různé instrukce vyžadují různý počet cyklů. Nejjednodušší logické instrukce odpovídají jednomu cyklu, složitější instrukce mohou zabrat i desítky ticků.
+<div class="note-blue">
+
+Různé instrukce vyžadují různý počet cyklů. Nejjednodušší logické instrukce odpovídají jednomu cyklu, složitější instrukce mohou zabrat i desítky/stovky cyklů.
+
+</div>
