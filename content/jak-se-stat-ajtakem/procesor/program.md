@@ -1,30 +1,24 @@
 ---
 draft: false
 title: Program
-weight: 70740
+weight: 70035
+description: Program a instrukční tok
 ---
 
-Všechny moderní procesory fungují na stejném principu jako před 70 lety.
+Program (software/aplikace/atd. [^b]) není nic jiného než **seznam instrukcí** který má nějaký začátek a konec a putuje do procesoru.
 
-### **Krok 1:** 
+**Instrukční tok** jsou instrukce které **právě putují do procesoru**.
 
-*Nějakým způsobem* [^z] jsou *odněkud* [^o] zkopírovány instrukce do RAM paměti.
+{{< figure align=center src="../program.png" title="Program = seznam instrukcí" >}}
 
-### **Krok 2:** 
+<div class="note-blue">
 
-Procesor čte připravené instrukce **jednu po druhé až do konce**.
+⚠️ Pamatuj: **zapnutý procesor = aktivní instrukční tok**. Chybějící instrukční tok = procesor je vypnutý.
 
-## Co je program?
+⚠️ Z pohledu procesoru neexistuje žádný začátek či konec instrukcí. Podstatná je pouze přítomnost instrukčního toku.
 
-Program (nebo software, nebo aplikace, ať už to nazveme jakkoliv [^b], z pohledu bitové vrstvy není nic jiného než **nějaký seznam instrukcí**.
+ Běžný počítač je většinou možné vždy zapnout (zapne se základní deska) ale bez instrukčního toku pro procesor bude počítač pro běžné užití nepoužitelný.
 
-{{< figure align=center width=200 src="../program.png" title="Program = seznam instrukcí" >}}
+</div>
 
-Běžný uživatel - a v mém pojetí i běžný ajťák - má ve svém počítači na disku připravený **operační systém** a nikdy nepřipravuje programy **napřímo pro procesor**. [^k] 
-
-**⚠️ Důležité k zapamatování**: běžný ajťák je schopný připravovat programy až na úrovni OS. V rámci této kapitoly se ještě nepohybujeme na úrovni OS.
-
-[^z]: *U moderních počítačů je toto podrobněji popsáno v kapitole [BIOS/UEFI]({{< relref "bios-uefi" >}})*
-[^o]: *Z perzistentního uložiště jako SSD, HDD nebo flash.* 
-[^b]: *Neexistuje žádná oficiální nebo formální definice toho, co v IT znamená software, aplikace nebo program, tato slova jsou téměř vždy zaměnitelná. Pojmenovávání čehokoliv v IT je jedna z nejobtížnějších témat vůbec.*
-[^k]: *Toto popisuji později v kapitole [bare-metal programming]({{< relref "../os-vrstva-bit/bare-metal-programming" >}})*
+[^b]: *Neexistuje žádná oficiální nebo formální definice, co je program, aplikace či software. Tyto pojmy jsou zaměnitelné a používají se v různých kontextech.*
