@@ -6,8 +6,6 @@ weight: 90010
 
 V kapitole [Program]({{< relref "../procesor/program" >}}) jsem řekl, že každý software je jen seznam instrukcí pro procesor v dané [instrukční sadě]({{< relref "../procesor/instrukcni-sada" >}})
 
-{{< figure align=center width=200 src="../../procesor/program.png" title="OS = program = seznam instrukcí" >}}
-
 Operační systém (zkráceně OS) není nic jiného, než **program** tedy seznam instrukcí, které se po spuštění počítače načtou do RAM paměti.
 
 ## "Bare-metal" a "normální" program
