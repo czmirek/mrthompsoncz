@@ -2,10 +2,12 @@
 draft: true
 title: Jak spustit program? (2.)
 weight: 70037
-description: Přímý mechanický způsob spuštění programu
+description: Jak spusit program - přímý mechanický způsob spuštění programu
 ---
 
-V 19. století byl vymyšlen tkalcovský stav, do kterého se vložily děrované štítky které "instruovaly" celý mechanismus tak aby upletl koberec či svetr. Jen u toho musel stát člověk a točit nějakým kolem, aby zařízení vykonávalo práci.
+## Přímý mechanický způsob
+
+V 19. století byl vymyšlen tkalcovský stav, do kterého se vložily děrované štítky které "instruovaly" celý mechanismus tak aby upletl koberec či svetr. Jen u toho musel stát člověk a točit nějakým kolem, aby zařízení vykonávalo práci, elektřina ještě nebyla
 
 Celý tkalcovský stav je "procesor".
 
