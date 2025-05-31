@@ -2,6 +2,7 @@
 draft: false
 title: 'Řídící instrukce: JUMP'
 weight: 70320
+description: Jak fungují v procesorech řídící instrukce
 ---
 
 Řídící instrukce je schopna **změnit tok instrukcí**. 

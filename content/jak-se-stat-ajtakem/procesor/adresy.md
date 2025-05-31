@@ -1,20 +1,18 @@
 ---
 draft: false
 title: Adresovatelnost
-weight: 70120
+weight: 70090
+description: RAM paměť je adresovatelné zařízení.
 ---
 
-Představme si, že během provozu počítače jsou nějaké bity uloženy v RAM paměti a v různých perzistentních komponentách.
+RAM paměť je **adresovatelné** zařízení.
 
-{{< figure align=center width=500 src="../nejake-bity.png" title="Nějaké bity" >}}
+To znamená, že všechny bity jsou rozdělené do nějakých kousků [^k] a každý tento kousek má svoji vlastní zadrátovanou **fyzickou adresu**.
 
-RAM paměť ale i běžná perzistentní uložiště jsou **adresovatelná** zařízení. To znamená, že všechny bity jsou rozdělené do nějakých kousků [^k] a každý tento kousek má svoji vlastní **adresu**.
+Fyzická adresa je obyčejné číslo, které se v praxi vždy vyjadřuje v hexadecimální formě. (např.: `0x00000FF`).
 
-Tato adresa je obyčejné číslo.
+{{< figure align=center width=500 src="../adresa2.png" title="Bitové adresy" >}}
 
-{{< figure align=center width=200 src="../adresa2.png" title="Bitové adresy" >}}
-
-Pro vyjádření adresy v paměti se v praxi používá hexadecimální vyjádření. (např.: `0x00000FF`).
 
 ## RAM = Random Access Memory
 

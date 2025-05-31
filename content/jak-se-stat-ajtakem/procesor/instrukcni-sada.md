@@ -2,6 +2,7 @@
 draft: false
 title: Instrukční sada
 weight: 70080
+description: Instrukční sada je předepsaná norma instrukcí pro procesory.
 ---
 
 Instrukční sada je **předepsaná norma instrukcí** která určuje, jaké instrukce musí procesor podporovat a jak se tyto instrukce mají v procesoru chovat.
@@ -14,9 +15,9 @@ Instrukční sada je **předepsaná norma instrukcí** která určuje, jaké ins
 
 Mezi moderní a běžné instrukční sady patří:
 
-- `x86` – starší počítače a procesory.
-- `x86-64` (nebo jen `x64`) – rozšíření x86, prakticky ve všech počítačích, notebocích a serverech všude na světě.
-- `ARM` – mobilní telefony a tablety
+- `x86` – starší počítače a procesory. 32 bitové instrukce.
+- `x86-64` (nebo jen `x64`) – rozšíření x86, prakticky ve všech počítačích, notebocích a serverech všude na světě. 64 bitové instrukce.
+- `ARM` – mobilní telefony a tablety. Podvarianty ARM podporují buď 32 nebo 64 bitové instrukce.
 
 ⚠️ **Některé instrukční sady lze zaměnit, některé ne.**
 
@@ -28,6 +29,6 @@ Mezi moderní a běžné instrukční sady patří:
 
 - **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly a vylepšovaly. Instrukční sada `x86` vznikla v roce 1978 a používá se dodnes. [^z]
 
-- **Zpětná kompatibilita**: Instrukční sada `x86` je kritizována za spoustu historických přešlapů se kterými už ale nelze nic dělat. Proč? Protože celý IT svět je víceméně na `x86` postavený.
+- **Zpětná kompatibilita**: Instrukční sada `x86` je kritizována za spoustu historických přešlapů se kterými už nelze nic moc dělat, protože celý moderní IT svět je na `x86` postavený.
 
-[^z]: Oficiální dokumentace k x86-64 má [2198 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf) a k ARM64 má [8538 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf)
+[^z]: *Oficiální dokumentace k x86-64 má [2198 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf) a k ARM64 má [8538 stránek](https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf)*

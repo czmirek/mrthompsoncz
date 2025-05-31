@@ -2,6 +2,7 @@
 draft: false
 title: Typy instrukcí
 weight: 70200
+description: Jaké jsou typy procesorových instrukcí
 ---
 
 Co všechno vlastně lze pomocí instrukcí dělat?

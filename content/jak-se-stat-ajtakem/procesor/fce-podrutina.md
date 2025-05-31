@@ -2,6 +2,7 @@
 draft: false
 title: Funkce / podrutina
 weight: 70330
+description: Jak lze v instrukcích nadefinovat podrutiny díky JUMP instrukci
 ---
 
 Díky **JUMP** instrukci je možné definovat **funkce**. Na úrovni [strojového kódu]({{< relref "instrukce" >}}) se funkcím říká anglicky **subroutine** česky **podrutiny**.

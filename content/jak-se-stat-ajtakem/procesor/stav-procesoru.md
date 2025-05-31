@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Stav procesoru
 weight: 70070
 ---
