@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Jak spustit program? (1.)
 weight: 70036
 description: Jak spustit program - historické počítače

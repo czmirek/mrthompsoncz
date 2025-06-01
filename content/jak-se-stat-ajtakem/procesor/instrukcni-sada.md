@@ -7,13 +7,15 @@ description: Instrukční sada je předepsaná norma instrukcí pro procesory.
 
 Instrukční sada je **předepsaná norma instrukcí** která určuje, jaké instrukce musí procesor podporovat a jak se tyto instrukce mají v procesoru chovat.
 
+> *Příklad: 6 bitová instrukce 011000 v nějaké instrukční sadě "X" je interpretována jako provedení operace sečtení dvou čísel. Tatáž instrukce 011000 je v jiné instrukční sadě "Y" interpretována jako vynulování bitů na konkrétní adrese v paměti.*
+
 <div class="note-blue">
 
 ⚠️ **Důležité k zapamatování**: Každý procesor je vyrobený pro jednu konkrétní instrukční sadu. Procesory podporující více instrukčních sad se nevyrábí.
 
 </div>
 
-Mezi moderní a běžné instrukční sady patří:
+Mezi **moderní a běžné instrukční** sady patří:
 
 - `x86` – starší počítače a procesory. 32 bitové instrukce.
 - `x86-64` (nebo jen `x64`) – rozšíření x86, prakticky ve všech počítačích, notebocích a serverech všude na světě. 64 bitové instrukce.
@@ -25,7 +27,7 @@ Mezi moderní a běžné instrukční sady patří:
 - `x86_64` program **nebude** běžet na `ARM` a naopak
 - `x86` program **bude** běžet na `x86_64` ale ne naopak
 
-## Proč je tak málo instrukčních sad?
+## Proč je tak málo běžných instrukčních sad?
 
 - **Obrovská složitost**: moderní instrukční sady jsou obrovsky komplexní protože vznikly už hodně dávno a neustále se modifikovaly a vylepšovaly. Instrukční sada `x86` vznikla v roce 1978 a používá se dodnes. [^z]
 

@@ -6,7 +6,7 @@ weight: 200350
 
 V minulém díle jsem řekl, že scheduler **balancuje** čas procesoru mezi všemi běžícími programy. 
 
-Co ale OS dělá, když jsou všechny instrukce **splněny včas** a už nejsou žádné instrukce, které by mohly v procesoru běžet? Nezapomeňte na to, že pokud by procesoru instrukce došly, počítač by se [nejspíš vypnul nebo restartoval]({{< relref "../procesor/stav-procesoru">}}).
+Co ale OS dělá, když jsou všechny instrukce **splněny včas** a už nejsou žádné instrukce, které by mohly v procesoru běžet? Nezapomeňte na to, že pokud by procesoru instrukce došly, počítač by se nejspíš vypnul nebo restartoval.
 
  V tom případě procesor přidělí čas procesoru jedné své vlastní speciální úloze, které se říká **idle task**.
 
