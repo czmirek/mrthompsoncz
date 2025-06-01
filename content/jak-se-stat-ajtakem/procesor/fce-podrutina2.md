@@ -4,13 +4,24 @@ title: Funkce / podrutina 2
 weight: 70331
 ---
 
-V minulém díle jsem pojmenoval, co je [funkce / podrutina]({{< relref "fce-podrutina" >}}) a ukázal jsem, jak taková podrutina může být vyrobena díky `JUMP` instrukci.
+<div class="note-blue">
 
-Tvůrci softwaru už dávno přišli na to, že je mnohem lepší pracovat s konceptem funkcí které mají **vstupní a výstupní parametry**.
+⚠️ Koncept funkcí je v IT extrémně důležitý a objevuje se úplně všude.
+
+- Pro stisknutí tlačítka na klávesnici se spustila nějaká funkce
+- Při načtení webové stránky v prohlížeči se spustila nějaká funkce
+- Při ztučnění písma ve Wordu se spustila nějaká funkce
+- atd.
+
+V následujících 2 kapitolách se věnuji funkcím víc dopodrobna.
+
+</div>
+
+V minulém díle jsem pojmenoval, co je [funkce / podrutina]({{< relref "fce-podrutina" >}}) a ukázal jsem, jak taková podrutina může být vyrobena díky `JUMP` instrukci.
 
 ## Příklad
 
-Funkci si lze představit jako nějaký stroj. Když do něj nasypete tak podle toho něco vyprodukuje. 
+Funkci si lze představit jako nějaký stroj. Když do něj něco nasypete tak podle toho něco vyprodukuje.
 
 {{< figure align=center width=200 src="../fx.png" title="Matematická funkce. Zdroj: Wikipedia" >}}
 

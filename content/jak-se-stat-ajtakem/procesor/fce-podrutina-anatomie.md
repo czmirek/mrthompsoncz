@@ -41,15 +41,15 @@ Výstup funkce náleží k definici funkce. V příkladu SEČTI na obrázku vý�
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování**: Funkce má buď **přesně jednu** výstupní hodnotu, nebo **žádnou výstupní hodnotu**. Toto ještě jednou zopakuji v příští kapitole v jiném kontextu, kdy to bude jasnější.
+⚠️ **Důležité k zapamatování**: Funkce má buď **přesně jednu** výstupní hodnotu, nebo **žádnou výstupní hodnotu**. 
 
 Příklady definic:
 
 ```
 FUNKCE_1() <------------------------------------ nemá výstup
-output = FUNKCE_2(parametr1)
-output = FUNKCE_3()
-output = FUNKCE_4(parametr1, parametr2, parametr3)
+vystup2 = FUNKCE_2(parametr1)
+vystup3 = FUNKCE_3()
+vystup4 = FUNKCE_4(parametr1, parametr2, parametr3)
 FUNKCE_5(parametr1, parametr2, parametr3)   <--- nemá výstup
 
 atd...

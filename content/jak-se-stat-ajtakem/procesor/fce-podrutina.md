@@ -22,7 +22,8 @@ Podívejte se na obrázek níže. Funkce je umístěná mezi adresami `[0x01]` a
 - Na začátku programu funkci volat nechceme, proto ji instrukcí `JUMP [0x10]` přeskočíme na adresu `[0x10]` (skok (1)).
 - Provedou se instrukce na adresách `[0x10]` až `[0x12]`.
 - Řekněme, že teď chceme zavolat podrutinu.
-- Adresu `[0x00]` v JUMP instrukci na adrese podrutiny `[0x0F]` přepíšeme na hodnotu `0x15` instrukcí `MOV [0x0F], 0x15` [^m] 
+- Adresu `[0x00]` v JUMP instrukci na adrese podrutiny `[0x0F]` přepíšeme na hodnotu `0x15` instrukcí `MOV [0x0F], 0x15` [^m]
+  - Toto potřebujeme k tomu, abychom se mohli na konci podrutiny vrátit zpátky k předchozímu instrukčnímu toku.
 - Další instrukcí `JUMP [0x01]` (skok (2)) vstoupíme do samotné funkce. Ta se začne provádět.
 - Jakmile je celá funkce provedena, vrátíme se instrukcí `JUMP [0x15]` (skok (3)) zpět tam, kde jsme skončili tj. na adresu `[0x15]`.
 

@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Anatomie volání funkce/podrutiny
-weight: 70333
+weight: 70333.1
 ---
 
 **Volání funkce** je **konkrétní použití funkce** s **konkrétními dosazenými hodnotami** (pokud jsou nějaké).
@@ -24,4 +24,4 @@ V příkladu SEČTI to je hodnota 7. Také lze říct, že *funkce SEČTI vráti
 
 ## Tělo funkce
 
-Toto jsou konkrétní instrukce vedoucí ke splnění operace.
+Toto jsou konkrétní procesorové instrukce vedoucí ke splnění operace. Pro jednoduché matematické operace jako je sčítání čísel však existují v procesorech již hotové instrukce (`ADD`) a není třeba pro ně psát zvlášť funkce/podrutiny. 

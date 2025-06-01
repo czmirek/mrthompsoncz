@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Příklad v instrukcích
 weight: 70334
 ---

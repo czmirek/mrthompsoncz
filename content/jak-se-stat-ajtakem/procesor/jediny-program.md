@@ -16,11 +16,6 @@ Takto lze definovat běžný počítač.
 
 </div>
 
-<div class="note-blue">
-
 Běžný uživatel a běžný ajťák v mém pojetí pracují až na úrovni **operačního systému**. Operační systém je ten jediný program, který na běžných počítačích tímto způsobem běží.
 
 Programy spuštěné **v rámci operačního systému** fungují jinak - k tomu se dostanu v pozdějších kapitolách. 
-
-</div>
-

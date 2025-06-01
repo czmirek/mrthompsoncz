@@ -12,7 +12,7 @@ Z tohoto důvodu existují **calling conventions** neboli **volací konvence**.
 
 ## 📜 Co je volací konvence?
 
-Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací konvence je jinými slovy soubor pravidel které určují, jaké instrukce se mají používat a jakým způsobem pro:
+Volací konvence je soubor pravidel které určují, jaké instrukce se mají používat a jakým způsobem pro:
 
 - **tvorbu funkcí**: včetně vstupních parametrů a výstupu funkce, pokud ji funkce definuje
 - **volání funkcí**: včetně předávání vstupních hodnot a vrácení výstupní hodnoty
@@ -21,10 +21,8 @@ Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací 
 
 <div class="note-blue">
 
-⚠️ **Konvence není závazná.** Programy nemají povinnost konvence dodržovat u svých vlastních podrutin ale mají povinnost konvenci dodržovat pokud chtějí využívat OS API.
-
-⚠️ Běžný software je běžně vyrobený způsobem, který tyto konvence automaticky používá.
-
+⚠️ **Konvence není závazná.** Programy běžící přímo na procesorech si klidně mohou vymyslet své vlastní konvence. Programy běžící v rámci operačních systémů už nějaké konvence dodržovat musí, protože to od nich operační systémy vyžadují.
+ 
 </div>
 
 ## Nejběžnější volací konvence
@@ -33,8 +31,6 @@ Každá instrukční sada obsahuje víc než jednu volacích konvencí. Volací 
 - **ARM**: `Procedure Call Standard`
 
 <div class="note-blue">
-
-⚠️ Přestože to pro moderní procesory není problém, běžné volací konvence umožňují <u>**žádný nebo jen jeden výstupní parametr**</u>. Toto má historické ale i logické důvody, ke kterým se vrátím v kapitolách o programování a tvorbě softwaru.
 
 ⚠️ **Běžný ajťák se volacími konvencemi nezabývá** (měl by však vědět, že existují). Běžný ajťák (v mém pojetí) netvoří software na úrovni podrutin a volacích konvencí.
 

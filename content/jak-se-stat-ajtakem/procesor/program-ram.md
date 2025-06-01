@@ -18,6 +18,6 @@ description: Role RAM paměti v instrukčním toku
 
 ⚠️ RAM paměť při vypnutí počítače **ztrácí veškerý obsah** a při zapnutí počítače je **vždy prázdná**.
 
-Program se do RAM paměti musí při zapnutí počítače připravit. Viz. další kapitola.
+Program se do RAM paměti musí při zapnutí počítače připravit. Jak se to dělá je popsáno v jedné z následujících kapitol.
 
 </div>
