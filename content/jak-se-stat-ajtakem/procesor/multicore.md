@@ -19,6 +19,4 @@ U moderních vícejádrových procesorů se jakýkoliv program spouští vždy *
 
 </div>
 
-Multijádrové procesory existují až od roku 2001 a do té doby byl veškerý software psán pro obyčejné, "jednojádrové" procesory. Vícejádrový procesor se tedy musí umět chovat tak, jako kdyby byl jednojádrový.
-
-Pokud chcete, aby nějaké instrukce v RAM paměti běžely paralelně v jiném jádře pak je nutné procesor takto instruuovat. Pokud budete mít program nebo operační systém psaný pro starší jednojádrové procesory tak ten program normálně poběží na prvním jádře bez jakéhokoliv využití ostatních jader. 
+Multijádrové procesory existují až od roku 2001 a do té doby byl veškerý software psán pro obyčejné, "jednojádrové" procesory. Vícejádrový procesor se tedy musí umět chovat tak, jako kdyby byl jednojádrový. Starý program psaný pro jednojádrové procesory poběží na prvním jádře bez jakéhokoliv využití ostatních jader. 

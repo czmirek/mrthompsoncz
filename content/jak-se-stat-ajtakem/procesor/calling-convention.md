@@ -2,6 +2,7 @@
 draft: false
 title: Calling convention
 weight: 70335
+description: Jak je volání funkcí standardizováno napříč instrukčními sadami
 ---
 
 V předchozích kapitolách o [podrutinách / funkcích]({{< relref "fce-podrutina2" >}}) jsem uvedl příklady, jak lze dělat podrutiny nebo funkce se vstupními/výstupními parametry jen s pomocí `JUMP` instrukce. 
@@ -32,6 +33,6 @@ Volací konvence je soubor pravidel které určují, jaké instrukce se mají po
 
 <div class="note-blue">
 
-⚠️ **Běžný ajťák se volacími konvencemi nezabývá** (měl by však vědět, že existují). Běžný ajťák (v mém pojetí) netvoří software na úrovni podrutin a volacích konvencí.
+⚠️ **Běžný ajťák se volacími konvencemi nezabývá** (měl by však vědět, že existují). Běžný ajťák (v mém pojetí) netvoří software na úrovni podrutin a volacích konvencí ale může se s nimi vzácně potkat.
 
 </div>
