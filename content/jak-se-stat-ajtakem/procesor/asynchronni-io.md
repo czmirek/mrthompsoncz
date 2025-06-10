@@ -2,14 +2,17 @@
 draft: false
 title: Asynchronní I/O instrukce
 weight: 70720
+description: Nepřímá komunikace mezi procesorem a komponentami
 ---
 
-Asynchronní I/O instrukce fungují oproti synchronním instrukcím tak, že procesor těmito instrukcemi instruuje chipset základní desky aby:
+Procesor v běžných počítačích komunikuje s ostatními komponentami **nepřímo** neboli **asynchronně**. 
 
-- **pro čtení:** připravil data která potřebuje do RAM paměti
-- **pro zápis:** data z RAM paměti vzal a zapsal je do dané I/O komponenty.
+Procesor použije specializované instrukce, kterými nařizuje čipsetu základními desky následující:
 
-Tímto způsobem procesor komanduje základní desku co má dělat, nemusí se zdržovat čekáním na ostatní komponenty a může pokračovat ve zpracovávání běžného toku instrukcí.
+- **pro čtení:** připrav data z nějaké komponenty do RAM paměti
+- **pro zápis:** vem data z RAM paměti a odešli je do nějaké komponenty
+
+Procesor komanduje základní desku, aby komunikaci s ostatními komponentami obstarala za něj a může pokračovat v běžném toku instrukcí.
 
 Jakmile je operace čtení/zápisu hotová tak chipset základní desky pošle do procesoru **přerušení** na které procesor může navázat.
 

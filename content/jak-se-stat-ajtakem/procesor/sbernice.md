@@ -1,53 +1,18 @@
 ---
 draft: false
-title: Sběrnice
+title: Čipset základní desky
 weight: 70600
+description: Jak procesor komunikuje s ostatními komponentami
 ---
 
-Sběrnice (anglicky "*bus*") je bitový kanál sloužící pro komunikaci mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami (vstupy a výstupy) v počítači.
+Procesor komunikuje s ostatními komponentami skrz **čipset základní desky**. To je sada různých specializovaných čipů a obvodů, jejichž jediným účelem je zprostředkovat komunikaci mezi procesorem a různými **sběrnicemi**.
 
-{{< figure align=center width=700 src="../sbernice4.png" title="Sběrnice" >}}
+**Sběrnice** je specializovaný obvod, ke kterému se fyzicky připojuje nějaká komponenta. Existují různé druhy sběrnic. K některým lze připojit téměř jakékoliv zaříení (např. USB) a některé jsou více specializované na druh či konstrukci zařízení (např. PCI, PCIe, SATA).
 
-## 3 tradiční typy sběrnic
-
-Tradičně se v IT učebnicích a zdrojích mluví o 3 typech sběrnic které propojují všechny komponenty napříč celým počítačem.
-
-Uvádí se tyto 3 typy sběrnic.
-
-- **Adresová sběrnice**: Toto je sběrnice která posílá informace o **adresách** tzn. **odkud a kam** se mají bity v datové sběrnici posílat.
-- **Datová sběrnice**: Toto je sběrnice která posílá samotná data na adresy určené **adresovou sběrnicí**.
-- **Řídící sběrnice**: Tato sběrnice určuje, jaká datová operace právě probíhá tzn.: zápis či čtení.
-
-## Realita v moderních počítačích
-
-### Spousta různých sběrnic
-
-V počítačích je spousta různých sběrnic, které moderní procesory dokáží obsluhovat nezávisle na sobě. Tyto sběrnice slouží různým účelům, nemusí být striktně rozděleny na adresovou, datovou a řídící, a fungují na různých rychlostech.
-
-Nejznámější typy sběrnic:
-
-- **PCI, PCIe**: sběrnice pro zapojení komponenty do základní desky
-- **SATA**: sběrnice pro kabelové zapojení persistentních uložišť (SSD, HDD)
-- **USB**: multifunkční sběrnice pro připojení všeho možného většinou přes USB kabel 
-
-### Chipset základní desky
-
-Funkcionalita sběrnic propojující jednotlivé komponenty připojené k základní desce je závislá jak na procesoru tak i na *chipsetu základní desky*.
-
-Chipset základní desky není žádná konkrétní komponenta ale souhrn různých, na sobě závislých i nezávislých čipů které na základní desce mají různé zodpovědnosti za zprostředkování komunikace mezi komponentami.
-
-### Memory controller
-
-Komunikace mezi procesorem a RAM pamětí je tak důležitá že má svoji vlastní sběrnici. Moduly RAM paměti nezapojíte nikam jinam než do určených zásuvek na základní desce dedikovaných přímo pro RAM paměť.
-
-Historicky byla komunikace mezi procesorem a RAM pamětí řízena samostatným čipem nazvaným *memory controller*. V moderních počítačích je však *memory controller* zabudovaný přímo v procesorech tzn. komunikaci s RAM pamětí si procesor řídí sám. 
-
-### Pro běžného ajťáka toto není podstatné
-
-Komunikace mezi procesorem, RAM pamětí, chipsetem základní desky a všemi ostatními komponentami napříč všemi možnými sběrnicemi je řízena obrovským množstvím různých specifických systémů které se skládají z dalších dílčích subsystémů a podobně.
+{{< figure align=center width=700 src="../cipset2.png" title="Komunikace mezi procesorem a ostatními komponentami" >}}
 
 <div class="note-blue">
 
-⚠️ **Důležité k zapamatování:** Tyto obrovské složitosti tvořené všemi možnými mezinárodní korporáty zabývající se IT a výrobou počítačové techniky *(Intel, AMD, NVIDIA, atd.)* je lepší nechat na autorech operačních systémů. Běžný ajťák se těmito tématy zpravidla nezabývá.
+⚠️ **Důležité k zapamatování:** Obrovské složitosti tvořené všemi možnými mezinárodní korporáty zabývající se IT a výrobou počítačové techniky *(Intel, AMD, NVIDIA, atd.)* je lepší nechat na autorech operačních systémů. Běžný ajťák se těmito tématy (většinou) nezabývá.
 
 </div>

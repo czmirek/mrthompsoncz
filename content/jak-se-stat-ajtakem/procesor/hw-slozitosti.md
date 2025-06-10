@@ -2,19 +2,20 @@
 draft: false
 title: Složitosti kterým nemusíme rozumět
 weight: 70900
+description: Jak fungují moderní procesory doopravdy
 ---
 
 ## Cache
 
 RAM pamět byla historicky pomalejší než procesor.
 
-Z tohoto důvodu obsahují procesory řadu svých vlastních miniaturních pamětí zvaných *cache* jejichž kapacita bývá jen pár megabajtů. Tyto paměti jsou odstupňované od nejrychlejší (L1) po nejpomalejší (až L4) a tyto *cache* mohou být v procesoru vyrobeny i za použití jiné výrobní technologie.
+Proto procesory mají řadu svých vlastních miniaturních pamětí zvaných *cache* jejichž kapacita bývá jen pár megabajtů. Cache jsou odstupňované od nejrychlejší (L1) po nejpomalejší (až L5) podle použité výrobní technologie.
 
-Synchronizace mezi RAM pamětí a procesorem tak probíhá i prostřednictvím těchto cache. Tyto synchronizace jsou celkem komplikované a hlavně probíhají už na hardwarové úrovni (tzn. už je to tak "zadrátované").
+Synchronizace mezi RAM pamětí a procesorem probíhá prostřednictvím těchto cache. Tyto synchronizace probíhají na hardwarové úrovni (tzn. už je to tak "zadrátované").
 
 ## Registry
 
-Instrukce pracují s **registry** což jsou opravdu malé paměti s kapacitou jen třeba 4 bajty. 
+Instrukce pracují s **registry** což jsou opravdu malé paměti s kapacitou jen pár bajtů. 
 
 Když chcete např. sečíst dvě čísla tak instrukce vašeho programu mají zpravidla tuto posloupnost:
 

@@ -2,16 +2,21 @@
 draft: false
 title: Synchronní I/O instrukce
 weight: 70710
+description: Přímá komunikace mezi procesorem a komponentou
 ---
 
-U běžných počítačů můžete předpokládat, že procesor dokáže komunikovat s každou komponentou - tzn. s každým vstupem a výstupem - napřímo.
+Procesor teoreticky dokáže komunikovat s každou komponentou **napřímo**. 
 
-Tzn. procesor je schopný na základě dané instrukce přečíst nebo zapsat data do jakékoliv jiné komponenty v systému.
+- Procesor v instrukci vyšle signál k zařízení **a čeká na odpověď od zařízení** než bude pokračovat v toku instrukcí.
+- Zařízení provede nějakou svoji operaci na základě signálu a vrátí odpověď procesoru
+- Procesor obdrží odpověď a **pokračuje v toku instrukcí**.
+
+Tomu se říká synchronní komunikace.
 
 {{< figure align=center width=500 src="../syncio2.png" title="Sybchronní komunikace" >}}
 
-Nevýhoda tohoto způsobu spočívá v tom, že instrukce plýtvá obrovské množství cyklů protože jakékoliv I/O zařízení je řádově pomalejší, než samotný procesor.
+<div class="note-blue">
 
-Zatímco procesor pracuje v rychlostech miliardy cyklů za vteřinu tak ostatní komponenty jsou vždy pomalejší. Procesor tak čekáním může vyplýtvat klidně celé miliardy cyklů. U běžného použití to znamená, že se počítač může reálně "kousnout" protože čeká na nějaké zařízení.
+⚠️ **Důležité k zapamatování:** Procesory běžných počítačů nikdy nekomunikují s ostatními zařízeními synchronně. **Jakékoliv vstupní či výstupní zařízení je řádově pomalejší, než samotný procesor**. Procesor může čekáním vyplýtvat celé miliardy cyklů čekáním na zařízení s rychlostí 100 Hz tedy 100 cyklů za vteřinu.
 
-Z tohoto důvodu se synchronní I/O instrukce nepoužívají.
+</div>
