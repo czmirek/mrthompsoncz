@@ -13,13 +13,13 @@ Kabel od lampičky který zapojujete do zásuvky obsahuje dva menší kabely - v
 
 Běžný počítač není v tomto ohledu odlišný. Aby elektřina skrz něj proudila, musí být uzavřený obvod.
 
-{{< figure align=center width=500 src="../schemapc.png" title="Elektrické schéma zapojeného PC" >}}
+{{< figure align=center width=300 src="../schemapc.png" title="Elektrické schéma zapojeného PC" >}}
 
 Uprostřed počítače má téměř každá komponenta **svůj vlastní obvod**. Aby mohla komponenta fungovat, musí být za provozu každý obvod **uzavřený**.
 
-{{< figure align=center width=500 src="../kombobvody.png" title="Kombinované obvody" >}}
+{{< figure align=center width=300 src="../kombobvody.png" title="Kombinované obvody" >}}
 
-Některé komponenty dokonce mohou mít více nezávislých obvodů.
+Některé komponenty mohou mít **více nezávislých obvodů**.
 
 ## Co z toho plyne pro běžného ajťáka?
 

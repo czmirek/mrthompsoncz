@@ -15,7 +15,7 @@ Aby se žárovka rozvsítila, musí být sepnuté oba spínače. Jednoduché, ž
 
 Nyní si představte další obvod, ve kterém máte dva spínače vedle sebe.
 
-{{< figure align=center width=300 src="../orobvod.png" title="OR obvod" >}}
+{{< figure align=center width=400 src="../orobvod.png" title="OR obvod" >}}
 
 Aby se žárovka rozsvítila v tomto obvodu tak stačí, aby byl sepnutý jen jeden spínač. Stejně tak se žárovka rozsvítí i když budou zapnuté oba spínače.
 

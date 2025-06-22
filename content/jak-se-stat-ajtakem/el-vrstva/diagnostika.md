@@ -11,7 +11,11 @@ Přestože by řadu závad nejspíš dokázal šikovný elektrotechnik s pájkou
 
 U opravdu velkých IT firem se často vyhazuje celý počítač protože je levnější rychle zapojit do provozu celé a funkční zařízení než se zabývat opravou/diagnostikou starého. 
 
-Chybějící/rozbité zařízení způsobuje větší ztráty, než nákup celého nového a správně fungujícího zařízení.
+<div class="note-blue">
+
+⚠️ Nedostupnost softwaru způsobuje IT firmám mnohem větší ztráty, než nákup a instalace nových komponent. Proto se v IT firmách opravami komponent a elektrotechnikou nikdo nezabývá. 
+
+</div>
 
 Běžný ajťák by se neměl s jakoukoliv nefunkční komponentou trápit. Diagnostika probíhá metodou pokus omyl. Odpojujte/zapojujete jednotlivé komponenty dokud nezjistíte, která je problémová.
 

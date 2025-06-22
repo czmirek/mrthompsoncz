@@ -7,7 +7,7 @@ description: Jak lze skrz hradla vytvořit flip-flop který reprezentuje jednobi
 
 Flip-flop je hradlové schéma, díky kterému můžete držet stav signálu.
 
-{{< figure align=center width=500 src="../img/flipflop.gif" title="Flip-flop" >}}
+{{< figure align=center width=300 src="../img/flipflop.gif" title="Flip-flop" >}}
 
 Všimněte si, že jakmile přijde signál, flip-flop změní stav. Pokud signál zase zmizí, stav flip-flopu zůstane stejný. Signály na vstupu fungují jako spínače pro změnu stavu.
 

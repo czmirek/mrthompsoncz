@@ -17,8 +17,6 @@ description: Co je to bit, jak počítače pracují s bity a co to znamená, kdy
 
 </div>
 
-{{< figure align=center width=200 src="../twobits.png" title="Bit 0 a 1" >}}
-
 ## Práce s bity
 
 Počítače nejsou nic jiného než zařízení, která pracují s **bity** pouze následujícími způsoby:
