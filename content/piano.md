@@ -21,4 +21,5 @@ Rád hraju na piano, vytvářím vlastní skladby a někdy i něco z legrace zaz
 - Osvícenej - https://musescore.com/user/29129884/scores/6278589 
 - Emocionál - https://musescore.com/user/29129884/scores/5897366
 - Emocionál 2 - https://musescore.com/user/29129884/scores/5650336
+- Emocionál 7 - https://musescore.com/user/29129884/scores/25776493
 - Stoupat výš - https://musescore.com/user/29129884/scores/5836100
