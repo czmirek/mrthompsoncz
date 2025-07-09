@@ -54,7 +54,7 @@ Nyní se podívejte, jak čísla v desítkové soustavě odpovídají číslům 
 
 ## Exponenciální řada 2<sup>x</sup>
 
-Většina běžných ajťáků si pamatuje cca prvních 10 čísel z číselné řady 2<sup>x</sup> (2, 4, 8, 16, 32, 64…) protože se tyto hodnoty v IT vyskytují úplně všude.
+Většina běžných ajťáků si pamatuje cca prvních 10 čísel z číselné řady 2<sup>x</sup> (2, 4, 8, 16, 32, 64…). **Tyto hodnoty se v IT vyskytují úplně všude.**
 
 Podívejte se na následující tabulku.
 

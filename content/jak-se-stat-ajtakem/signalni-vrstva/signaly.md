@@ -9,9 +9,9 @@ description: Jaké signály se používají v běžných počítačích a proč 
 
 V počítačích se pro komunikaci používá velmi prostý způsob.
 
-{{< figure align=center width=500 src="../jeneninapeti.png" title="Odeslání signálu v PC" >}}
+{{< figure align=center width=500 src="../hornidolni.png" title="Odeslání signálu v PC" >}}
 
-Toto je nejjednodušší a **nejlevnější** způsob, jak vyrobit počítačovou komponentu. Rozlišují se pouze dva stavy podle toho, zdali v obvodu je nebo není napětí. [^n] [^n2]
+Toto je nejjednodušší a **nejlevnější** způsob, jak vyrobit počítačovou komponentu. Rozlišují se pouze dva stavy napětí. [^n] [^n2]
 
 ## Proč počítače nerozlišují více než 2 stavy?
 

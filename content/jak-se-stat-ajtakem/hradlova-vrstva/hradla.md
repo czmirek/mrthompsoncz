@@ -5,11 +5,13 @@ weight: 501
 description: Krátký úvod do hradlové vrstvy v počítačích a pojmenování základních logických hradel
 ---
 
-**Hradlová vrstva** je vrstva ležící nad signální vrstvou. Běžný ajťák se hradly nezabývá, je to stále spíš doména elektrotechniky, běžný ajťák by měl o této vrstvě minimálně vědět.
+**Hradlová vrstva** je vrstva ležící mezi signální a binární vrstvou.
 
-**Hradlo** je logická funkce se signály na vstupu a na výstupu. Hradla se zakreslují podle typu logické funkce, kterou představují.
+**Běžný ajťák se hradly nezabývá**. Je to stále spíš doména elektrotechniky, měl by ale o této vrstvě minimálně vědět.
 
-Čipy jako je procesor nebo grafický čip obsahují miliardy rozhodovacích hradel. Díky tomuto obrovskému množství hradel vznikají další vrstvy a komplikovanější systémy.
+**Hradlo** je zapojení elektronických komponent takovým způsobem, že tvoří nějakou jednu ucelenou logickou funkci se signály na vstupu a na výstupu. Hradla se zakreslují podle typu logické funkce, kterou představují.
+
+Čipy jako je procesor nebo grafický čip obsahují miliardy rozhodovacích hradel. Díky tomuto obrovskému množství hradel vznikají další a komplikovanější systémy.
 
 ## Základní hradla
 

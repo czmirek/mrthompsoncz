@@ -23,6 +23,6 @@ Pod tímto "kódem" si můžete představit třeba obyčejnou morseovku, která 
 
 Na obrázku níže je písmeno "Y", v morseovce kód `-.--`.
 
-{{< figure align=center width=500 src="../y.png" title="Signál" >}}
+{{< figure align=center width=500 src="../y.png" title="Písmeno Y v morseovce" >}}
 
 [^m]: *Morseovku používám jen jako učební nástroj. Morseovka se v počítačích nepoužívá.*

@@ -68,7 +68,7 @@ Další velmi často používaný zápis je přímo nad bity.
 
 <div class="note-blue">
 
-Bity a bajty se rozlišují velikostí písmena ale ani profesionálové z IT to nepoužívají správně.
+Bity a bajty se rozlišují velikostí písmena ("B" nebo "b") ale ani profesionálové z IT to nepoužívají správně.
 
 - MB = mega**bajt**
 - Mb = mega**bit**

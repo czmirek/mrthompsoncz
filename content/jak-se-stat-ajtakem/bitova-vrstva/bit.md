@@ -45,6 +45,9 @@ Každá běžná komponenta **komunikuje se zbytkem systému po binární vrstv�
 
 <div class="note-blue">
 
-⚠️ Vše po této kapitole je **vždy** nějak reprezentováno bity!
+⚠️ **Pamatuj!** V počítači se neděje nic jiného, než: 
+- bity jsou někde uložené
+- bity se někde proměňují
+- bity se posílají z místa na místo
 
 </div>
