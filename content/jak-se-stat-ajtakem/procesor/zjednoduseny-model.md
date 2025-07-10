@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Zjednodušený bitový model
 weight: 70990
 ---
